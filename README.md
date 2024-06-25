@@ -6,6 +6,4 @@ The XP in the name has now become XD, which stands for Extreme Tuning and Extend
 
 ---
 
-Passt das so für dich?
-
 ![explorer_QW25i75UaQ](https://github.com/builtbybel/xd-Antispy/assets/57478606/0ae9aaa4-0645-4b07-986c-777014e1fa1e)

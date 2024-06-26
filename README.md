@@ -1,10 +1,9 @@
 # xd-AntiSpy
+Here is a small project I worked on for a client who, unfortunately—or maybe fortunately—switched to Linux. Now, I can release it publicly. I took another look at it and tweaked a few business features for private users, some of which even come from Winpilot. Other than that, this program has nothing in common with my other small privacy apps under the hood, as it was designed with a focus on durability and longevity.
 
-Here is a small project that I had in use with a client who has now, fortunately or unfortunately, switched to Linux. As a result, I am now able to release it. I've revisited the project and added a few business features tailored for private users.
+The original and my fork were initially written in C++. For the relaunch, I've rewritten it in C#. The app looks exactly like the original and does the same thing, but now it's for Windows 11. It was and is a relaunch of the [legendary little helper, XP-Antispy](https://xp-antispy.org/en/), which was indispensable under Windows XP. Does anyone know what happened to the developer Chris from back then?
 
-The original version and my fork were originally written in C++. For this relaunch, I've rewritten it in C#. The app looks and functions exactly like the original, but now it's designed for Windows 11. It was and remains a relaunch of the [legendary little helper, XP-Antispy](https://xp-antispy.org/en/), which was indispensable back in the Windows XP days.
-Does anyone know what happened to the developer Chris from back then? The "XP" in the name has now been replaced with an "XD" smiley, which stands for eXtreme Defense, though it also carries the playful connotation of the 😆 smiley. The app continues its versioning where the original left off, at version 3.98. If anyone is interested, feel free to try it out and share it. I am also willing to release the code soon.
-
+The "XP" in the name has now become a smiley "XD", which stands for eXtreme Defense, though it also carries the playful connotation of the 😆 smiley. The app continues the versioning from where the original left off, at version 3.98. If you're interested, feel free to try it out, share it, and I'll be ready to release the code soon.
 
 
 ---

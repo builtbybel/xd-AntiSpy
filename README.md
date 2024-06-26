@@ -8,4 +8,4 @@ The "XP" in the name has now become a smiley "XD", which stands for eXtreme Defe
 
 ---
 
-![explorer_QW25i75UaQ](https://github.com/builtbybel/xd-Antispy/assets/57478606/0ae9aaa4-0645-4b07-986c-777014e1fa1e)
+![explorer_JBfX75NrAp](https://github.com/builtbybel/xd-AntiSpy/assets/57478606/2c88461f-90d7-4e77-888f-1f0831c8ec63)

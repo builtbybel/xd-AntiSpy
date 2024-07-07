@@ -1,3 +1,5 @@
+![xd-antispy](https://github.com/builtbybel/xd-AntiSpy/assets/57478606/ba1864f8-37a4-41c8-856c-9c16230f8faa)
+
 # xd-AntiSpy
 Here is a small project I worked on for a client (It's been a few years) who, unfortunately—or maybe fortunately—switched to Linux. Now, I can release it publicly. I took another look at it and tweaked a few business features for private users, some of which even come from Winpilot. Other than that, this program has nothing in common with my other small apps under the hood, as it was designed with a focus on durability and longevity.
 

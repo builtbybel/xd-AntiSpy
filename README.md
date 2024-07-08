@@ -12,4 +12,11 @@ The "XP" in the name has now become a smiley "XD", which stands for eXtreme Defe
 
 ![317xqxYtTs](https://github.com/builtbybel/xd-AntiSpy/assets/57478606/6a4d9111-afb5-417e-b4f7-60da6d999f13)
 
+# Improvements over the original
+- Full support for Windows 11
+- Partial support for Windows 10
+- 64-bit
+- DPI support
+- Plugin support (without programming knowledge, the XD-Antispy functionality can be extended via batch/Powershell code in the form of .JSON files)
+
 

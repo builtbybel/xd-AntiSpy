@@ -20,5 +20,5 @@ The "XP" in the name has now become a smiley "XD", which stands for eXtreme Defe
 - Plugin support (without programming knowledge, the XD-Antispy functionality can be extended via batch/Powershell code in the form of .JSON files)
 - XP-Antispy was originally written in C++. To make it less complex, I rewrote it in C#, which is more Windows-focused. However, C# itself is written in C++ ;)
 
-**If you want to motivate me, feel free to do so with a [donation here](https://www.paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG) 💝 **
+**If you want to motivate me, feel free to do so with a [donation here](https://www.paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG) 💝**
 

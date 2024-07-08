@@ -14,7 +14,7 @@ The "XP" in the name has now become a smiley "XD", which stands for eXtreme Defe
 
 # Improvements over the original
 - Full support for Windows 11
-- Partial support for Windows 10
+- Partial support for Windows 10 (many, but not all tweaks are suitable for W10)
 - 64-bit
 - DPI support
 - Plugin support (without programming knowledge, the XD-Antispy functionality can be extended via batch/Powershell code in the form of .JSON files)

@@ -12,8 +12,4 @@ The "XP" in the name has now become a smiley "XD", which stands for eXtreme Defe
 
 ![317xqxYtTs](https://github.com/builtbybel/xd-AntiSpy/assets/57478606/6a4d9111-afb5-417e-b4f7-60da6d999f13)
 
-	
-<a href="https://github.com/builtbybel/xd-antispy/releases" target="_blank">
-<img alt="Downloads on GitHub" src="https://img.shields.io/github/downloads/builtbybel/xd-antispy/total.svg?style=flat-square" />
-</a>
 

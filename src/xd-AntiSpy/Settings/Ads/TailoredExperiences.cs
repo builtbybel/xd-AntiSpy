@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;    
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -17,12 +17,12 @@ namespace Settings.Ads
 
         public override string ID()
         {
-            return "Disable Tailored experiences";
+            return Strings._adsTailoredExperiences;
         }
 
         public override string Info()
         {
-            return "Tailored Experiences allows Microsoft to get information from you to deliver personalized tips, ads, and recommendations. Many people would call this telemetry, or even spying.";
+            return Strings._adsTailoredExperiences_desc;
         }
 
         public override bool CheckFeature()

@@ -1,5 +1,6 @@
 ﻿using System.Management.Automation;
 using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.System
 {
@@ -11,12 +12,12 @@ namespace Settings.System
 
         public override string ID()
         {
-            return "Uninstall Fax Printer";
+            return Strings._systemFaxPrinter;
         }
 
         public override string Info()
         {
-            return "This feature will uninstall the Fax Printer.";
+            return Strings._systemFaxPrinter_desc;
         }
 
         public override bool CheckFeature()

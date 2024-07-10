@@ -2,6 +2,7 @@
 using Microsoft.Win32;
 using System;
 using System.Drawing;
+using xdAntiSpy.Locales;
 
 namespace Settings.AI
 {
@@ -13,9 +14,9 @@ namespace Settings.AI
 
         private const string keyName = @"HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot";
 
-        public override string ID() => "Don't Show Copilot in Taskbar";
+        public override string ID() => Strings._aiCopilotTaskbar;
 
-        public override string Info() => "This feature will disable Copilot in Taskbar.";
+        public override string Info() => Strings._aiCopilotTaskbar_desc;
 
         public override bool CheckFeature()
         {

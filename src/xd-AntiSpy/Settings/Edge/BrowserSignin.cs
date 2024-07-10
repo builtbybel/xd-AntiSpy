@@ -2,6 +2,7 @@
 using System;
 using System.Drawing;
 using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.Edge
 {
@@ -14,9 +15,9 @@ namespace Settings.Edge
         private const string keyName = @"HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Edge";
         private const int desiredValue = 0;
 
-        public override string ID() => "Disable Browser sign in and sync services";
+        public override string ID() => Strings._edgeBrowserSignin;
 
-        public override string Info() => "This setting controls whether a user can sign into Microsoft Edge with an account to use services such as sync and single sign on";
+        public override string Info() => Strings._edgeBrowserSignin_desc;
 
         public override bool CheckFeature()
         {

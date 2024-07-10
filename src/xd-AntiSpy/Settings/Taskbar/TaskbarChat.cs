@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -17,12 +17,12 @@ namespace Settings.Taskbar
 
         public override string ID()
         {
-            return "Hide Chat icon on taskbar";
+            return Strings._taskbarTaskbarChat;
         }
 
         public override string Info()
         {
-            return "This feature will disable the chat icon on the taskbar.";
+            return Strings._taskbarTaskbarChat_desc;
         }
 
         public override bool CheckFeature()

@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -17,12 +17,12 @@ namespace Settings.Taskbar
 
         public override string ID()
         {
-            return "Hide Searchbox on Taskbar";
+            return Strings._taskbarSearchbox;
         }
 
         public override string Info()
         {
-            return "This feature will remove Searchbox from the Taskbar";
+            return Strings._taskbarSearchbox_desc;
         }
 
         public override bool CheckFeature()

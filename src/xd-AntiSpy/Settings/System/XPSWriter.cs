@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using System.Drawing;
 using System.Management.Automation;
 using System.Threading.Tasks;
@@ -14,12 +14,12 @@ namespace Settings.System
 
         public override string ID()
         {
-            return "Uninstall XPS Writer";
+            return Strings._systemXPSWriter;
         }
 
         public override string Info()
         {
-            return "This feature will uninstall the XPS Documents Writer.";
+            return Strings._systemXPSWriter_desc;
         }
 
         public override bool CheckFeature()

@@ -1,14 +1,13 @@
-﻿using xdAntiSpy;
-
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
 using System.Drawing;
-
+using xdAntiSpy;
+using xdAntiSpy.Locales;
 namespace Settings.System
 {
     internal class FullContextMenus : SettingsBase
     {
-        public FullContextMenus( Logger logger) : base(logger)
+        public FullContextMenus(Logger logger) : base(logger)
         {
         }
 
@@ -16,12 +15,12 @@ namespace Settings.System
 
         public override string ID()
         {
-            return "Show Full context menus in Windows 11";
+            return Strings._systemFullContextMenus;
         }
 
         public override string Info()
         {
-            return "This feature will enable full context menus in Windows 11.";
+            return Strings._systemFullContextMenus_desc;
         }
 
         public override bool CheckFeature()

@@ -2,6 +2,7 @@
 using System;
 using System.Drawing;
 using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.AI
 {
@@ -15,9 +16,9 @@ namespace Settings.AI
         private const string valueName = "DisableAIDataAnalysis";
         private const int desiredValue = 0;
 
-        public override string ID() => "Dont' Allow Windows to save snapshots of your screen?";
+        public override string ID() =>Strings._aiRecallCurrentUser;
 
-        public override string Info() => "This feature will disable Recall from saving snapshots of your screen.";
+        public override string Info() => Strings._aiRecallCurrentUser_desc;
 
         public override bool CheckFeature()
         {

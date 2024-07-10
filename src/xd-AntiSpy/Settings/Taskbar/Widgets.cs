@@ -1,8 +1,9 @@
 ﻿using xdAntiSpy;
-
 using Microsoft.Win32;
 using System;
 using System.Drawing;
+using System.Management.Automation;
+using xdAntiSpy.Locales;
 
 namespace Settings.Taskbar
 {
@@ -17,12 +18,12 @@ namespace Settings.Taskbar
 
         public override string ID()
         {
-            return "Hide Widgets from taskbar";
+            return Strings._taskbarWidgets;
         }
 
         public override string Info()
         {
-            return "This feature will remove Widgets from the Taskbar.";
+            return Strings._taskbarWidgets_desc;
         }
 
         public override bool CheckFeature()

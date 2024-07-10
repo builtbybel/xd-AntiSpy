@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -15,9 +15,9 @@ namespace Settings.System
         private const string keyName = @"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System";
         private const int desiredValue = 0;
 
-        public override string ID() => "Display highly detailed status messages";
+        public override string ID() => Strings._systemVerboseMessages;
 
-        public override string Info() => "This feature will display highly detailed status messages.";
+        public override string Info() => Strings._systemVerboseMessages_desc;
 
         public override bool CheckFeature()
         {

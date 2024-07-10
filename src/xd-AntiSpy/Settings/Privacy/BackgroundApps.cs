@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -17,12 +17,12 @@ namespace Settings.Privacy
 
         public override string ID()
         {
-            return "Disable Running apps in background";
+            return Strings._privacyBackgroundApps;
         }
 
         public override string Info()
         {
-            return "This feature will disable running apps in background.";
+            return Strings._privacyBackgroundApps_desc;
         }
 
         public override bool CheckFeature()

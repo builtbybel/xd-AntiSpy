@@ -2,7 +2,7 @@
 using xdAntiSpy;
 using System;
 using System.Drawing;
-
+using xdAntiSpy.Locales;
 
 namespace Settings.Ads
 {
@@ -15,9 +15,9 @@ namespace Settings.Ads
         private const string keyName = @"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo";
         private const int desiredValue =0;
 
-        public override string ID() => "Disable Personalized Ads";
+        public override string ID() => Strings._adsPersonalizedAds;
 
-        public override string Info() => "This feature will disable personalized ads."; 
+        public override string Info() => Strings._adsPersonalizedAds_desc; 
 
         public override bool CheckFeature()
         {

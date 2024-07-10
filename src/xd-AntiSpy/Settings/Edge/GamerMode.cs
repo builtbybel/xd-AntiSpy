@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -15,9 +15,9 @@ namespace Settings.Edge
         private const string keyName = @"HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Edge";
         private const int desiredValue = 0;
 
-        public override string ID() => "Disable Gamer Mode";
+        public override string ID() => Strings._edgeGamerMode;
 
-        public override string Info() => "Microsoft Edge Gamer Mode allows gamers to personalize their browser with gaming themes and gives them the option of enabling Efficiency Mode for PC gaming, the Gaming feed on new tabs, sidebar apps for gamers, and more";
+        public override string Info() => Strings._edgeGamerMode_desc;
 
         public override bool CheckFeature()
         {

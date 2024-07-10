@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -13,16 +13,16 @@ namespace Settings.Taskbar
         }
 
         private const string keyName = @"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced";
-        private const int desiredValue = 0;
+        private const int desiredValue = 1;
 
         public override string ID()
         {
-            return "Pin more Apps on Start menu";
+            return Strings._taskbarStartmenuLayout;
         }
 
         public override string Info()
         {
-            return "This feature will allow you to pin more apps on the Start menu.";
+            return Strings._taskbarStartmenuLayout_desc;
         }
 
         public override bool CheckFeature()
@@ -36,7 +36,7 @@ namespace Settings.Taskbar
         {
             try
             {
-                Registry.SetValue(keyName, "Start_Layout", 0, RegistryValueKind.DWord);
+                Registry.SetValue(keyName, "Start_Layout", 1, RegistryValueKind.DWord);
                 return true;
             }
             catch (Exception ex)
@@ -51,7 +51,7 @@ namespace Settings.Taskbar
         {
             try
             {
-                Registry.SetValue(keyName, "Start_Layout", 1, RegistryValueKind.DWord);
+                Registry.SetValue(keyName, "Start_Layout", 0, RegistryValueKind.DWord);
                 return true;
             }
             catch (Exception ex)

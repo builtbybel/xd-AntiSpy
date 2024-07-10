@@ -2,6 +2,7 @@
 using System;
 using System.Drawing;
 using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.AI
 {
@@ -15,9 +16,9 @@ namespace Settings.AI
         private const string valueName = "DisableAIDataAnalysis";
         private const int desiredValue = 0;
 
-        public override string ID() => "Don't Allow system-wide snapshots?";
+        public override string ID() => Strings._aiRecallLocalMachine;
 
-        public override string Info() => "This feature will disable system-wide snapshots.";
+        public override string Info() => Strings._aiRecallLocalMachine_desc;
 
         public override bool CheckFeature()
         {

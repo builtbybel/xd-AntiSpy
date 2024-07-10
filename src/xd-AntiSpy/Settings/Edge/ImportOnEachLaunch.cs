@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -15,9 +15,9 @@ namespace Settings.Edge
         private const string keyName = @"HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Edge";
         private const int desiredValue = 0;
 
-        public override string ID() => "Don't Allow to Import of data from other browsers on each launch";
+        public override string ID() => Strings._edgeImportOnEachLaunch;
 
-        public override string Info() => "Allow import of data from other browsers on each Microsoft Edge launch";
+        public override string Info() => Strings._edgeImportOnEachLaunch_desc;
 
         public override bool CheckFeature()
         {

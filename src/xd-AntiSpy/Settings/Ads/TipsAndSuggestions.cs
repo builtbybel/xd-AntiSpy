@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -15,9 +15,9 @@ namespace Settings.Ads
         private const string keyName = @"HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager";
         private const int desiredValue = 0;
 
-        public override string ID() => "Disable General Tips and Ads";
+        public override string ID() => Strings._adsTipsAndSuggestions;
 
-        public override string Info() => "This feature will disable general tips and ads.";
+        public override string Info() => Strings._adsTipsAndSuggestions_desc;
 
         public override bool CheckFeature()
         {

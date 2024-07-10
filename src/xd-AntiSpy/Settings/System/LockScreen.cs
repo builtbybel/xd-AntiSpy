@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -17,12 +17,12 @@ namespace Settings.System
 
         public override string ID()
         {
-            return "Don't use personalized lock screen";
+            return Strings._systemLockScreen;
         }
 
         public override string Info()
         {
-            return "This feature will disable the personalized lock screen.";
+            return Strings._systemLockScreen_desc;
         }
 
         public override bool CheckFeature()

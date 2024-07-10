@@ -1,7 +1,7 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Drawing;
-
+using xdAntiSpy.Locales;
 using xdAntiSpy;
 
 namespace Settings.Edge
@@ -15,9 +15,9 @@ namespace Settings.Edge
         private const string keyName = @"HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Edge";
         private const int desiredValue = 0;
 
-        public override string ID() => "Disable Start Boost";
+        public override string ID() => Strings._edgeStartupBoost;
 
-        public override string Info() => "Enables Microsoft Edge processes to initialize at operating system startup and restart in the background after the last browser window has been closed";
+        public override string Info() => Strings._edgeStartupBoost_desc;
 
         public override bool CheckFeature()
         {

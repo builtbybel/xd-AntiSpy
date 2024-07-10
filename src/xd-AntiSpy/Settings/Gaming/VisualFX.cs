@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -15,9 +15,9 @@ namespace Settings.Gaming
         private const string keyName = @"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects";
         private const int desiredValue = 2;
 
-        public override string ID() => "Disable VisualFX";
+        public override string ID() => Strings._gamingVisualFX;
 
-        public override string Info() => "This feature will disable VisualFX.";
+        public override string Info() => Strings._gamingVisualFX_desc;
 
         public override bool CheckFeature()
         {

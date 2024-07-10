@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -15,9 +15,9 @@ namespace Settings.Ads
         private const string keyName = @"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager";
         private const int desiredValue = 0;
 
-        public override string ID() => "Disable Welcome Experience Ads";
+        public override string ID() => Strings._adsWelcomeExperienceAds;
 
-        public override string Info() => "This feature will disable ads in the welcome experience.";
+        public override string Info() => Strings._adsWelcomeExperienceAds_desc;
 
         public override bool CheckFeature()
         {

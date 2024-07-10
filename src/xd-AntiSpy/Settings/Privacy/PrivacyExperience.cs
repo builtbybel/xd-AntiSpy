@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -15,9 +15,9 @@ namespace Settings.Privacy
         private const string keyName = @"HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OOBE";
         private const int desiredValue = 0;
 
-        public override string ID() => "Disable Privacy Settings Experience at sign-in";
+        public override string ID() => Strings._privacyPrivacyExperience;
 
-        public override string Info() => "This feature will disable Privacy Settings Experience at sign-in.";
+        public override string Info() => Strings._privacyPrivacyExperience_desc;
 
         public override bool CheckFeature()
         {

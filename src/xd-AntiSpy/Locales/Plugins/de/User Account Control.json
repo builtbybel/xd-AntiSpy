@@ -1,0 +1,16 @@
+{
+  "PlugID": "Benutzerkontenteuerung aktivieren (UAC)",
+  "PlugInfo": "Aktivieren Sie dieses Kontrollkästchen, um die Benutzerkontensteuerung (UAC) zu aktivieren. Deaktivieren Sie das Kontrollkästchen, um die UAC zu deaktivieren. Bitte deaktivieren Sie diese Einstellung nur, wenn Sie absolut sicher sind, dass Sie die vollständige Kontrolle über Ihr System haben!! Andernfalls könnte eine große Sicherheitslücke in Ihrem System entstehen.",
+   "PlugCategory": "Security (Plugins)",
+  "PlugCheck": [
+    "reg query HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System /v EnableLUA"
+  ],
+  "PlugDo": [
+    "powershell -Command \"Add-Type -AssemblyName PresentationCore,PresentationFramework;[System.Windows.MessageBox]::Show('Ihr System wird in 30 Sekunden neu gestartet, um die Änderungen zu übernehmen. Bitte speichern Sie Ihre Arbeit und schließen Sie alle Anwendungen.', 'Warnung', 'OK', 'Warnung')\"",
+    "powershell -Command \"Start-Sleep -Seconds 30; reg add HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System /v EnableLUA /t REG_DWORD /d 1 /f; shutdown /r /t 0\""
+  ],
+  "PlugUndo": [
+    "powershell -Command \"Add-Type -AssemblyName PresentationCore,PresentationFramework;[System.Windows.MessageBox]::Show('Ihr System wird in 30 Sekunden neu gestartet, um die Änderungen zu übernehmen. Bitte speichern Sie Ihre Arbeit und schließen Sie alle Anwendungen.', 'Warnung', 'OK', 'Warnung')\"",
+    "powershell -Command \"Start-Sleep -Seconds 30; reg add HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System /v EnableLUA /t REG_DWORD /d 0 /f; shutdown /r /t 0\""
+  ]
+}

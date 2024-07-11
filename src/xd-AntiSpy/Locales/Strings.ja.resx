@@ -118,346 +118,346 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="menu_aboutToolStripMenuItem" xml:space="preserve">
-    <value>About XDAntiSpy...</value>
+    <value>XDAntiSpyについて...</value>
   </data>
   <data name="menu_copySettingsToolStripMenuItem" xml:space="preserve">
-    <value>Copy to clipboard</value>
+    <value>クリップボードにコピー</value>
   </data>
   <data name="menu_exportCurrentSettingsStripMenuItem" xml:space="preserve">
-    <value>Export current</value>
+    <value>エクスポート</value>
   </data>
   <data name="menu_gitHubSiteToolStripMenuItem" xml:space="preserve">
-    <value>Visit GitHub site</value>
+    <value>xd-AntiSpyのGitHubサイトへ</value>
   </data>
   <data name="menu_helpToolStripMenuItem" xml:space="preserve">
     <value>?</value>
     <comment>Help Menu</comment>
   </data>
   <data name="menu_importSettingsToolStripMenuItem" xml:space="preserve">
-    <value>Import</value>
+    <value>インポート</value>
   </data>
   <data name="menu_openPluginsDirectoryToolStripMenuItem" xml:space="preserve">
-    <value>Open plugins directory</value>
+    <value>プラグインフォルダーを開く</value>
   </data>
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
-    <value>Profiles</value>
-    <comment>Profiles Menu</comment>
+    <value>プロファイル</value>
+    <comment>プロファイルメニュー</comment>
   </data>
   <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
-    <value>Refresh</value>
+    <value>更新</value>
   </data>
   <data name="menu_searchForCrappyAppsToolStripMenuItem" xml:space="preserve">
-    <value>Search for crappy apps</value>
+    <value>crappyなアプリを検索...</value>
   </data>
   <data name="menu_shareSettingsOnXTwitterToolStripMenuItem" xml:space="preserve">
-    <value>Share on X...</value>
+    <value>Xでシェア...</value>
   </data>
   <data name="menu_symbolrefToolStripMenuItem" xml:space="preserve">
-    <value>Symbol Reference...</value>
+    <value>シンボルのリファレンス...</value>
   </data>
   <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
-    <value>Tools</value>
-    <comment>Tools Menu</comment>
+    <value>ツール</value>
+    <comment>ツールメニュー</comment>
   </data>
   <data name="menu_updateToolStripMenuItem" xml:space="preserve">
-    <value>Update...</value>
+    <value>アップデート...</value>
   </data>
   <data name="ctl_btnApply" xml:space="preserve">
-    <value>Apply Setting</value>
+    <value>設定を適用</value>
   </data>
   <data name="_adsFinishSetupAds_desc" xml:space="preserve">
-    <value>This feature will disable ads in File Explorer.</value>
+    <value>エクスプローラーの広告を無効にします。</value>
   </data>
   <data name="_adsLockScreenAds_desc" xml:space="preserve">
-    <value>This feature will disable tips and ads on the lock screen.</value>
+    <value>ロック画面のヒントや広告を無効にします。</value>
   </data>
   <data name="_adsPersonalizedAds_desc" xml:space="preserve">
-    <value>This feature will disable personalized ads.</value>
+    <value>個人用広告を無効にします</value>
   </data>
   <data name="_adsSettingAds_desc" xml:space="preserve">
-    <value>This feature will disable ads in settings.</value>
+    <value>設定での広告を無効にします。</value>
   </data>
   <data name="_adsStartmenuAds_desc" xml:space="preserve">
-    <value>This feature will disable ads in the start menu.</value>
+    <value>スタートメニューでの広告を無効にします。</value>
   </data>
   <data name="_adsTailoredExperiences_desc" xml:space="preserve">
-    <value>Tailored Experiences allows Microsoft to get information from you to deliver personalized tips, ads, and recommendations. Many people would call this telemetry, or even spying.</value>
+    <value>マイクロソフトはあなたの情報を取得し、パーソナライズされたヒントや広告、おすすめ情報を提供することができます。多くの人はこれを遠隔測定、あるいはスパイ行為と感じるかも知れません。</value>
   </data>
   <data name="_adsFileExplorerAds_desc" xml:space="preserve">
-    <value>This feature will disable ads in File Explorer.</value>
+    <value>エクスプローラーの広告を無効にします。</value>
   </data>
   <data name="_adsTipsAndSuggestions_desc" xml:space="preserve">
-    <value>This feature will disable general tips and ads.</value>
+    <value>設定でのヒントや広告を無効にします。</value>
   </data>
   <data name="_adsWelcomeExperienceAds_desc" xml:space="preserve">
-    <value>This feature will disable ads in the welcome experience.</value>
+    <value>ウェルカム画面での広告を無効にします。</value>
   </data>
   <data name="_aiRecallCurrentUser_desc" xml:space="preserve">
-    <value>This feature will disable Recall from saving snapshots of your screen.</value>
+    <value>あなたの画面を保存したスナップショットのRecallを無効にします。</value>
   </data>
   <data name="_edgeBrowserSignin_desc" xml:space="preserve">
-    <value>This setting controls whether a user can sign into Microsoft Edge with an account to use services such as sync and single sign on</value>
+    <value>同期やシングルサインオンなどのサービスを使用するために、ユーザーがアカウントを使ってMicrosoft Edgeにサインインできるかどうかを制御します。</value>
   </data>
   <data name="_edgeDefaultTopSites_desc" xml:space="preserve">
-    <value>Hide default top sites from the new tab page in Microsoft Edge</value>
+    <value>Microsoft Edgeの新しいタブページからデフォルトのトップサイトを非表示にします。</value>
   </data>
   <data name="_edgeDefautBrowserSetting_desc" xml:space="preserve">
-    <value>Force Edge to stop asking to change default browser.</value>
+    <value>Edgeがデフォルトブラウザーの変更を要求しないようにします。</value>
   </data>
   <data name="_edgeEdgeCollections_desc" xml:space="preserve">
-    <value>Enables users to access the Collections feature, allowing them to gather, organize, share, and export content more efficiently with Office integration.</value>
+    <value>Officeとの統合により、コンテンツの収集、整理、共有、エクスポートをより効率的に行えるようになります。</value>
   </data>
   <data name="_edgeEdgeShoppingAssistant_desc" xml:space="preserve">
-    <value>Shopping in Microsoft Edge feature will automatically find you the best prices and coupons from across the web as you shop.</value>
+    <value>Microsoft Edgeのショッピング機能では、お買い物の際にウェブ上の最安値やクーポンを自動的に検索します。</value>
   </data>
   <data name="_edgeFirstRunExperience_desc" xml:space="preserve">
-    <value>Hide home screen and 'Getting Started' on initial launch (from version 80 onwards).</value>
+    <value>初回起動時にホーム画面と「はじめましょう！」を非表示にする（バージョン80以降）。</value>
   </data>
   <data name="_edgeGamerMode_desc" xml:space="preserve">
-    <value>Microsoft Edge Gamer Mode allows gamers to personalize their browser with gaming themes and gives them the option of enabling Efficiency Mode for PC gaming, the Gaming feed on new tabs, sidebar apps for gamers, and more.</value>
+    <value>Microsoft Edgeゲーミングモードでは、ゲーマーの皆様がゲームテーマでブラウザーをパーソナライズできるほか、PCゲーム用の効率化モード、新しいタブでのゲームフィード、ゲーマー向けのサイド バーアプリなどを有効にすることができます。</value>
   </data>
   <data name="_edgeHubsSidebar_desc" xml:space="preserve">
-    <value>This feature will disable Copilot in Microsoft Edge.</value>
+    <value>Microsoft EdgeのCopilotを無効にします。</value>
   </data>
   <data name="_edgeImportOnEachLaunch_desc" xml:space="preserve">
-    <value>Allow import of data from other browsers on each Microsoft Edge launch.</value>
+    <value>Microsoft Edgeを起動するたびに、他のブラウザーからデータをインポートできるようにします。</value>
   </data>
   <data name="_edgeStartupBoost_desc" xml:space="preserve">
-    <value>Enables Microsoft Edge processes to initialize at operating system startup and restart in the background after the last browser window has been closed.</value>
+    <value>Microsoft Edgeのプロセスがオペレーティングシステムの起動時に初期化され、最後のブラウザーウィンドウが閉じられた後にバックグラウンドで再起動されるようになります。</value>
   </data>
   <data name="_edgeTabPageQuickLinks_desc" xml:space="preserve">
-    <value>By default, when you open a new tab, you see a Bing search bar, Bing image of the day set as the page background. For supported websites, Quick Links on the New Tab page can display recent updates right in the tile.</value>
+    <value>デフォルトでは新しいタブを開くとBing検索バー、ページの背景として設定された今日のBing画像が表示されます。サポートされているウェブサイトの場合、新しいタブページのクイックリンクは、タイルの右側に最近の更新を表示することができます。</value>
   </data>
   <data name="_edgeUserFeedback_desc" xml:space="preserve">
-    <value>Allow the submission of feedback, suggestions, or customer surveys, as well as reporting issues with the browser.</value>
+    <value>フィードバック、提案、顧客アンケートの提出、およびブラウザーの問題の報告を許可します。</value>
   </data>
   <data name="_adsFileExplorerAds" xml:space="preserve">
-    <value>Disable File Explorer Ads</value>
+    <value>エクスプローラーの広告を無効にする</value>
   </data>
   <data name="_adsFinishSetupAds" xml:space="preserve">
-    <value>Disable Finish Setup Ads</value>
+    <value>広告のセットアップを完了する</value>
   </data>
   <data name="_adsLockScreenAds" xml:space="preserve">
-    <value>Disable Lock Screen Tips and Ads</value>
+    <value>ロック画面のヒント、広告を無効にします。</value>
   </data>
   <data name="_adsPersonalizedAds" xml:space="preserve">
-    <value>Disable Personalized Ads</value>
+    <value>個人用広告を無効にします</value>
   </data>
   <data name="_adsSettingAds" xml:space="preserve">
-    <value>Disable Settings Ads</value>
+    <value>設定での広告を無効にします</value>
   </data>
   <data name="_adsStartmenuAds" xml:space="preserve">
-    <value>Disable Start menu Ads</value>
+    <value>スタートメニューでの広告を無効にします</value>
   </data>
   <data name="_adsTailoredExperiences" xml:space="preserve">
-    <value>Disable Tailored experiences</value>
+    <value>個人用設定を無効にします</value>
   </data>
   <data name="_adsTipsAndSuggestions" xml:space="preserve">
-    <value>Disable General Tips and Ads</value>
+    <value>設定でのヒントや広告を無効にします</value>
   </data>
   <data name="_adsWelcomeExperienceAds" xml:space="preserve">
-    <value>Disable Welcome Experience Ads</value>
+    <value>ウェルカム画面での広告を無効にします</value>
   </data>
   <data name="_aiCopilotTaskbar" xml:space="preserve">
-    <value>Don't Show Copilot in Taskbar</value>
+    <value>Copilotをタスクバーに表示しない</value>
   </data>
   <data name="_aiRecallCurrentUser" xml:space="preserve">
-    <value>Dont' Allow Windows to save snapshots of your screen</value>
+    <value>Windowsが画面のスナップショットを保存することを許可しない。</value>
   </data>
   <data name="_aiRecallLocalMachine" xml:space="preserve">
-    <value>Don't Allow system-wide snapshots</value>
+    <value>システム全体でスナップショット保存を許可しない</value>
   </data>
   <data name="_edgeBrowserSignin" xml:space="preserve">
-    <value>Disable Browser sign in and sync services</value>
+    <value>ブラウザーのサインインとサービスの同期を無効にします</value>
   </data>
   <data name="_edgeDefaultTopSites" xml:space="preserve">
-    <value>Don't Show Sponsored links in new tab page</value>
+    <value>新しいタブページにスポンサーリンクを表示しない</value>
   </data>
   <data name="_edgeDefautBrowserSetting" xml:space="preserve">
-    <value>Disable Microsoft Edge as default browser</value>
+    <value>Microsoft Edgeの既定のブラウザーとする機能自体を無効にする</value>
   </data>
   <data name="_edgeEdgeCollections" xml:space="preserve">
-    <value>Disable Access to Collections feature</value>
+    <value>コレクションへのアクセス機能を無効にする</value>
   </data>
   <data name="_edgeEdgeShoppingAssistant" xml:space="preserve">
-    <value>Disable Shopping assistant in Microsoft Edge</value>
+    <value>Microsoft Edgeでショッピングアシスタントを無効にする</value>
   </data>
   <data name="_edgeFirstRunExperience" xml:space="preserve">
-    <value>Don't Show First Run Experience</value>
+    <value>初回実行時のエクスペリエンスを表示しない</value>
   </data>
   <data name="_edgeGamerMode" xml:space="preserve">
-    <value>Disable Gamer Mode</value>
+    <value>ゲーマーモードを無効にする</value>
   </data>
   <data name="_edgeHubsSidebar" xml:space="preserve">
-    <value>Disable Copilot Symbol in Edge</value>
+    <value>EdgeでCopilotシンボルを無効にする</value>
   </data>
   <data name="_edgeImportOnEachLaunch" xml:space="preserve">
-    <value>Don't Allow to Import of data from other browsers on each launch</value>
+    <value>起動ごとに他のブラウザーからのデータのインポートを許可しない</value>
   </data>
   <data name="_edgeStartupBoost" xml:space="preserve">
-    <value>Disable Start Boost</value>
+    <value>スタートブーストを無効にする</value>
   </data>
   <data name="_edgeTabPageQuickLinks" xml:space="preserve">
-    <value>Don't Show Quick links in new tab page</value>
+    <value>新しいタブページにクイックリンクを表示しない</value>
   </data>
   <data name="_edgeUserFeedback" xml:space="preserve">
-    <value>Don't Submit user feedback option</value>
+    <value>ユーザーフィードバックを送信しない</value>
   </data>
   <data name="_aiCopilotTaskbar_desc" xml:space="preserve">
-    <value>This feature will disable Copilot in Taskbar.</value>
+    <value>タスクバーのCopilotが無効になります。</value>
   </data>
   <data name="_gamingGameDVR" xml:space="preserve">
-    <value>Turn off GameDVR</value>
+    <value>GameDVRを無効にします。</value>
   </data>
   <data name="_gamingGameDVR_desc" xml:space="preserve">
-    <value>This feature will disable GameDVR.</value>
+    <value>この機能により、GameDVRが無効になります</value>
   </data>
   <data name="_gamingPowerThrottling" xml:space="preserve">
-    <value>Turn off PowerThrottling</value>
+    <value>パワースロットルをオフにする</value>
   </data>
   <data name="_gamingPowerThrottling_desc" xml:space="preserve">
-    <value>This feature will disable PowerThrottling.</value>
+    <value>パワースロットルを無効にします。</value>
   </data>
   <data name="_gamingVisualFX" xml:space="preserve">
-    <value>Disable VisualFX</value>
+    <value>VisualFXを無効にする</value>
   </data>
   <data name="_gamingVisualFX_desc" xml:space="preserve">
-    <value>This feature will disable VisualFX.</value>
+    <value>VisualFXが無効になります。</value>
   </data>
   <data name="_privacyBackgroundApps" xml:space="preserve">
-    <value>Disable Running apps in background</value>
+    <value>バックグラウンドで実行中のアプリを無効にする</value>
   </data>
   <data name="_privacyBackgroundApps_desc" xml:space="preserve">
-    <value>This feature will disable running apps in background.</value>
+    <value>バックグラウンドで実行されているアプリを無効にします。</value>
   </data>
   <data name="_privacyPrivacyExperience_desc" xml:space="preserve">
-    <value>This feature will disable Privacy Settings Experience at sign-in.</value>
+    <value>サインイン時にプライバシー設定エクスペリエンスが無効になります。</value>
   </data>
   <data name="_privacyFindMyDevice" xml:space="preserve">
-    <value>Disable Find my device</value>
+    <value>デバイスの検索が無効になります</value>
   </data>
   <data name="_privacyFindMyDevice_desc" xml:space="preserve">
-    <value>This feature will disable find my device.</value>
+    <value>デバイスの検索が無効になります。</value>
   </data>
   <data name="_privacyPrivacyExperience" xml:space="preserve">
-    <value>Disable Privacy Settings Experience at sign-in</value>
+    <value>サインイン時にプライバシー設定エクスペリエンスを無効にする</value>
   </data>
   <data name="_privacyTelemetry" xml:space="preserve">
-    <value>Turn off Telemetry data collection</value>
+    <value>テレメトリデータ収集をオフにする</value>
   </data>
   <data name="_privacyTelemetry_desc" xml:space="preserve">
-    <value>Unfortunately, Microsoft does not allow Windows 11 or Windows 10 Home edition users to completely turn off the collection of telemetry data. However, those users can still limit some optional data collection through System settings.</value>
+    <value>残念ながら、MicrosoftではWindows 11またはWindows 10 Homeエディションのユーザーがテレメトリデータの収集を完全にオフにすることを許可していません。ただし、これらのユーザーはシステム設定を通じてオプションのデータ収集を制限することができます。</value>
   </data>
   <data name="_systemFaxPrinter" xml:space="preserve">
-    <value>Uninstall Fax Printer</value>
+    <value>FAXプリンターをアンインストールする</value>
   </data>
   <data name="_systemFullContextMenus" xml:space="preserve">
-    <value>Show Full context menus in Windows 11</value>
+    <value>Windows 11で完全なコンテキストメニューを表示する</value>
   </data>
   <data name="_systemFullContextMenus_desc" xml:space="preserve">
-    <value>This feature will enable full context menus in Windows 11.</value>
+    <value>Windows 11で完全なコンテキストメニューが有効になります。</value>
   </data>
   <data name="_systemLockScreen" xml:space="preserve">
-    <value>Don't use personalized lock screen</value>
+    <value>パーソナライズされたロック画面を使用しない</value>
   </data>
   <data name="_systemLockScreen_desc" xml:space="preserve">
-    <value>This feature will disable the personalized lock screen.</value>
+    <value>パーソナライズされたロック画面が無効になります。</value>
   </data>
   <data name="_systemVerboseMessages" xml:space="preserve">
-    <value>Display highly detailed status messages</value>
+    <value>詳細なステータスメッセージを表示します</value>
   </data>
   <data name="_systemVerboseMessages_desc" xml:space="preserve">
-    <value>This feature will display highly detailed status messages.</value>
+    <value>非常に詳細なステータスメッセージを表示します。</value>
   </data>
   <data name="_systemXPSWriter" xml:space="preserve">
-    <value>Uninstall XPS Writer</value>
+    <value>XPSライターをアンインストールする</value>
   </data>
   <data name="_systemXPSWriter_desc" xml:space="preserve">
-    <value>This feature will uninstall the XPS Documents Writer.</value>
+    <value>XPS ドキュメントライターをアンインストールします。</value>
   </data>
   <data name="_taskbarBingSearch" xml:space="preserve">
-    <value>Disable Bing Cloud content search</value>
+    <value>Bing Cloudコンテンツ検索を無効にする</value>
   </data>
   <data name="_taskbarBingSearch_desc" xml:space="preserve">
-    <value>This feature will disable Bing Cloud content search.</value>
+    <value>Bing Cloudコンテンツ検索が無効になります。</value>
   </data>
   <data name="_taskbarMostUsedApps" xml:space="preserve">
-    <value>Hide Most used apps in start menu</value>
+    <value>スタート メニューでよく使用するアプリを非表示にする</value>
   </data>
   <data name="_taskbarMostUsedApps_desc" xml:space="preserve">
-    <value>This feature will hide the most used apps in start menu.</value>
+    <value>スタートメニューで最もよく使用されるアプリが非表示になります。</value>
   </data>
   <data name="_taskbarSearchbox" xml:space="preserve">
-    <value>Hide Searchbox on Taskbar</value>
+    <value>タスクバーの検索ボックスを非表示にする</value>
   </data>
   <data name="_taskbarSearchbox_desc" xml:space="preserve">
-    <value>This feature will remove Searchbox from the Taskbar.</value>
+    <value>タスクバーから検索ボックスが削除されます。</value>
   </data>
   <data name="_taskbarStartButtonAlignment" xml:space="preserve">
-    <value>Align Start button to left</value>
+    <value>スタートボタンを左揃えにする</value>
   </data>
   <data name="_taskbarStartButtonAlignment_desc" xml:space="preserve">
-    <value>This feature will align the Start button to the left.</value>
+    <value>スタートボタンが左揃えになります。</value>
   </data>
   <data name="_taskbarStartmenuLayout" xml:space="preserve">
-    <value>Pin more Apps on Start menu</value>
+    <value>スタートメニューにさらに多くのアプリをピン留めできるようにする</value>
   </data>
   <data name="_taskbarStartmenuLayout_desc" xml:space="preserve">
-    <value>This feature will change the start layout to show more pins (and hide recommendations) in the Start menu. If disabled, more recommendations will be shown instead of pins.</value>
+    <value>この機能はスタートレイアウトを変更し、スタートメニューにピンをさらに表示します(推奨事項は非表示になります)。無効にすると、ピンの代わりに推奨事項をさらに表示します。</value>
   </data>
   <data name="_taskbarTaskbarChat" xml:space="preserve">
-    <value>Hide Chat icon on taskbar</value>
+    <value>タスクバーのチャットアイコンを非表示にする</value>
   </data>
   <data name="_taskbarTaskbarChat_desc" xml:space="preserve">
-    <value>By default, the chat feature allows you to access Microsoft Teams easily. But, if you don’t use Teams or just don’t want the icon on your taskbar, you can hide it.</value>
+    <value>デフォルトでは、チャット機能を使用するとMicrosoft Teamsに簡単にアクセスできます。ただし、Teamsを使用しない場合やタスク バーにアイコンを表示したくない場合は、非表示にすることができます。</value>
   </data>
   <data name="_taskbarTaskView" xml:space="preserve">
-    <value>Hide Task view button on taskbar</value>
+    <value>タスクバーのタスクビューボタンを非表示にする</value>
   </data>
   <data name="_taskbarTaskView_desc" xml:space="preserve">
-    <value>This feature will disable the task view button on the taskbar.</value>
+    <value>タスクバーのタスクビューボタンが無効になります。</value>
   </data>
   <data name="_taskbarWidgets" xml:space="preserve">
-    <value>Hide Widgets from taskbar</value>
+    <value>タスクバーからウィジェットを非表示にする</value>
   </data>
   <data name="_taskbarWidgets_desc" xml:space="preserve">
-    <value>This feature will remove Widgets from the Taskbar.</value>
+    <value>タスクバーのタスクビューボタンが無効になります。</value>
   </data>
   <data name="_systemFaxPrinter_desc" xml:space="preserve">
-    <value>This feature will uninstall the Fax Printer.</value>
+    <value>FAXプリンターをアンインストールします。</value>
   </data>
   <data name="menuDoContextItem" xml:space="preserve">
-    <value>Set Setting Manually</value>
+    <value>手動で設定する</value>
   </data>
   <data name="menuPinContextItem" xml:space="preserve">
-    <value>Pin</value>
+    <value>ピン留め</value>
   </data>
   <data name="menuUndoContextItem" xml:space="preserve">
-    <value>Reset Setting</value>
+    <value>設定をリセット</value>
   </data>
   <data name="statusApplied" xml:space="preserve">
-    <value>Applied:</value>
+    <value>適用済み:</value>
   </data>
   <data name="statusDisabled" xml:space="preserve">
-    <value>Disabled</value>
+    <value>無効化</value>
   </data>
   <data name="statusEnabled" xml:space="preserve">
-    <value>Enabled</value>
+    <value>有効化</value>
   </data>
   <data name="statusIsDisabled" xml:space="preserve">
-    <value>has been disabled.</value>
+    <value>無効になっています。</value>
   </data>
   <data name="statusIsEnabled" xml:space="preserve">
-    <value>has been enabled.</value>
+    <value>有効になりました。</value>
   </data>
   <data name="_aiRecallLocalMachine_desc" xml:space="preserve">
-    <value>This feature will disable system-wide snapshots.</value>
+    <value>この機能はシステム全体のスナップショットを無効にします。</value>
   </data>
   <data name="_catAdblock" xml:space="preserve">
-    <value>Adblock</value>
+    <value>広告ブロック</value>
   </data>
   <data name="_catAI" xml:space="preserve">
-    <value>AI/Copilot and Recall</value>
+    <value>AI/Copilot と Recall</value>
   </data>
   <data name="_catGaming" xml:space="preserve">
     <value>Gaming</value>
@@ -466,105 +466,103 @@
     <value>Microsoft Edge</value>
   </data>
   <data name="_catPrivacy" xml:space="preserve">
-    <value>Privacy</value>
+    <value>プライバシー</value>
   </data>
   <data name="_catSystem" xml:space="preserve">
-    <value>System</value>
+    <value>システム</value>
   </data>
   <data name="_catTaskbar" xml:space="preserve">
-    <value>Taskbar</value>
+    <value>タスクバー</value>
   </data>
   <data name="_logFinalCheck" xml:space="preserve">
-    <value>Final checks in progress...</value>
+    <value>最終チェックが進行中です...</value>
   </data>
   <data name="_logFinalCheckMessage" xml:space="preserve">
-    <value>Thank you for using xd-AntiSpy! If you find this tool useful, consider donating to support its development: https://paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG</value>
+    <value>xd-AntiSpyをご利用いただきありがとうございます。このツールが役に立つと思われる場合は、開発を支援するために寄付をご検討ください: https://paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG</value>
   </data>
   <data name="_logFinalCheckMessage2" xml:space="preserve">
-    <value>Follow and contribute to the project on GitHub: https://github.com/builtbybel/xd-AntiSpy</value>
+    <value>GitHub でプロジェクトをフォローして貢献してください: https://github.com/builtbybel/xd-AntiSpy</value>
   </data>
   <data name="_logFinalCheck_complete" xml:space="preserve">
-    <value>All checks completed.</value>
+    <value>すべてのチェックが完了しました。</value>
   </data>
   <data name="_logNativeFeatureCheck" xml:space="preserve">
-    <value>Starting native feature checks...</value>
+    <value>ネイティブ機能のチェックを開始しています...</value>
   </data>
   <data name="_logNativeFeatureCheck_complete" xml:space="preserve">
-    <value>Feature checks completed.</value>
+    <value>機能チェックが完了しました。</value>
   </data>
   <data name="_logPluginsFeatureCheck" xml:space="preserve">
-    <value>Starting plugin checks...</value>
+    <value>プラグインのチェックを開始しています...</value>
   </data>
   <data name="_logPluginsFeatureCheck_complete" xml:space="preserve">
-    <value>Plugin checks completed.</value>
+    <value>プラグインのチェックが完了しました。</value>
   </data>
   <data name="formAbout_lblAbout" xml:space="preserve">
-    <value>(c)2024 A Belim app creation
-While there's no guarantee xD-Antispy will work perfectly on your system, I've tested it extensively.  Remember, it's a one-person project and I'm just human.
+    <value>(c)2024 Belim が作成しました
+xD-Antispyがあなたのシステムで完璧に動作するという保証はありませんが、私は徹底的にテストしました。これは1人のプロジェクトであり、私もただの人間であることを忘れないでください。
 
-This tool is open source and will always be free.  I'm committed to keeping it updated and improving.
+xD-Antispyは、Windows 11向けの従来のXP-Antispyの最新フォークであり、今日のプライバシーの課題に対応するために進化しています。
 
-xD-Antispy is a modern fork of the classic XP-Antispy for Windows 11, evolving to meet today's privacy challenges. 
-
-xD-Antispy – because privacy settings should make you smile!
+xD-Antispy – プライバシー設定はあなたを笑顔にするはずです！
 
 -Belim-</value>
   </data>
   <data name="formAbout_linkDonation" xml:space="preserve">
-    <value>Your support helps keep this app running and growing—thank you! — Belim</value>
+    <value>あなたのサポートのおかげで、このアプリは継続して成長しています。ありがとうございます！ — Belim</value>
   </data>
   <data name="formToolDebloater_btnBack" xml:space="preserve">
-    <value>&lt; Back</value>
+    <value>&lt; 戻る</value>
   </data>
   <data name="formToolDebloater_btnChooseDB" xml:space="preserve">
-    <value>Select custom db...</value>
+    <value>カスタムdbを選択...</value>
   </data>
   <data name="formToolDebloater_btnRemoveSelected" xml:space="preserve">
-    <value>Remove selected apps</value>
+    <value>選択アプリを削除</value>
   </data>
   <data name="formToolDebloater_DeselectAll" xml:space="preserve">
-    <value>Deselect All</value>
+    <value>すべて選択解除</value>
   </data>
   <data name="formToolDebloater_errorNoAppsCount" xml:space="preserve">
-    <value>Please select at least one app to remove.</value>
+    <value>削除するには少なくとも一つのアプリを選択してください</value>
   </data>
   <data name="formToolDebloater_selectAll" xml:space="preserve">
-    <value>Select All</value>
+    <value>すべて選択</value>
   </data>
   <data name="formToolDebloater_statusCheckComplete" xml:space="preserve">
-    <value>Check completed.</value>
+    <value>チェック完了</value>
   </data>
   <data name="formToolDebloater_statusChecking" xml:space="preserve">
-    <value>Checking</value>
+    <value>チェック中</value>
   </data>
   <data name="formToolDebloater_statusRemoved" xml:space="preserve">
-    <value>removed.</value>
+    <value>削除しました。</value>
   </data>
   <data name="formToolDebloater_statusRemoving" xml:space="preserve">
-    <value>Removing</value>
+    <value>削除中</value>
   </data>
   <data name="formToolDebloater_successRemoved" xml:space="preserve">
-    <value>Apps successfully removed.</value>
+    <value>アプリの削除に成功しました</value>
   </data>
   <data name="statusHasBeen" xml:space="preserve">
-    <value>has been</value>
+    <value>やったよ</value>
   </data>
   <data name="statusIsCurrently" xml:space="preserve">
-    <value>is currently</value>
+    <value>やってます</value>
   </data>
   <data name="formSymbolRef_checkInfoPlugins" xml:space="preserve">
-    <value>Furthermore, AI-generated and verified plugins have been automatically loaded into the app's plugins folder. These plugins can be seamlessly integrated into the list view or accessed through the tools menu. Explore these enhancements to tailor your experience and optimize functionality effortlessly.</value>
+    <value>さらに、AIによって生成および検証されたプラグインが、アプリのプラグインフォルダーに自動的に読み込まれます。これらのプラグインは、リストビューにシームレスに統合することも、ツールメニューからアクセスすることもできます。これらの拡張機能を調べて、エクスペリエンスをカスタマイズし、機能を簡単に最適化してください。</value>
   </data>
   <data name="formSymbolRef_lblActive" xml:space="preserve">
-    <value>Active: When an option is checked and grayed out, it means the setting is active.</value>
+    <value>アクティブ: オプションがチェックされ、グレーに表示されている場合は、設定がアクティブであることを意味します。</value>
   </data>
   <data name="formSymbolRef_lblGreen" xml:space="preserve">
-    <value>Remember, keeping certain settings active can enhance your system's privacy and performance. Adjust these options according to your needs, and enjoy a more secure computing experience!</value>
+    <value>特定の設定をアクティブにしておくと、システムのプライバシーとパフォーマンスが向上することに注意してください。必要に応じてこれらのオプションを調整し、より安全なコンピューティング体験をお楽しみください！</value>
   </data>
   <data name="formSymbolRef_lblInactive" xml:space="preserve">
-    <value>Inactive: If an option is unchecked and the text is in a normal color, the setting is inactive. You can enable it by simply checking the box and pressing the apply button.</value>
+    <value>非アクティブ: オプションのチェックが外れていて、テキストが通常の色になっている場合、設定は非アクティブです。チェックボックスをオンにして適用ボタンを押すだけで有効にできます。</value>
   </data>
   <data name="formSymbolRef_lblRed" xml:space="preserve">
-    <value>Additionally, for this app, there are cool and recommended profiles available on various online communities like Reddit and Deskmodder. As the app is new and growing, if you're unsure about which settings to configure, checking out these profiles can provide valuable insights. Explore and discover optimal configurations that suit your preferences, ensuring a personalized and enhanced user experience!</value>
+    <value>さらに、このアプリにはRedditやDeskmodderなどのさまざまなオンラインコミュニティで利用できる、クールでおすすめのプロファイルがあります。アプリは新しく成長中なので、どの設定を構成するか分からない場合は、これらのプロファイルを確認すると貴重な洞察が得られます。好みに合った最適な構成を探して見つけ、パーソナライズされた強化されたユーザー エクスペリエンスを実現しましょう！</value>
   </data>
 </root>

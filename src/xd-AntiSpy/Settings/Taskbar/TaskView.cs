@@ -1,28 +1,28 @@
-﻿using xdAntiSpy;
-
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
 using System.Drawing;
+using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.Taskbar
 {
     internal class TaskView : SettingsBase
     {
-        public TaskView( Logger logger) : base(logger)
+        public TaskView(Logger logger) : base(logger)
         {
         }
 
         private const string keyName = @"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced";
-        private const int desiredValue =1;
+        private const int desiredValue = 1;
 
         public override string ID()
         {
-            return "Hide Task view button on taskbar";
+            return Strings._taskbarTaskView;
         }
 
         public override string Info()
         {
-            return "This feature will disable the task view button on the taskbar.";
+            return Strings._taskbarTaskView_desc;
         }
 
         public override bool CheckFeature()

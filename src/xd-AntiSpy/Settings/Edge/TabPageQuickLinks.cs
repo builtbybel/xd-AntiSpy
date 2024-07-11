@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -15,9 +15,9 @@ namespace Settings.Edge
         private const string keyName = @"HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Edge";
         private const int desiredValue = 0;
 
-        public override string ID() => "Don't Show Quick links in new tab page";
+        public override string ID() => Strings._edgeTabPageQuickLinks;
 
-        public override string Info() => "By default, when you open a new tab, you see a Bing search bar, Bing image of the day set as the page background. For supported websites, Quick Links on the New Tab page can display recent updates right in the tile";
+        public override string Info() => Strings._edgeTabPageQuickLinks_desc;
 
         public override bool CheckFeature()
         {

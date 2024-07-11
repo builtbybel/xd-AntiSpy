@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -14,9 +14,9 @@ namespace Settings.Gaming
 
         private const string keyName = @"HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling";
 
-        public override string ID() => "Turn off PowerThrottling";
+        public override string ID() => Strings._gamingPowerThrottling;
 
-        public override string Info() => "This feature will disable PowerThrottling.";
+        public override string Info() => Strings._gamingPowerThrottling_desc;
 
         public override bool CheckFeature()
         {

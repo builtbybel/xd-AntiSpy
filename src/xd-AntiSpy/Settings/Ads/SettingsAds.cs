@@ -2,7 +2,7 @@
 using System;
 using System.Drawing;
 using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 
 namespace Settings.Ads
 {
@@ -15,9 +15,9 @@ namespace Settings.Ads
         private const string keyName = @"HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager";
         private const int desiredValue = 0;
 
-        public override string ID() => "Disable Settings Ads";
+        public override string ID() => Strings._adsSettingAds;
 
-        public override string Info() => "This feature will disable ads in settings.";
+        public override string Info() => Strings._adsSettingAds_desc;
 
         public override bool CheckFeature()
         {

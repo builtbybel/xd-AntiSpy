@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -17,12 +17,12 @@ namespace Settings.Privacy
 
         public override string ID()
         {
-            return "Disable Find my device";
+            return Strings._privacyFindMyDevice;
         }
 
         public override string Info()
         {
-            return "This feature will disable find my device.";
+            return Strings._privacyFindMyDevice_desc;
         }
 
         public override bool CheckFeature()

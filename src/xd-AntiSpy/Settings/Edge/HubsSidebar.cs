@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -14,9 +14,9 @@ namespace Settings.Edge
 
         private const string keyName = @"HKEY_CURRENT_USER\Software\Policies\Microsoft\Edge";
 
-        public override string ID() => "Disable Copilot Symbol in Edge";
+        public override string ID() => Strings._edgeHubsSidebar;
 
-        public override string Info() => "This feature will disable Copilot in Microsoft Edge.";
+        public override string Info() => Strings._edgeHubsSidebar_desc ;
 
         public override bool CheckFeature()
         {

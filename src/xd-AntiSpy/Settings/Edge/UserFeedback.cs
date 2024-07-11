@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -15,9 +15,9 @@ namespace Settings.Edge
         private const string keyName = @"HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Edge";
         private const int desiredValue = 0;
 
-        public override string ID() => "Don't Submit user feedback option";
+        public override string ID() => Strings._edgeUserFeedback;
 
-        public override string Info() => "Allow the submission of feedback, suggestions, or customer surveys, as well as reporting issues with the browser";
+        public override string Info() => Strings._edgeUserFeedback_desc;
 
         public override bool CheckFeature()
         {

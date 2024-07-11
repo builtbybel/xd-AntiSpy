@@ -1,8 +1,8 @@
-﻿using xdAntiSpy;
-
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
 using System.Drawing;
+using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.Edge
 {
@@ -13,11 +13,11 @@ namespace Settings.Edge
         }
 
         private const string keyName = @"HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Edge";
-        private const int desiredValue =1 ;
+        private const int desiredValue = 1;
 
-        public override string ID() => "Don't Show First Run Experience";
+        public override string ID() => Strings._edgeFirstRunExperience;
 
-        public override string Info() => "Hide home screen and 'Getting Started' on initial launch (from version 80 onwards)";
+        public override string Info() => Strings._edgeFirstRunExperience_desc;
 
         public override bool CheckFeature()
         {

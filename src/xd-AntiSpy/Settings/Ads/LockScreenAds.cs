@@ -2,7 +2,7 @@
 using System;
 using System.Drawing;
 using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 
 namespace Settings.Ads
 {
@@ -15,9 +15,9 @@ namespace Settings.Ads
         private const string keyName = @"HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager";
         private const int desiredValue = 0;
 
-        public override string ID() => "Disable Lock Screen Tips and Ads";
+        public override string ID() => Strings._adsLockScreenAds;
 
-        public override string Info() => "This feature will disable tips and ads on the lock screen.";
+        public override string Info() => Strings._adsLockScreenAds_desc;
 
 
         public override bool CheckFeature()

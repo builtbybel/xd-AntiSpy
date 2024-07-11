@@ -1,7 +1,8 @@
 ﻿using Microsoft.Win32;
-using xdAntiSpy;
 using System;
 using System.Drawing;
+using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.Ads
 {
@@ -16,12 +17,12 @@ namespace Settings.Ads
 
         public override string ID()
         {
-            return "Disable Start menu Ads";
+            return Strings._adsStartmenuAds;
         }
 
         public override string Info()
         {
-            return "This feature will disable ads in the start menu.";
+            return Strings._adsStartmenuAds_desc;
         }
 
         public override bool CheckFeature()
@@ -50,7 +51,7 @@ namespace Settings.Ads
         {
             try
             {
-                Registry.SetValue(keyName, "Start_IrisRecommendations", 1 ,RegistryValueKind.DWord);
+                Registry.SetValue(keyName, "Start_IrisRecommendations", 1, RegistryValueKind.DWord);
                 return true;
             }
             catch (Exception ex)

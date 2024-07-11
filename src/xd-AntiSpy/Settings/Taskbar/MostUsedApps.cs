@@ -2,7 +2,7 @@
 using Microsoft.Win32;
 using System;
 using System.Drawing;
-
+using xdAntiSpy.Locales;
 
 namespace Settings.Taskbar
 {
@@ -17,12 +17,12 @@ namespace Settings.Taskbar
 
         public override string ID()
         {
-            return "Hide Most used apps in start menu";
+            return Strings._taskbarMostUsedApps;
         }
 
         public override string Info()
         {
-            return "This feature will hide the most used apps in start menu.";
+            return Strings._taskbarMostUsedApps_desc;
         }
 
         public override bool CheckFeature()

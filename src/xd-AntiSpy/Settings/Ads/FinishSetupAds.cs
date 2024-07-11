@@ -2,6 +2,7 @@
 using System;
 using System.Drawing;
 using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.Ads
 {
@@ -14,9 +15,9 @@ namespace Settings.Ads
         private const string keyName = @"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement";
         private const int desiredValue = 0;
 
-        public override string ID() => "Disable Finish Setup Ads";
+        public override string ID() => Strings._adsFinishSetupAds;
 
-        public override string Info() => "This feature will disable ads in File Explorer.";
+        public override string Info() => Strings._adsFinishSetupAds_desc;
 
         public override bool CheckFeature()
         {

@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -8,7 +8,7 @@ namespace Settings.Privacy
 {
     public class Telemetry : SettingsBase
     {
-        public Telemetry( Logger logger) : base(logger)
+        public Telemetry(Logger logger) : base(logger)
         {
         }
 
@@ -16,9 +16,9 @@ namespace Settings.Privacy
         private const string diagTrack = @"HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\DiagTrack";
         private const string dmwappushservice = @"HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\dmwappushservice";
 
-        public override string ID() => "Turn off Telemetry data collection";
+        public override string ID() => Strings._privacyTelemetry;
 
-        public override string Info() => "Unfortunately, Microsoft does not allow Windows 11 or Windows 10 Home edition users to completely turn off the collection of telemetry data. However, those users can still limit some optional data collection through System settings.";
+        public override string Info() => Strings._privacyTelemetry_desc;
 
         public override bool CheckFeature()
         {
@@ -35,7 +35,6 @@ namespace Settings.Privacy
         {
             try
             {
-     
                 Registry.SetValue(dataCollection, "AllowTelemetry", 1, RegistryValueKind.DWord);
                 Registry.SetValue(dataCollection, "MaxTelemetryAllowed", 1, RegistryValueKind.DWord);
                 Registry.SetValue(diagTrack, "Start", 2, RegistryValueKind.DWord);

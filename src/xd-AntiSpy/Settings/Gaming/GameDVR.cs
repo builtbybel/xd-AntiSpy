@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -17,9 +17,9 @@ namespace Settings.Gaming
         private const string keyName2 = @"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR";
 
         
-        public override string ID() => "Turn off GameDVR";
+        public override string ID() => Strings._gamingGameDVR;
 
-        public override string Info() => "This feature will disable GameDVR.";
+        public override string Info() => Strings._gamingGameDVR_desc;
 
         public override bool CheckFeature()
         {

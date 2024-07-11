@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -15,9 +15,9 @@ namespace Settings.Edge
         private const string keyName = @"HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Edge";
         private const int desiredValue = 0;
 
-        public override string ID() => "Disable Shopping assistant in Microsoft Edge";
+        public override string ID() => Strings._edgeEdgeShoppingAssistant;
 
-        public override string Info() => "Shopping in Microsoft Edge feature will automatically find you the best prices and coupons from across the web as you shop";
+        public override string Info() => Strings._edgeEdgeShoppingAssistant_desc;
 
         public override bool CheckFeature()
         {

@@ -1,8 +1,8 @@
-﻿using xdAntiSpy;
-
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
 using System.Drawing;
+using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.Ads
 {
@@ -17,12 +17,12 @@ namespace Settings.Ads
 
         public override string ID()
         {
-            return "Disable File Explorer Ads";
+            return Strings._adsFileExplorerAds;
         }
 
         public override string Info()
         {
-            return "This feature will disable ads in File Explorer.";
+            return Strings._adsFileExplorerAds_desc;
         }
 
         public override bool CheckFeature()
@@ -49,7 +49,7 @@ namespace Settings.Ads
         {
             try
             {
-                Registry.SetValue(keyName, "ShowSyncProviderNotifications",1, RegistryValueKind.DWord);
+                Registry.SetValue(keyName, "ShowSyncProviderNotifications", 1, RegistryValueKind.DWord);
                 return true;
             }
             catch (Exception ex)

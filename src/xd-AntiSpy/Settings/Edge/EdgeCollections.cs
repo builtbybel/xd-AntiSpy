@@ -1,7 +1,7 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Drawing;
-
+using xdAntiSpy.Locales;
 using xdAntiSpy;
 
 namespace Settings.Edge
@@ -15,9 +15,9 @@ namespace Settings.Edge
         private const string keyName = @"HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Edge";
         private const int desiredValue = 0;
 
-        public override string ID() => "Disable Access to Collections feature";
+        public override string ID() => Strings._edgeEdgeCollections;
 
-        public override string Info() => "Enables users to access the Collections feature, allowing them to gather, organize, share, and export content more efficiently with Office integration";
+        public override string Info() => Strings._edgeEdgeCollections_desc;
 
         public override bool CheckFeature()
         {

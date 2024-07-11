@@ -2,6 +2,7 @@
 using System;
 using System.Drawing;
 using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.Taskbar
 {
@@ -16,12 +17,12 @@ namespace Settings.Taskbar
 
         public override string ID()
         {
-            return "Disable Bing Cloud content search";
+            return Strings._taskbarBingSearch;
         }
 
         public override string Info()
         {
-            return "This feature will disable Bing Cloud content search.";
+            return Strings._taskbarBingSearch_desc;
         }
 
         public override bool CheckFeature()

@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -17,12 +17,12 @@ namespace Settings.Taskbar
 
         public override string ID()
         {
-            return "Align Start button to left";
+            return Strings._taskbarStartButtonAlignment;
         }
 
         public override string Info()
         {
-            return "This feature will align the Start button to the left.";
+            return Strings._taskbarStartButtonAlignment_desc;
         }
 
         public override bool CheckFeature()

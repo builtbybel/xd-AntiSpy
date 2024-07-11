@@ -1,5 +1,5 @@
 ﻿using xdAntiSpy;
-
+using xdAntiSpy.Locales;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -15,9 +15,9 @@ namespace Settings.Edge
         private const string keyName = @"HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Edge";
         private const int desiredValue = 0;
 
-        public override string ID() => "Disable Microsoft Edge as default browser";
+        public override string ID() => Strings._edgeDefautBrowserSetting;
 
-        public override string Info() => "Force Edge to stop asking to change default browser";
+        public override string Info() => Strings._edgeDefautBrowserSetting_desc;
 
         public override bool CheckFeature()
         {

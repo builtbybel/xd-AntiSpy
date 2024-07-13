@@ -92,8 +92,9 @@
             // btnChooseDB
             // 
             this.btnChooseDB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnChooseDB.AutoEllipsis = true;
             this.btnChooseDB.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
-            this.btnChooseDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChooseDB.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnChooseDB.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChooseDB.Location = new System.Drawing.Point(301, 30);
             this.btnChooseDB.Name = "btnChooseDB";

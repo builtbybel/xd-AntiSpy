@@ -58,10 +58,9 @@ namespace xdAntiSpy
                 // Limit length of the status message to 80 chars
                 string statusMessage = message.Length > 80 ? message.Substring(0, 80) + "..." : message;
 
-                statusMenuItem.Text = $"{statusMessage}"; // Last log: 
+                statusMenuItem.Text = $"{statusMessage}"; // Last log:
                 statusMenuItem.ForeColor = color;
             }
         }
-
     }
 }

@@ -1,8 +1,5 @@
-﻿using xdAntiSpy;
-
-namespace xdAntiSpy
+﻿namespace xdAntiSpy
 {
-    // CoTweaker Base class
     public abstract class SettingsBase
     {
         protected readonly Logger logger;

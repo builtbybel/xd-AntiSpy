@@ -150,7 +150,7 @@
     <value>Auf X teilen...</value>
   </data>
   <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
-    <value>Werkzeuge</value>
+    <value>Spezial</value>
     <comment>Werkzeugmenü</comment>
   </data>
   <data name="menu_updateToolStripMenuItem" xml:space="preserve">
@@ -464,10 +464,10 @@
     <value>Letzte Prüfungen in Arbeit...</value>
   </data>
   <data name="_logFinalCheckMessage" xml:space="preserve">
-    <value>Vielen Dank, dass Sie xd-AntiSpy verwenden! Wenn Sie dieses Tool nützlich finden, denken Sie über eine Spende nach, um die Entwicklung zu unterstützen: https://paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG</value>
+    <value>Vielen Dank, dass du xd-AntiSpy nutzt! Wenn dir das Tool gefällt, denk bitte über eine Spende zur Unterstützung der Entwicklung nach: https://paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG</value>
   </data>
   <data name="_logFinalCheckMessage2" xml:space="preserve">
-    <value>Verfolgen Sie das Projekt auf GitHub und tragen Sie dazu bei: https://github.com/builtbybel/xd-AntiSpy</value>
+    <value>Verfolge das Projekt auf GitHub und trage dazu bei: https://github.com/builtbybel/xd-AntiSpy</value>
   </data>
   <data name="_logFinalCheck_complete" xml:space="preserve">
     <value>Alle Prüfungen abgeschlossen.</value>
@@ -521,7 +521,7 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
     <value>Prüfung abgeschlossen.</value>
   </data>
   <data name="formToolDebloater_statusChecking" xml:space="preserve">
-    <value>Prüfe...</value>
+    <value>Prüfe</value>
   </data>
   <data name="formToolDebloater_statusRemoved" xml:space="preserve">
     <value>entfernt.</value>

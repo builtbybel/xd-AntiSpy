@@ -1,7 +1,7 @@
 ﻿using Microsoft.Win32;
-using System.Windows.Forms;
 using System;
 using System.Diagnostics;
+using System.Windows.Forms;
 
 namespace xdAntiSpy
 {

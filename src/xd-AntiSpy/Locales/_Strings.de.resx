@@ -118,346 +118,346 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="menu_aboutToolStripMenuItem" xml:space="preserve">
-    <value>About XDAntiSpy...</value>
+    <value>Über XDAntiSpy...</value>
   </data>
   <data name="menu_copySettingsToolStripMenuItem" xml:space="preserve">
-    <value>Copy to clipboard</value>
+    <value>In Zwischenablage kopieren</value>
   </data>
   <data name="menu_exportCurrentSettingsStripMenuItem" xml:space="preserve">
-    <value>Export current</value>
+    <value>Exportieren</value>
   </data>
   <data name="menu_gitHubSiteToolStripMenuItem" xml:space="preserve">
-    <value>Visit GitHub site</value>
+    <value>xd-AntiSpy-GitHub Seite</value>
   </data>
   <data name="menu_helpToolStripMenuItem" xml:space="preserve">
     <value>?</value>
     <comment>Help Menu</comment>
   </data>
   <data name="menu_importSettingsToolStripMenuItem" xml:space="preserve">
-    <value>Import</value>
+    <value>Importieren</value>
   </data>
   <data name="menu_openPluginsDirectoryToolStripMenuItem" xml:space="preserve">
-    <value>Open plugins directory</value>
+    <value>Plugins Ordner öffnen</value>
   </data>
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
-    <value>Profiles</value>
+    <value>Profile</value>
     <comment>Profiles Menu</comment>
   </data>
   <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
-    <value>Refresh</value>
+    <value>Aktualisieren</value>
   </data>
   <data name="menu_searchForCrappyAppsToolStripMenuItem" xml:space="preserve">
-    <value>Search for crappy apps</value>
+    <value>Suche nach unnützen apps...</value>
   </data>
   <data name="menu_shareSettingsOnXTwitterToolStripMenuItem" xml:space="preserve">
-    <value>Share on X...</value>
+    <value>Auf X teilen...</value>
   </data>
   <data name="menu_symbolrefToolStripMenuItem" xml:space="preserve">
-    <value>Symbol Reference...</value>
+    <value>Symbolreferenz...</value>
   </data>
   <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
-    <value>Tools</value>
+    <value>Spezial</value>
     <comment>Tools Menu</comment>
   </data>
   <data name="menu_updateToolStripMenuItem" xml:space="preserve">
     <value>Update...</value>
   </data>
   <data name="ctl_btnApply" xml:space="preserve">
-    <value>Apply Setting</value>
+    <value>Einstellungen übernehmen</value>
   </data>
   <data name="_adsFinishSetupAds_desc" xml:space="preserve">
-    <value>This feature will disable the "Lets finish setting up your device" and other advertising.</value>
+    <value>Diese Funktion wird Werbung im Datei-Explorer deaktivieren.</value>
   </data>
   <data name="_adsLockScreenAds_desc" xml:space="preserve">
-    <value>This feature will disable tips and ads on the lock screen.</value>
+    <value>Diese Funktion wird Tipps und Werbung auf dem Sperrbildschirm deaktivieren.</value>
   </data>
   <data name="_adsPersonalizedAds_desc" xml:space="preserve">
-    <value>This feature will disable personalized ads.</value>
+    <value>Diese Funktion wird personalisierte Werbung deaktivieren.</value>
   </data>
   <data name="_adsSettingAds_desc" xml:space="preserve">
-    <value>This feature will disable ads in settings.</value>
+    <value>Diese Funktion wird Werbung in den Einstellungen deaktivieren.</value>
   </data>
   <data name="_adsStartmenuAds_desc" xml:space="preserve">
-    <value>This feature will disable ads in the start menu.</value>
+    <value>Diese Funktion wird Werbung im Startmenü deaktivieren.</value>
   </data>
   <data name="_adsTailoredExperiences_desc" xml:space="preserve">
-    <value>Tailored Experiences allows Microsoft to get information from you to deliver personalized tips, ads, and recommendations. Many people would call this telemetry, or even spying.</value>
+    <value>Individuelle Erlebnisse ermöglichen Microsoft, Informationen von Ihnen zu sammeln, um personalisierte Tipps, Werbung und Empfehlungen zu liefern. Viele Leute würden dies als Telemetrie oder sogar Spionage bezeichnen.</value>
   </data>
   <data name="_adsFileExplorerAds_desc" xml:space="preserve">
-    <value>This feature will disable ads in File Explorer.</value>
+    <value>Diese Funktion wird Werbung im Datei-Explorer deaktivieren.</value>
   </data>
   <data name="_adsTipsAndSuggestions_desc" xml:space="preserve">
-    <value>This feature will disable general tips and ads.</value>
+    <value>Diese Funktion wird allgemeine Tipps und Werbung deaktivieren.</value>
   </data>
   <data name="_adsWelcomeExperienceAds_desc" xml:space="preserve">
-    <value>This feature will disable ads in the welcome experience.</value>
+    <value>Diese Funktion wird Werbung im Willkommensbildschirm deaktivieren.</value>
   </data>
   <data name="_aiRecallCurrentUser_desc" xml:space="preserve">
-    <value>This feature will disable Recall from saving snapshots of your screen.</value>
+    <value>Diese Funktion wird Recall daran hindern, Schnappschüsse Ihres Bildschirms zu speichern.</value>
   </data>
   <data name="_edgeBrowserSignin_desc" xml:space="preserve">
-    <value>This setting controls whether a user can sign into Microsoft Edge with an account to use services such as sync and single sign on</value>
+    <value>Diese Einstellung steuert, ob ein Benutzer sich mit einem Konto bei Microsoft Edge anmelden kann, um Dienste wie Synchronisierung und Single Sign-On zu nutzen.</value>
   </data>
   <data name="_edgeDefaultTopSites_desc" xml:space="preserve">
-    <value>Hide default top sites from the new tab page in Microsoft Edge</value>
+    <value>Standard-Top-Websites von der neuen Tab-Seite in Microsoft Edge ausblenden</value>
   </data>
   <data name="_edgeDefautBrowserSetting_desc" xml:space="preserve">
-    <value>Force Edge to stop asking to change default browser.</value>
+    <value>Erzwingt, dass Edge nicht fragt, den Standardbrowser zu ändern.</value>
   </data>
   <data name="_edgeEdgeCollections_desc" xml:space="preserve">
-    <value>Enables users to access the Collections feature, allowing them to gather, organize, share, and export content more efficiently with Office integration.</value>
+    <value>Ermöglicht Benutzern den Zugriff auf die Collections-Funktion, die ihnen das Sammeln, Organisieren, Teilen und Exportieren von Inhalten effizienter mit Office-Integration ermöglicht.</value>
   </data>
   <data name="_edgeEdgeShoppingAssistant_desc" xml:space="preserve">
-    <value>Shopping in Microsoft Edge feature will automatically find you the best prices and coupons from across the web as you shop.</value>
+    <value>Die Einkaufsfunktion in Microsoft Edge wird automatisch die besten Preise und Gutscheine aus dem Web finden, während Sie einkaufen.</value>
   </data>
   <data name="_edgeFirstRunExperience_desc" xml:space="preserve">
-    <value>Hide home screen and 'Getting Started' on initial launch (from version 80 onwards).</value>
+    <value>Startbildschirm und 'Erste Schritte' beim ersten Start ausblenden (ab Version 80).</value>
   </data>
   <data name="_edgeGamerMode_desc" xml:space="preserve">
-    <value>Microsoft Edge Gamer Mode allows gamers to personalize their browser with gaming themes and gives them the option of enabling Efficiency Mode for PC gaming, the Gaming feed on new tabs, sidebar apps for gamers, and more.</value>
+    <value>Der Microsoft Edge Gamer-Modus ermöglicht es Gamern, ihren Browser mit Gaming-Themen zu personalisieren und bietet die Möglichkeit, den Effizienzmodus für PC-Spiele zu aktivieren, den Gaming-Feed auf neuen Registerkarten, Sidebar-Apps für Gamer und mehr.</value>
   </data>
   <data name="_edgeHubsSidebar_desc" xml:space="preserve">
-    <value>This feature will disable Copilot in Microsoft Edge.</value>
+    <value>Diese Funktion wird den Copilot in Microsoft Edge deaktivieren.</value>
   </data>
   <data name="_edgeImportOnEachLaunch_desc" xml:space="preserve">
-    <value>Allow import of data from other browsers on each Microsoft Edge launch.</value>
+    <value>Ermöglicht den Import von Daten aus anderen Browsern bei jedem Start von Microsoft Edge.</value>
   </data>
   <data name="_edgeStartupBoost_desc" xml:space="preserve">
-    <value>Enables Microsoft Edge processes to initialize at operating system startup and restart in the background after the last browser window has been closed.</value>
+    <value>Ermöglicht, dass Microsoft Edge-Prozesse beim Start des Betriebssystems initialisiert werden und im Hintergrund neu gestartet werden, nachdem das letzte Browserfenster geschlossen wurde.</value>
   </data>
   <data name="_edgeTabPageQuickLinks_desc" xml:space="preserve">
-    <value>By default, when you open a new tab, you see a Bing search bar, Bing image of the day set as the page background. For supported websites, Quick Links on the New Tab page can display recent updates right in the tile.</value>
+    <value>Standardmäßig sehen Sie beim Öffnen eines neuen Tabs eine Bing-Suchleiste, das Bing-Tagesbild als Seitenhintergrund. Für unterstützte Websites können auf der Neuen Registerkartenseite Quick Links die neuesten Updates direkt in der Kachel anzeigen.</value>
   </data>
   <data name="_edgeUserFeedback_desc" xml:space="preserve">
-    <value>Allow the submission of feedback, suggestions, or customer surveys, as well as reporting issues with the browser.</value>
+    <value>Erlaubt das Einsenden von Feedback, Vorschlägen oder Kundenumfragen sowie das Melden von Problemen mit dem Browser.</value>
   </data>
   <data name="_adsFileExplorerAds" xml:space="preserve">
-    <value>Disable File Explorer Ads</value>
+    <value>Werbung im Datei-Explorer deaktivieren</value>
   </data>
   <data name="_adsFinishSetupAds" xml:space="preserve">
-    <value>Disable Finish Setup Ads</value>
+    <value>Finish-Setup-Werbung deaktivieren</value>
   </data>
   <data name="_adsLockScreenAds" xml:space="preserve">
-    <value>Disable Lock Screen Tips and Ads</value>
+    <value>Sperrbildschirm-Tipps und Werbung deaktivieren</value>
   </data>
   <data name="_adsPersonalizedAds" xml:space="preserve">
-    <value>Disable Personalized Ads</value>
+    <value>Personalisierte Werbung deaktivieren</value>
   </data>
   <data name="_adsSettingAds" xml:space="preserve">
-    <value>Disable Settings Ads</value>
+    <value>Werbung in den Einstellungen deaktivieren</value>
   </data>
   <data name="_adsStartmenuAds" xml:space="preserve">
-    <value>Disable Start menu Ads</value>
+    <value>Werbung im Startmenü deaktivieren</value>
   </data>
   <data name="_adsTailoredExperiences" xml:space="preserve">
-    <value>Disable Tailored experiences</value>
+    <value>Individuelle Erlebnisse deaktivieren</value>
   </data>
   <data name="_adsTipsAndSuggestions" xml:space="preserve">
-    <value>Disable General Tips and Ads</value>
+    <value>Allgemeine Tipps und Werbung deaktivieren</value>
   </data>
   <data name="_adsWelcomeExperienceAds" xml:space="preserve">
-    <value>Disable Welcome Experience Ads</value>
+    <value>Werbung im Willkommensbildschirm deaktivieren</value>
   </data>
   <data name="_aiCopilotTaskbar" xml:space="preserve">
-    <value>Don't Show Copilot in Taskbar</value>
+    <value>Copilot in Taskleiste nicht anzeigen</value>
   </data>
   <data name="_aiRecallCurrentUser" xml:space="preserve">
-    <value>Dont' Allow Windows to save snapshots of your screen</value>
+    <value>Windows nicht erlauben, Schnappschüsse Ihres Bildschirms zu speichern</value>
   </data>
   <data name="_aiRecallLocalMachine" xml:space="preserve">
-    <value>Don't Allow system-wide snapshots</value>
+    <value>Systemweite Schnappschüsse nicht erlauben</value>
   </data>
   <data name="_edgeBrowserSignin" xml:space="preserve">
-    <value>Disable Browser sign in and sync services</value>
+    <value>Browser-Anmeldung und Synchronisierungsdienste deaktivieren</value>
   </data>
   <data name="_edgeDefaultTopSites" xml:space="preserve">
-    <value>Don't Show Sponsored links in new tab page</value>
+    <value>Gesponserte Links auf neuer Tab-Seite nicht anzeigen</value>
   </data>
   <data name="_edgeDefautBrowserSetting" xml:space="preserve">
-    <value>Disable Microsoft Edge as default browser</value>
+    <value>Microsoft Edge als Standardbrowser deaktivieren</value>
   </data>
   <data name="_edgeEdgeCollections" xml:space="preserve">
-    <value>Disable Access to Collections feature</value>
+    <value>Zugriff auf Collections-Funktion deaktivieren</value>
   </data>
   <data name="_edgeEdgeShoppingAssistant" xml:space="preserve">
-    <value>Disable Shopping assistant in Microsoft Edge</value>
+    <value>Shopping-Assistent in Microsoft Edge deaktivieren</value>
   </data>
   <data name="_edgeFirstRunExperience" xml:space="preserve">
-    <value>Don't Show First Run Experience</value>
+    <value>Erste Erfahrung beim Start nicht anzeigen</value>
   </data>
   <data name="_edgeGamerMode" xml:space="preserve">
-    <value>Disable Gamer Mode</value>
+    <value>Gamer-Modus deaktivieren</value>
   </data>
   <data name="_edgeHubsSidebar" xml:space="preserve">
-    <value>Disable Copilot Symbol in Edge</value>
+    <value>Copilot-Symbol in Edge deaktivieren</value>
   </data>
   <data name="_edgeImportOnEachLaunch" xml:space="preserve">
-    <value>Don't Allow to Import of data from other browsers on each launch</value>
+    <value>Import von Daten aus anderen Browsern bei jedem Start nicht erlauben</value>
   </data>
   <data name="_edgeStartupBoost" xml:space="preserve">
-    <value>Disable Start Boost</value>
+    <value>Start Boost deaktivieren</value>
   </data>
   <data name="_edgeTabPageQuickLinks" xml:space="preserve">
-    <value>Don't Show Quick links in new tab page</value>
+    <value>Quick Links auf neuer Tab-Seite nicht anzeigen</value>
   </data>
   <data name="_edgeUserFeedback" xml:space="preserve">
-    <value>Don't Submit user feedback option</value>
+    <value>Feedback-Option nicht einsenden</value>
   </data>
   <data name="_aiCopilotTaskbar_desc" xml:space="preserve">
-    <value>This feature will disable Copilot in Taskbar.</value>
+    <value>Diese Funktion wird den Copilot in der Taskleiste deaktivieren.</value>
   </data>
   <data name="_gamingGameDVR" xml:space="preserve">
-    <value>Turn off GameDVR</value>
+    <value>GameDVR ausschalten</value>
   </data>
   <data name="_gamingGameDVR_desc" xml:space="preserve">
-    <value>This feature will disable GameDVR.</value>
+    <value>Diese Funktion wird GameDVR deaktivieren.</value>
   </data>
   <data name="_gamingPowerThrottling" xml:space="preserve">
-    <value>Turn off PowerThrottling</value>
+    <value>PowerThrottling ausschalten</value>
   </data>
   <data name="_gamingPowerThrottling_desc" xml:space="preserve">
-    <value>This feature will disable PowerThrottling.</value>
+    <value>Diese Funktion wird PowerThrottling deaktivieren.</value>
   </data>
   <data name="_gamingVisualFX" xml:space="preserve">
-    <value>Disable VisualFX</value>
+    <value>VisualFX deaktivieren</value>
   </data>
   <data name="_gamingVisualFX_desc" xml:space="preserve">
-    <value>This feature will disable VisualFX.</value>
+    <value>Diese Funktion wird VisualFX deaktivieren.</value>
   </data>
   <data name="_privacyBackgroundApps" xml:space="preserve">
-    <value>Disable Running apps in background</value>
+    <value>Hintergrund-Apps deaktivieren</value>
   </data>
   <data name="_privacyBackgroundApps_desc" xml:space="preserve">
-    <value>This feature will disable running apps in background.</value>
+    <value>Diese Funktion wird das Ausführen von Apps im Hintergrund deaktivieren.</value>
   </data>
   <data name="_privacyPrivacyExperience_desc" xml:space="preserve">
-    <value>This feature will disable Privacy Settings Experience at sign-in.</value>
+    <value>Diese Funktion wird die Datenschutzeinstellungen-Erfahrung beim Anmelden deaktivieren.</value>
   </data>
   <data name="_privacyFindMyDevice" xml:space="preserve">
-    <value>Disable Find my device</value>
+    <value>„Mein Gerät finden“ deaktivieren</value>
   </data>
   <data name="_privacyFindMyDevice_desc" xml:space="preserve">
-    <value>This feature will disable find my device.</value>
+    <value>Diese Funktion wird „Mein Gerät finden“ deaktivieren.</value>
   </data>
   <data name="_privacyPrivacyExperience" xml:space="preserve">
-    <value>Disable Privacy Settings Experience at sign-in</value>
+    <value>Datenschutzeinstellungen-Erfahrung beim Anmelden deaktivieren</value>
   </data>
   <data name="_privacyTelemetry" xml:space="preserve">
-    <value>Turn off Telemetry data collection</value>
+    <value>Telemetriedaten-Erfassung ausschalten</value>
   </data>
   <data name="_privacyTelemetry_desc" xml:space="preserve">
-    <value>Unfortunately, Microsoft does not allow Windows 11 or Windows 10 Home edition users to completely turn off the collection of telemetry data. However, those users can still limit some optional data collection through System settings.</value>
+    <value>Leider erlaubt Microsoft den Benutzern der Windows 11- oder Windows 10-Home-Edition nicht, die Erfassung von Telemetriedaten vollständig zu deaktivieren. Diese Benutzer können jedoch einige optionale Datenerfassungen über die Systemeinstellungen einschränken.</value>
   </data>
   <data name="_systemFaxPrinter" xml:space="preserve">
-    <value>Uninstall Fax Printer</value>
+    <value>Faxdrucker deinstallieren</value>
   </data>
   <data name="_systemFullContextMenus" xml:space="preserve">
-    <value>Show Full context menus in Windows 11</value>
+    <value>Vollständige Kontextmenüs in Windows 11 anzeigen</value>
   </data>
   <data name="_systemFullContextMenus_desc" xml:space="preserve">
-    <value>This feature will enable full context menus in Windows 11.</value>
+    <value>Diese Funktion wird vollständige Kontextmenüs in Windows 11 aktivieren.</value>
   </data>
   <data name="_systemLockScreen" xml:space="preserve">
-    <value>Don't use personalized lock screen</value>
+    <value>Personalisierter Sperrbildschirm deaktivieren</value>
   </data>
   <data name="_systemLockScreen_desc" xml:space="preserve">
-    <value>This feature will disable the personalized lock screen.</value>
+    <value>Diese Funktion wird den personalisierten Sperrbildschirm deaktivieren.</value>
   </data>
   <data name="_systemVerboseMessages" xml:space="preserve">
-    <value>Display highly detailed status messages</value>
+    <value>Detaillierte Statusmeldungen anzeigen</value>
   </data>
   <data name="_systemVerboseMessages_desc" xml:space="preserve">
-    <value>This feature will display highly detailed status messages.</value>
+    <value>Diese Funktion wird detaillierte Statusmeldungen anzeigen.</value>
   </data>
   <data name="_systemXPSWriter" xml:space="preserve">
-    <value>Uninstall XPS Writer</value>
+    <value>XPS Writer deinstallieren</value>
   </data>
   <data name="_systemXPSWriter_desc" xml:space="preserve">
-    <value>This feature will uninstall the XPS Documents Writer.</value>
+    <value>Diese Funktion wird den XPS-Dokumenten-Writer deinstallieren.</value>
   </data>
   <data name="_taskbarBingSearch" xml:space="preserve">
-    <value>Disable Bing Cloud content search</value>
+    <value>Bing-Cloud-Inhaltsuche deaktivieren</value>
   </data>
   <data name="_taskbarBingSearch_desc" xml:space="preserve">
-    <value>This feature will disable Bing Cloud content search.</value>
+    <value>Diese Funktion wird die Bing-Cloud-Inhaltsuche deaktivieren.</value>
   </data>
   <data name="_taskbarMostUsedApps" xml:space="preserve">
-    <value>Hide Most used apps in start menu</value>
+    <value>Meistverwendete Apps im Startmenü ausblenden</value>
   </data>
   <data name="_taskbarMostUsedApps_desc" xml:space="preserve">
-    <value>This feature will hide the most used apps in start menu.</value>
+    <value>Diese Funktion wird die meistverwendeten Apps im Startmenü ausblenden.</value>
   </data>
   <data name="_taskbarSearchbox" xml:space="preserve">
-    <value>Hide Searchbox on Taskbar</value>
+    <value>Suchfeld auf der Taskleiste ausblenden</value>
   </data>
   <data name="_taskbarSearchbox_desc" xml:space="preserve">
-    <value>This feature will remove Searchbox from the Taskbar.</value>
+    <value>Diese Funktion wird das Suchfeld von der Taskleiste entfernen.</value>
   </data>
   <data name="_taskbarStartButtonAlignment" xml:space="preserve">
-    <value>Align Start button to left</value>
+    <value>Startschaltfläche nach links ausrichten</value>
   </data>
   <data name="_taskbarStartButtonAlignment_desc" xml:space="preserve">
-    <value>This feature will align the Start button to the left.</value>
+    <value>Diese Funktion wird die Startschaltfläche nach links ausrichten.</value>
   </data>
   <data name="_taskbarStartmenuLayout" xml:space="preserve">
-    <value>Pin more Apps on Start menu</value>
+    <value>Mehr Apps im Startmenü anheften</value>
   </data>
   <data name="_taskbarStartmenuLayout_desc" xml:space="preserve">
-    <value>This feature will change the start layout to show more pins (and hide recommendations) in the Start menu. If disabled, more recommendations will be shown instead of pins.</value>
+    <value>Diese Funktion wird das Startlayout ändern, um mehr Pins (und weniger Empfehlungen) im Startmenü anzuzeigen. Wenn deaktiviert, werden mehr Empfehlungen statt Pins angezeigt.</value>
   </data>
   <data name="_taskbarTaskbarChat" xml:space="preserve">
-    <value>Hide Chat icon on taskbar</value>
+    <value>Chat-Symbol auf der Taskleiste ausblenden</value>
   </data>
   <data name="_taskbarTaskbarChat_desc" xml:space="preserve">
-    <value>By default, the chat feature allows you to access Microsoft Teams easily. But, if you don’t use Teams or just don’t want the icon on your taskbar, you can hide it.</value>
+    <value>Standardmäßig ermöglicht die Chat-Funktion den einfachen Zugriff auf Microsoft Teams. Wenn Sie Teams jedoch nicht verwenden oder das Symbol einfach nicht auf Ihrer Taskleiste haben möchten, können Sie es ausblenden.</value>
   </data>
   <data name="_taskbarTaskView" xml:space="preserve">
-    <value>Hide Task view button on taskbar</value>
+    <value>Task-Ansicht-Schaltfläche auf der Taskleiste ausblenden</value>
   </data>
   <data name="_taskbarTaskView_desc" xml:space="preserve">
-    <value>This feature will disable the task view button on the taskbar.</value>
+    <value>Diese Funktion wird die Task-Ansicht-Schaltfläche auf der Taskleiste deaktivieren.</value>
   </data>
   <data name="_taskbarWidgets" xml:space="preserve">
-    <value>Hide Widgets from taskbar</value>
+    <value>Widgets von der Taskleiste entfernen</value>
   </data>
   <data name="_taskbarWidgets_desc" xml:space="preserve">
-    <value>This feature will remove Widgets from the Taskbar.</value>
+    <value>Diese Funktion wird Widgets von der Taskleiste entfernen.</value>
   </data>
   <data name="_systemFaxPrinter_desc" xml:space="preserve">
-    <value>This feature will uninstall the Fax Printer.</value>
+    <value>Diese Funktion wird den Faxdrucker deinstallieren.</value>
   </data>
   <data name="menuDoContextItem" xml:space="preserve">
-    <value>Set Setting Manually</value>
+    <value>Einstellung jetzt setzen</value>
   </data>
   <data name="menuPinContextItem" xml:space="preserve">
-    <value>Pin</value>
+    <value>Anpinnen</value>
   </data>
   <data name="menuUndoContextItem" xml:space="preserve">
-    <value>Reset Setting</value>
+    <value>Einstellung zurücksetzen</value>
   </data>
   <data name="statusApplied" xml:space="preserve">
-    <value>Applied:</value>
+    <value>Angewendet:</value>
   </data>
   <data name="statusDisabled" xml:space="preserve">
-    <value>Disabled</value>
+    <value>Deaktiviert</value>
   </data>
   <data name="statusEnabled" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Aktiviert</value>
   </data>
   <data name="statusIsDisabled" xml:space="preserve">
-    <value>has been disabled.</value>
+    <value>wurde deaktiviert.</value>
   </data>
   <data name="statusIsEnabled" xml:space="preserve">
-    <value>has been enabled.</value>
+    <value>wurde aktiviert.</value>
   </data>
   <data name="_aiRecallLocalMachine_desc" xml:space="preserve">
-    <value>This feature will disable system-wide snapshots.</value>
+    <value>Diese Funktion wird systemweite Schnappschüsse von Recall deaktivieren.</value>
   </data>
   <data name="_catAdblock" xml:space="preserve">
-    <value>Adblock</value>
+    <value>Werbeblocker</value>
   </data>
   <data name="_catAI" xml:space="preserve">
-    <value>AI/Copilot and Recall</value>
+    <value>KI/Copilot und Recall</value>
   </data>
   <data name="_catGaming" xml:space="preserve">
     <value>Gaming</value>
@@ -466,105 +466,106 @@
     <value>Microsoft Edge</value>
   </data>
   <data name="_catPrivacy" xml:space="preserve">
-    <value>Privacy</value>
+    <value>Datenschutz</value>
   </data>
   <data name="_catSystem" xml:space="preserve">
     <value>System</value>
   </data>
   <data name="_catTaskbar" xml:space="preserve">
-    <value>Taskbar</value>
+    <value>Taskleiste</value>
   </data>
   <data name="_logFinalCheck" xml:space="preserve">
-    <value>Final checks in progress...</value>
+    <value>Endkontrollen im Gange...</value>
   </data>
   <data name="_logFinalCheckMessage" xml:space="preserve">
-    <value>Thank you for using xd-AntiSpy! If you find this tool useful, consider donating to support its development: https://paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG</value>
+    <value>Danke, dass du xd-AntiSpy nutzt! Nach fast 10 Jahren ist die App zurück, smarter als je zuvor. Deine Spende unterstützt die Weiterentwicklung: https://paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG</value>
   </data>
   <data name="_logFinalCheckMessage2" xml:space="preserve">
-    <value>Follow and contribute to the project on GitHub: https://github.com/builtbybel/xd-AntiSpy</value>
+    <value>Folge und unterstütze das Projekt auf GitHub: https://github.com/builtbybel/xd-AntiSpy</value>
   </data>
   <data name="_logFinalCheck_complete" xml:space="preserve">
-    <value>All checks completed.</value>
+    <value>Alle Prüfungen abgeschlossen.</value>
   </data>
   <data name="_logNativeFeatureCheck" xml:space="preserve">
-    <value>Starting native feature checks...</value>
+    <value>Nativitätsprüfungen starten...</value>
   </data>
   <data name="_logNativeFeatureCheck_complete" xml:space="preserve">
-    <value>Feature checks completed.</value>
+    <value>Nativitätsprüfungen abgeschlossen.</value>
   </data>
   <data name="_logPluginsFeatureCheck" xml:space="preserve">
-    <value>Starting plugin checks...</value>
+    <value>Plugin-Prüfungen starten...</value>
   </data>
   <data name="_logPluginsFeatureCheck_complete" xml:space="preserve">
-    <value>Plugin checks completed.</value>
+    <value>Plugin-Prüfungen abgeschlossen.</value>
   </data>
   <data name="formAbout_lblAbout" xml:space="preserve">
-    <value>(c)2024 A Belim app creation
-While there's no guarantee xD-Antispy will work perfectly on your system, I've tested it extensively.  Remember, it's a one-person project and I'm just human.
+    <value>(c)2024 Eine App-Kreation von Belim
 
-This tool is open source and will always be free.  I'm committed to keeping it updated and improving.
+Während es keine Garantie gibt, dass xD-Antispy perfekt auf deinem System funktioniert, habe ich es ausgiebig getestet. Denk dran, es ist ein Ein-Personen-Projekt und ich bin nur ein Mensch.
 
-xD-Antispy is a modern fork of the classic XP-Antispy for Windows 11, evolving to meet today's privacy challenges. 
+Dieses Tool ist Open Source und wird immer kostenlos sein. Ich bin bestrebt, es aktuell zu halten und zu verbessern.
 
-xD-Antispy – because privacy settings should make you smile!
+xD-Antispy ist ein moderner Fork des klassischen XP-Antispy für Windows 11, angepasst an die heutigen Datenschutzherausforderungen.
+
+xD-Antispy – weil Datenschutzeinstellungen dich zum Lächeln bringen sollten!
 
 -Belim-</value>
   </data>
   <data name="formAbout_linkDonation" xml:space="preserve">
-    <value>Your support helps keep this app running and growing—thank you! — Belim</value>
+    <value>Deine Unterstützung hält die App am Laufen – danke! — Belim</value>
   </data>
   <data name="formToolDebloater_btnBack" xml:space="preserve">
-    <value>&lt; Back</value>
+    <value>&lt; Zurück</value>
   </data>
   <data name="formToolDebloater_btnChooseDB" xml:space="preserve">
-    <value>Select custom db...</value>
+    <value>DB auswählen...</value>
   </data>
   <data name="formToolDebloater_btnRemoveSelected" xml:space="preserve">
-    <value>Remove selected apps</value>
+    <value>Ausgewählte Apps entfernen</value>
   </data>
   <data name="formToolDebloater_DeselectAll" xml:space="preserve">
-    <value>Deselect All</value>
+    <value>Alle abwählen</value>
   </data>
   <data name="formToolDebloater_errorNoAppsCount" xml:space="preserve">
-    <value>Please select at least one app to remove.</value>
+    <value>Bitte wählen Sie mindestens eine App zum Entfernen aus.</value>
   </data>
   <data name="formToolDebloater_selectAll" xml:space="preserve">
-    <value>Select All</value>
+    <value>Alle auswählen</value>
   </data>
   <data name="formToolDebloater_statusCheckComplete" xml:space="preserve">
-    <value>Check completed.</value>
+    <value>Prüfung abgeschlossen.</value>
   </data>
   <data name="formToolDebloater_statusChecking" xml:space="preserve">
-    <value>Checking</value>
+    <value>Prüfe</value>
   </data>
   <data name="formToolDebloater_statusRemoved" xml:space="preserve">
-    <value>removed.</value>
+    <value>entfernt.</value>
   </data>
   <data name="formToolDebloater_statusRemoving" xml:space="preserve">
-    <value>Removing</value>
+    <value>Entferne</value>
   </data>
   <data name="formToolDebloater_successRemoved" xml:space="preserve">
-    <value>Apps successfully removed.</value>
+    <value>Apps erfolgreich entfernt.</value>
   </data>
   <data name="statusHasBeen" xml:space="preserve">
-    <value>has been</value>
+    <value>wurde</value>
   </data>
   <data name="statusIsCurrently" xml:space="preserve">
-    <value>is currently</value>
+    <value>ist aktuell</value>
   </data>
   <data name="formSymbolRef_checkInfoPlugins" xml:space="preserve">
-    <value>Furthermore, AI-generated and verified plugins have been automatically loaded into the app's plugins folder. These plugins can be seamlessly integrated into the list view or accessed through the tools menu. Explore these enhancements to tailor your experience and optimize functionality effortlessly.</value>
+    <value>Außerdem wurden KI-generierte und verifizierte Plugins automatisch in den Plugin-Ordner der App geladen. Diese Plugins können nahtlos in die Listenansicht integriert oder über das Werkzeugmenü aufgerufen werden. Erkunde diese Erweiterungen, um dein Erlebnis zu personalisieren und die Funktionalität mühelos zu optimieren.</value>
   </data>
   <data name="formSymbolRef_lblActive" xml:space="preserve">
-    <value>Active: When an option is checked and grayed out, it means the setting is active.</value>
+    <value>Aktiv: Wenn eine Option aktiviert und ausgegraut ist, bedeutet das, dass die Einstellung aktiv ist.</value>
   </data>
   <data name="formSymbolRef_lblGreen" xml:space="preserve">
-    <value>Remember, keeping certain settings active can enhance your system's privacy and performance. Adjust these options according to your needs, and enjoy a more secure computing experience!</value>
+    <value>Denk daran, dass das Aktivieren bestimmter Einstellungen die Privatsphäre und Leistung deines Systems verbessern kann. Passe diese Optionen nach deinen Bedürfnissen an und genieße ein sichereres Computererlebnis!</value>
   </data>
   <data name="formSymbolRef_lblInactive" xml:space="preserve">
-    <value>Inactive: If an option is unchecked and the text is in a normal color, the setting is inactive. You can enable it by simply checking the box and pressing the apply button.</value>
+    <value>Inaktiv: Wenn eine Option nicht aktiviert ist und der Text in normaler Farbe angezeigt wird, ist die Einstellung inaktiv. Du kannst sie aktivieren, indem du das Kästchen anklickst und den Anwenden-Button drückst.</value>
   </data>
   <data name="formSymbolRef_lblRed" xml:space="preserve">
-    <value>Additionally, for this app, there are cool and recommended profiles available on various online communities like Reddit and Deskmodder. As the app is new and growing, if you're unsure about which settings to configure, checking out these profiles can provide valuable insights. Explore and discover optimal configurations that suit your preferences, ensuring a personalized and enhanced user experience!</value>
+    <value>Zusätzlich gibt es für diese App coole und empfohlene Profile in verschiedenen Online-Communities wie Reddit und Deskmodder. Da die App neu und wachsend ist, können diese Profile wertvolle Einblicke bieten, wenn du unsicher bist, welche Einstellungen du konfigurieren sollst. Erkunde und entdecke optimale Konfigurationen, die deinen Vorlieben entsprechen und ein personalisiertes und verbessertes Benutzererlebnis gewährleisten!</value>
   </data>
 </root>

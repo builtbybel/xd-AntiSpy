@@ -1,6 +1,6 @@
-﻿using xdAntiSpy;
-using System.Linq;
+﻿using System.Linq;
 using System.Windows.Forms;
+using xdAntiSpy;
 
 namespace Views
 {
@@ -25,9 +25,13 @@ namespace Views
         // Handle the back navigation
         public static void GoBack()
         {
-            var mainForm = Application.OpenForms.OfType<MainForm>().Single();
+            if (INavPage == null)
+                return;
+
             mainForm.pnlForm.Controls.Clear();
-            if (INavPage != null) mainForm.pnlForm.Controls.Add(INavPage);
+            mainForm.pnlForm.Controls.Add(INavPage);
+            mainForm.ActiveControl = INavPage;
+            mainForm.Focus();
         }
     }
 }

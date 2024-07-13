@@ -8,7 +8,7 @@ namespace Settings.System
 {
     internal class XPSWriter : SettingsBase
     {
-        public XPSWriter( Logger logger) : base(logger)
+        public XPSWriter(Logger logger) : base(logger)
         {
         }
 
@@ -16,6 +16,7 @@ namespace Settings.System
         {
             return Strings._systemXPSWriter;
         }
+
 
         public override string Info()
         {
@@ -37,11 +38,10 @@ namespace Settings.System
 
                 if (Status.ToString() == "Enabled")
                 {
-                     logger.Log("XPS Documents Writer is installed.", Color.Green);
+                    logger.Log("XPS Documents Writer is installed.", Color.Green);
                     return false;
                 }
             }
-
 
             return true;
         }

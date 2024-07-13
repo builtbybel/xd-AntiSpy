@@ -88,7 +88,7 @@ namespace xdAntiSpy.Locales {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die This feature will disable ads in File Explorer. ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die This feature will disable the &quot;Lets finish setting up your device&quot; and other advertising. ähnelt.
         /// </summary>
         internal static string _adsFinishSetupAds_desc {
             get {

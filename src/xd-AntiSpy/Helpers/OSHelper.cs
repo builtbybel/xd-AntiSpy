@@ -1,8 +1,7 @@
-﻿using System;
+﻿using Microsoft.Win32;
 using System.Collections.ObjectModel;
 using System.Management.Automation;
 using System.Threading.Tasks;
-using Microsoft.Win32;
 
 namespace OSHelper
 {

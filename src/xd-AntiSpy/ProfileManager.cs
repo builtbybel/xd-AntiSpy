@@ -8,6 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using xdAntiSpy.Locales;
 
 namespace xdAntiSpy
 {
@@ -100,12 +101,12 @@ namespace xdAntiSpy
                 {
                     if (settingNode is SettingsNode settingsNode)
                     {
-                        string status = settingsNode.Checked ? "Enabled" : "Disabled";
+                        string status = settingsNode.Checked ? Strings.statusEnabled : Strings.statusDisabled;
                         settingsBuilder.AppendLine($"{settingsNode.Text}: {status}");
                     }
                     else if (settingNode.Tag is PluginsBase pluginSettings)
                     {
-                        string status = settingNode.Checked ? "Enabled" : "Disabled";
+                        string status = settingNode.Checked ? Strings.statusEnabled : Strings.statusDisabled;
                         settingsBuilder.AppendLine($"{pluginSettings.PlugID}: {status}");
                     }
                 }

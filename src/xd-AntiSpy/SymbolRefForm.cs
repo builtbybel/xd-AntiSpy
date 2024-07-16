@@ -13,7 +13,7 @@ namespace xdAntiSpy
 
         private void InitializeLocalizedStrings()
         {
-            this.Text = Strings.menu_symbolrefToolStripMenuItem;
+            this.Text = Strings.menu_symbolrefStripMenuItem;
             lblActive.Text = Strings.formSymbolRef_lblActive;
             lblInactive.Text = Strings.formSymbolRef_lblInactive;
             lblGreen.Text = Strings.formSymbolRef_lblGreen;

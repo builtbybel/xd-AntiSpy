@@ -3,6 +3,7 @@ using xdAntiSpy.Locales;
 using System.Drawing;
 using System.Management.Automation;
 using System.Threading.Tasks;
+using System;
 
 namespace Settings.System
 {
@@ -25,26 +26,48 @@ namespace Settings.System
 
         public override bool CheckFeature()
         {
-            string script = "Get-WindowsOptionalFeature -Online -FeatureName \"Printing-XPSServices-Features\"";
+            const string script = "Get-WindowsOptionalFeature -Online -FeatureName \"Printing-XPSServices-Features\"";
+            bool isFeatureDisabled = true;
 
-            PowerShell powerShell = PowerShell.Create();
-            powerShell.AddScript(script);
-
-            var results = powerShell.Invoke();
-
-            foreach (var item in results)
+            try
             {
-                var Status = item.Members["State"].Value;
-
-                if (Status.ToString() == "Enabled")
+                // Check with a timeout
+                using (PowerShell powerShell = PowerShell.Create())
                 {
-                    logger.Log("XPS Documents Writer is installed.", Color.Green);
-                    return false;
+                    powerShell.AddScript(script);
+                    var task = Task.Run(() => powerShell.Invoke());
+
+                    if (task.Wait(TimeSpan.FromSeconds(3)))
+                    {
+                        var results = task.Result;
+
+                        foreach (var item in results)
+                        {
+                            var status = item.Members["State"].Value.ToString();
+
+                            if (status == "Enabled")
+                            {
+                                logger.Log("XPS Documents Writer is installed.", Color.Green);
+                                isFeatureDisabled = false;
+                                break;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        // Timeout occurred
+                        logger.Log("PowerShell command timed out. Skipping feature check.", Color.Orange);
+                    }
                 }
             }
+            catch (Exception ex)
+            {
+                logger.Log($"Error checking feature: {ex.Message}", Color.Red);
+            }
 
-            return true;
+            return isFeatureDisabled;
         }
+
 
         public override bool DoFeature()
         {

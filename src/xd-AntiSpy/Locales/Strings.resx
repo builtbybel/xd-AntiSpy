@@ -117,7 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="menu_aboutToolStripMenuItem" xml:space="preserve">
+  <data name="menu_aboutStripMenuItem" xml:space="preserve">
     <value>About XDAntiSpy...</value>
   </data>
   <data name="menu_copySettingsToolStripMenuItem" xml:space="preserve">
@@ -126,40 +126,22 @@
   <data name="menu_exportCurrentSettingsStripMenuItem" xml:space="preserve">
     <value>Export current</value>
   </data>
-  <data name="menu_gitHubSiteToolStripMenuItem" xml:space="preserve">
+  <data name="menu_websiteStripMenuItem" xml:space="preserve">
     <value>Visit GitHub site</value>
   </data>
-  <data name="menu_helpToolStripMenuItem" xml:space="preserve">
-    <value>?</value>
-    <comment>Help Menu</comment>
-  </data>
-  <data name="menu_importSettingsToolStripMenuItem" xml:space="preserve">
+  <data name="menu_importSettingsStripMenuItem" xml:space="preserve">
     <value>Import</value>
   </data>
-  <data name="menu_openPluginsDirectoryToolStripMenuItem" xml:space="preserve">
-    <value>Open plugins directory</value>
-  </data>
-  <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
-    <value>Profiles</value>
-    <comment>Profiles Menu</comment>
-  </data>
-  <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
+  <data name="menu_refreshStripMenuItem" xml:space="preserve">
     <value>Refresh</value>
   </data>
-  <data name="menu_searchForCrappyAppsToolStripMenuItem" xml:space="preserve">
-    <value>Search for crappy apps</value>
-  </data>
-  <data name="menu_shareSettingsOnXTwitterToolStripMenuItem" xml:space="preserve">
+  <data name="menu_shareSettingsStripMenuItem" xml:space="preserve">
     <value>Share on X...</value>
   </data>
-  <data name="menu_symbolrefToolStripMenuItem" xml:space="preserve">
+  <data name="menu_symbolrefStripMenuItem" xml:space="preserve">
     <value>Symbol Reference...</value>
   </data>
-  <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
-    <value>Tools</value>
-    <comment>Tools Menu</comment>
-  </data>
-  <data name="menu_updateToolStripMenuItem" xml:space="preserve">
+  <data name="menu_updateStripMenuItem" xml:space="preserve">
     <value>Update...</value>
   </data>
   <data name="ctl_btnApply" xml:space="preserve">
@@ -566,5 +548,11 @@ xD-Antispy – because privacy settings should make you smile!
   </data>
   <data name="formSymbolRef_lblRed" xml:space="preserve">
     <value>Additionally, for this app, there are cool and recommended profiles available on various online communities like Reddit and Deskmodder. As the app is new and growing, if you're unsure about which settings to configure, checking out these profiles can provide valuable insights. Explore and discover optimal configurations that suit your preferences, ensuring a personalized and enhanced user experience!</value>
+  </data>
+  <data name="ctl_btnApps" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="ctl_btnWindows" xml:space="preserve">
+    <value>Windows</value>
   </data>
 </root>

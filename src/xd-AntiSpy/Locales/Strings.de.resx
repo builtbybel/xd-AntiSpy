@@ -117,43 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="menu_aboutToolStripMenuItem" xml:space="preserve">
+  <data name="menu_aboutStripMenuItem" xml:space="preserve">
     <value>Über xd-AntiSpy...</value>
   </data>
   <data name="menu_copySettingsToolStripMenuItem" xml:space="preserve">
     <value>In die Zwischenablage kopieren</value>
   </data>
-  <data name="menu_gitHubSiteToolStripMenuItem" xml:space="preserve">
+  <data name="menu_websiteStripMenuItem" xml:space="preserve">
     <value>GitHub-Website besuchen</value>
-  </data>
-  <data name="menu_helpToolStripMenuItem" xml:space="preserve">
-    <value>?</value>
-    <comment>Hilfemenü</comment>
   </data>
   <data name="menu_importSettingsToolStripMenuItem" xml:space="preserve">
     <value>Importieren</value>
   </data>
-  <data name="menu_openPluginsDirectoryToolStripMenuItem" xml:space="preserve">
-    <value>Plugin-Verzeichnis öffnen</value>
-  </data>
-  <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
-    <value>Profile</value>
-    <comment>Profilmenü</comment>
-  </data>
-  <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
+  <data name="menu_refreshStripMenuItem" xml:space="preserve">
     <value>Aktualisieren</value>
   </data>
-  <data name="menu_searchForCrappyAppsToolStripMenuItem" xml:space="preserve">
-    <value>Nach unnötigen Apps suchen</value>
-  </data>
-  <data name="menu_shareSettingsOnXTwitterToolStripMenuItem" xml:space="preserve">
+  <data name="menu_shareSettingsStripMenuItem" xml:space="preserve">
     <value>Auf X teilen...</value>
   </data>
-  <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
-    <value>Spezial</value>
-    <comment>Werkzeugmenü</comment>
-  </data>
-  <data name="menu_updateToolStripMenuItem" xml:space="preserve">
+  <data name="menu_updateStripMenuItem" xml:space="preserve">
     <value>Update...</value>
   </data>
   <data name="ctl_btnApply" xml:space="preserve">
@@ -169,7 +151,7 @@
   <data name="menu_exportCurrentSettingsStripMenuItem" xml:space="preserve">
     <value>Exportieren</value>
   </data>
-  <data name="menu_symbolrefToolStripMenuItem" xml:space="preserve">
+  <data name="menu_symbolrefStripMenuItem" xml:space="preserve">
     <value>Symbolreferenz...</value>
   </data>
   <data name="_adsPersonalizedAds_desc" xml:space="preserve">
@@ -567,5 +549,11 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
   </data>
   <data name="_privacyPrivacyExperience" xml:space="preserve">
     <value>Datenschutzeinstellugs-Erlebnis beim Anmelden deaktivieren</value>
+  </data>
+  <data name="ctl_btnApps" xml:space="preserve">
+    <value>Anwendungen</value>
+  </data>
+  <data name="ctl_btnWindows" xml:space="preserve">
+    <value>Windows</value>
   </data>
 </root>

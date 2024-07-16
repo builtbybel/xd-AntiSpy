@@ -40,7 +40,7 @@
             // 
             this.lblStatus.AutoSize = true;
             this.lblStatus.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStatus.Location = new System.Drawing.Point(3, 34);
+            this.lblStatus.Location = new System.Drawing.Point(5, 16);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(42, 15);
             this.lblStatus.TabIndex = 0;
@@ -84,9 +84,9 @@
             this.checkedListBoxApps.CheckOnClick = true;
             this.checkedListBoxApps.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkedListBoxApps.FormattingEnabled = true;
-            this.checkedListBoxApps.Location = new System.Drawing.Point(0, 55);
+            this.checkedListBoxApps.Location = new System.Drawing.Point(0, 39);
             this.checkedListBoxApps.Name = "checkedListBoxApps";
-            this.checkedListBoxApps.Size = new System.Drawing.Size(422, 420);
+            this.checkedListBoxApps.Size = new System.Drawing.Size(422, 436);
             this.checkedListBoxApps.TabIndex = 199;
             // 
             // btnChooseDB
@@ -96,7 +96,7 @@
             this.btnChooseDB.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.btnChooseDB.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnChooseDB.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChooseDB.Location = new System.Drawing.Point(301, 30);
+            this.btnChooseDB.Location = new System.Drawing.Point(303, 12);
             this.btnChooseDB.Name = "btnChooseDB";
             this.btnChooseDB.Size = new System.Drawing.Size(119, 21);
             this.btnChooseDB.TabIndex = 200;

@@ -63,9 +63,29 @@ namespace xdAntiSpy.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap asset_Check {
+            get {
+                object obj = ResourceManager.GetObject("asset_Check", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap asset_Info {
             get {
                 object obj = ResourceManager.GetObject("asset_Info", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap asset_Uncheck {
+            get {
+                object obj = ResourceManager.GetObject("asset_Uncheck", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

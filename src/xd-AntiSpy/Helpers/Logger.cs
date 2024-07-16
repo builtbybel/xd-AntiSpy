@@ -28,7 +28,7 @@ namespace xdAntiSpy
             AppendMessageToConversation(message, color, fontSize);
 
             // Update status menu item
-            UpdateStatusMenuItem(message, color);
+            UpdateStatusLinkLabel(message, color);
         }
 
         private void AppendMessageToConversation(string message, Color color, float fontSize)
@@ -48,18 +48,18 @@ namespace xdAntiSpy
                 description.SelectionColor = color;
             }
         }
-
-        private void UpdateStatusMenuItem(string message, Color color)
+        private void UpdateStatusLinkLabel(string message, Color color)
         {
-            ToolStripMenuItem statusMenuItem = mainForm.MainMenu.Items.Find("statusToolStripMenuItem", true).FirstOrDefault() as ToolStripMenuItem;
+            LinkLabel linkStatusOptions = mainForm.Controls.Find("linkStatusOptions", true).FirstOrDefault() as LinkLabel;
 
-            if (statusMenuItem != null)
+            if (linkStatusOptions != null)
             {
                 // Limit length of the status message to 80 chars
                 string statusMessage = message.Length > 80 ? message.Substring(0, 80) + "..." : message;
 
-                statusMenuItem.Text = $"{statusMessage}"; // Last log:
-                statusMenuItem.ForeColor = color;
+                linkStatusOptions.Text = $"{statusMessage}"; // Last log:
+                linkStatusOptions.LinkColor = color;
+                linkStatusOptions.ForeColor = color;
             }
         }
     }

@@ -997,6 +997,24 @@ namespace xdAntiSpy.Locales {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Applications ähnelt.
+        /// </summary>
+        internal static string ctl_btnApps {
+            get {
+                return ResourceManager.GetString("ctl_btnApps", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Windows ähnelt.
+        /// </summary>
+        internal static string ctl_btnWindows {
+            get {
+                return ResourceManager.GetString("ctl_btnWindows", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die (c)2024 A Belim app creation
         ///While there&apos;s no guarantee xD-Antispy will work perfectly on your system, I&apos;ve tested it extensively.  Remember, it&apos;s a one-person project and I&apos;m just human.
         ///
@@ -1170,9 +1188,9 @@ namespace xdAntiSpy.Locales {
         /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die About XDAntiSpy... ähnelt.
         /// </summary>
-        internal static string menu_aboutToolStripMenuItem {
+        internal static string menu_aboutStripMenuItem {
             get {
-                return ResourceManager.GetString("menu_aboutToolStripMenuItem", resourceCulture);
+                return ResourceManager.GetString("menu_aboutStripMenuItem", resourceCulture);
             }
         }
         
@@ -1195,101 +1213,56 @@ namespace xdAntiSpy.Locales {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Visit GitHub site ähnelt.
-        /// </summary>
-        internal static string menu_gitHubSiteToolStripMenuItem {
-            get {
-                return ResourceManager.GetString("menu_gitHubSiteToolStripMenuItem", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die ? ähnelt.
-        /// </summary>
-        internal static string menu_helpToolStripMenuItem {
-            get {
-                return ResourceManager.GetString("menu_helpToolStripMenuItem", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Import ähnelt.
         /// </summary>
-        internal static string menu_importSettingsToolStripMenuItem {
+        internal static string menu_importSettingsStripMenuItem {
             get {
-                return ResourceManager.GetString("menu_importSettingsToolStripMenuItem", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Open plugins directory ähnelt.
-        /// </summary>
-        internal static string menu_openPluginsDirectoryToolStripMenuItem {
-            get {
-                return ResourceManager.GetString("menu_openPluginsDirectoryToolStripMenuItem", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Profiles ähnelt.
-        /// </summary>
-        internal static string menu_profilesToolStripMenuItem {
-            get {
-                return ResourceManager.GetString("menu_profilesToolStripMenuItem", resourceCulture);
+                return ResourceManager.GetString("menu_importSettingsStripMenuItem", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Refresh ähnelt.
         /// </summary>
-        internal static string menu_refreshToolStripMenuItem {
+        internal static string menu_refreshStripMenuItem {
             get {
-                return ResourceManager.GetString("menu_refreshToolStripMenuItem", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Search for crappy apps ähnelt.
-        /// </summary>
-        internal static string menu_searchForCrappyAppsToolStripMenuItem {
-            get {
-                return ResourceManager.GetString("menu_searchForCrappyAppsToolStripMenuItem", resourceCulture);
+                return ResourceManager.GetString("menu_refreshStripMenuItem", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Share on X... ähnelt.
         /// </summary>
-        internal static string menu_shareSettingsOnXTwitterToolStripMenuItem {
+        internal static string menu_shareSettingsStripMenuItem {
             get {
-                return ResourceManager.GetString("menu_shareSettingsOnXTwitterToolStripMenuItem", resourceCulture);
+                return ResourceManager.GetString("menu_shareSettingsStripMenuItem", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Symbol Reference... ähnelt.
         /// </summary>
-        internal static string menu_symbolrefToolStripMenuItem {
+        internal static string menu_symbolrefStripMenuItem {
             get {
-                return ResourceManager.GetString("menu_symbolrefToolStripMenuItem", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Tools ähnelt.
-        /// </summary>
-        internal static string menu_toolsToolStripMenuItem {
-            get {
-                return ResourceManager.GetString("menu_toolsToolStripMenuItem", resourceCulture);
+                return ResourceManager.GetString("menu_symbolrefStripMenuItem", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Update... ähnelt.
         /// </summary>
-        internal static string menu_updateToolStripMenuItem {
+        internal static string menu_updateStripMenuItem {
             get {
-                return ResourceManager.GetString("menu_updateToolStripMenuItem", resourceCulture);
+                return ResourceManager.GetString("menu_updateStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Visit GitHub site ähnelt.
+        /// </summary>
+        internal static string menu_websiteStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_websiteStripMenuItem", resourceCulture);
             }
         }
         

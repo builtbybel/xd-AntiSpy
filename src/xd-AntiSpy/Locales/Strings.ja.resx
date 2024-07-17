@@ -117,7 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="menu_aboutToolStripMenuItem" xml:space="preserve">
+  <data name="menu_aboutStripMenuItem" xml:space="preserve">
     <value>XDAntiSpyについて...</value>
   </data>
   <data name="menu_copySettingsToolStripMenuItem" xml:space="preserve">
@@ -126,40 +126,22 @@
   <data name="menu_exportCurrentSettingsStripMenuItem" xml:space="preserve">
     <value>エクスポート</value>
   </data>
-  <data name="menu_gitHubSiteToolStripMenuItem" xml:space="preserve">
+  <data name="menu_websiteStripMenuItem" xml:space="preserve">
     <value>xd-AntiSpyのGitHubサイトへ</value>
   </data>
-  <data name="menu_helpToolStripMenuItem" xml:space="preserve">
-    <value>?</value>
-    <comment>Help Menu</comment>
-  </data>
-  <data name="menu_importSettingsToolStripMenuItem" xml:space="preserve">
+  <data name="menu_importSettingsStripMenuItem" xml:space="preserve">
     <value>インポート</value>
   </data>
-  <data name="menu_openPluginsDirectoryToolStripMenuItem" xml:space="preserve">
-    <value>プラグインフォルダーを開く</value>
-  </data>
-  <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
-    <value>プロファイル</value>
-    <comment>プロファイルメニュー</comment>
-  </data>
-  <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
+  <data name="menu_refreshStripMenuItem" xml:space="preserve">
     <value>更新</value>
   </data>
-  <data name="menu_searchForCrappyAppsToolStripMenuItem" xml:space="preserve">
-    <value>crappyなアプリを検索...</value>
-  </data>
-  <data name="menu_shareSettingsOnXTwitterToolStripMenuItem" xml:space="preserve">
+  <data name="menu_shareSettingsStripMenuItem" xml:space="preserve">
     <value>Xでシェア...</value>
   </data>
-  <data name="menu_symbolrefToolStripMenuItem" xml:space="preserve">
+  <data name="menu_symbolrefStripMenuItem" xml:space="preserve">
     <value>シンボルのリファレンス...</value>
   </data>
-  <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
-    <value>ツール</value>
-    <comment>ツールメニュー</comment>
-  </data>
-  <data name="menu_updateToolStripMenuItem" xml:space="preserve">
+  <data name="menu_updateStripMenuItem" xml:space="preserve">
     <value>アップデート...</value>
   </data>
   <data name="ctl_btnApply" xml:space="preserve">
@@ -564,5 +546,11 @@ xD-Antispy – プライバシー設定はあなたを笑顔にするはずで�
   </data>
   <data name="formSymbolRef_lblRed" xml:space="preserve">
     <value>さらに、このアプリにはRedditやDeskmodderなどのさまざまなオンラインコミュニティで利用できる、クールでおすすめのプロファイルがあります。アプリは新しく成長中なので、どの設定を構成するか分からない場合は、これらのプロファイルを確認すると貴重な洞察が得られます。好みに合った最適な構成を探して見つけ、パーソナライズされた強化されたユーザー エクスペリエンスを実現しましょう！</value>
+  </data>
+    <data name="ctl_btnApps" xml:space="preserve">
+    <value>アプリ</value>
+  </data>
+  <data name="ctl_btnWindows" xml:space="preserve">
+    <value>Windows</value>
   </data>
 </root>

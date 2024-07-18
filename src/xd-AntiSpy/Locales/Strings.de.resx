@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -446,10 +446,10 @@
     <value>Letzte Prüfungen in Arbeit...</value>
   </data>
   <data name="_logFinalCheckMessage" xml:space="preserve">
-    <value>Vielen Dank, dass du xd-AntiSpy nutzt! Wenn dir das Tool gefällt, denk bitte über eine Spende zur Unterstützung der Entwicklung nach: https://paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG</value>
+    <value>Vielen Dank, dass Du xd-AntiSpy verwendest! Wenn dir dieses Tool nützlich erscheint, denk bitte über eine Spende nach, um die Entwicklung zu unterstützen: https://paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG</value>
   </data>
   <data name="_logFinalCheckMessage2" xml:space="preserve">
-    <value>Verfolge das Projekt auf GitHub und trage dazu bei: https://github.com/builtbybel/xd-AntiSpy</value>
+    <value>Das Projekt auf GitHub verfolgen und dazu beitragen: https://github.com/builtbybel/xd-AntiSpy</value>
   </data>
   <data name="_logFinalCheck_complete" xml:space="preserve">
     <value>Alle Prüfungen abgeschlossen.</value>

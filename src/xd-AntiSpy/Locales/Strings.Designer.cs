@@ -1213,6 +1213,33 @@ namespace xdAntiSpy.Locales {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Accessible ähnelt.
+        /// </summary>
+        internal static string menu_modeAccessibleToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_modeAccessibleToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Standard ähnelt.
+        /// </summary>
+        internal static string menu_modeStandardToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_modeStandardToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Mode ähnelt.
+        /// </summary>
+        internal static string menu_modeToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_modeToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Copy to clipboard ähnelt.
         /// </summary>
         internal static string menu_profileCopyToolStripMenuItem {
@@ -1254,15 +1281,6 @@ namespace xdAntiSpy.Locales {
         internal static string menu_profilesToolStripMenuItem {
             get {
                 return ResourceManager.GetString("menu_profilesToolStripMenuItem", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Open Plugins directory ähnelt.
-        /// </summary>
-        internal static string menu_toolsOpenPluginsDirToolStripMenuItem {
-            get {
-                return ResourceManager.GetString("menu_toolsOpenPluginsDirToolStripMenuItem", resourceCulture);
             }
         }
         

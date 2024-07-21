@@ -44,18 +44,21 @@
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsRefreshToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsDebloaterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolsOpenPluginsDirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modeStandardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modeAccessibleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutAppToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutWebsiteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutUpdateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutSymbolReferenceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pluginsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextManualMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.undoContextItem = new System.Windows.Forms.ToolStripMenuItem();
             this.doContextItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pinContextItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextPluginsStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.pnlForm.SuspendLayout();
             this.pnlMain.SuspendLayout();
             this.menuMainStrip.SuspendLayout();
@@ -67,10 +70,10 @@
             this.rtbDescription.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rtbDescription.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtbDescription.Location = new System.Drawing.Point(0, 270);
+            this.rtbDescription.Location = new System.Drawing.Point(0, 276);
             this.rtbDescription.Name = "rtbDescription";
             this.rtbDescription.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.rtbDescription.Size = new System.Drawing.Size(425, 120);
+            this.rtbDescription.Size = new System.Drawing.Size(425, 114);
             this.rtbDescription.TabIndex = 195;
             this.rtbDescription.Text = "";
             this.rtbDescription.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.rtbDescription_LinkClicked);
@@ -130,7 +133,7 @@
             this.treeSettings.ShowNodeToolTips = true;
             this.treeSettings.ShowPlusMinus = false;
             this.treeSettings.ShowRootLines = false;
-            this.treeSettings.Size = new System.Drawing.Size(425, 245);
+            this.treeSettings.Size = new System.Drawing.Size(425, 251);
             this.treeSettings.TabIndex = 198;
             this.treeSettings.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.treeSettings_AfterCheck);
             this.treeSettings.MouseDown += new System.Windows.Forms.MouseEventHandler(this.treeSettings_MouseDown);
@@ -142,7 +145,9 @@
             this.menuMainStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.profilesToolStripMenuItem,
             this.toolsToolStripMenuItem,
+            this.modeToolStripMenuItem,
             this.aboutToolStripMenuItem,
+            this.pluginsToolStripMenuItem,
             this.statusToolStripMenuItem});
             this.menuMainStrip.Location = new System.Drawing.Point(0, 0);
             this.menuMainStrip.Name = "menuMainStrip";
@@ -197,9 +202,7 @@
             // 
             this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolsRefreshToolStripMenuItem,
-            this.toolsDebloaterToolStripMenuItem,
-            this.toolStripSeparator1,
-            this.toolsOpenPluginsDirToolStripMenuItem});
+            this.toolsDebloaterToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
             this.toolsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
             this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
@@ -221,17 +224,32 @@
             this.toolsDebloaterToolStripMenuItem.Text = "Search for crappy apps";
             this.toolsDebloaterToolStripMenuItem.Click += new System.EventHandler(this.toolsDebloaterToolStripMenuItem_Click);
             // 
-            // toolStripSeparator1
+            // modeToolStripMenuItem
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(235, 6);
+            this.modeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.modeStandardToolStripMenuItem,
+            this.modeAccessibleToolStripMenuItem});
+            this.modeToolStripMenuItem.Name = "modeToolStripMenuItem";
+            this.modeToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.modeToolStripMenuItem.Text = "Modus";
             // 
-            // toolsOpenPluginsDirToolStripMenuItem
+            // modeStandardToolStripMenuItem
             // 
-            this.toolsOpenPluginsDirToolStripMenuItem.Name = "toolsOpenPluginsDirToolStripMenuItem";
-            this.toolsOpenPluginsDirToolStripMenuItem.Size = new System.Drawing.Size(238, 22);
-            this.toolsOpenPluginsDirToolStripMenuItem.Text = "Open plugins directory";
-            this.toolsOpenPluginsDirToolStripMenuItem.Click += new System.EventHandler(this.toolsOpenPluginsDirToolStripMenuItem_Click);
+            this.modeStandardToolStripMenuItem.Checked = true;
+            this.modeStandardToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Indeterminate;
+            this.modeStandardToolStripMenuItem.Name = "modeStandardToolStripMenuItem";
+            this.modeStandardToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2;
+            this.modeStandardToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modeStandardToolStripMenuItem.Text = "Standard";
+            this.modeStandardToolStripMenuItem.Click += new System.EventHandler(this.modeStandardToolStripMenuItem_Click);
+            // 
+            // modeAccessibleToolStripMenuItem
+            // 
+            this.modeAccessibleToolStripMenuItem.Name = "modeAccessibleToolStripMenuItem";
+            this.modeAccessibleToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F3;
+            this.modeAccessibleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modeAccessibleToolStripMenuItem.Text = "Barrierefrei";
+            this.modeAccessibleToolStripMenuItem.Click += new System.EventHandler(this.modeAccessibleToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
@@ -247,39 +265,49 @@
             // aboutAppToolStripMenuItem
             // 
             this.aboutAppToolStripMenuItem.Name = "aboutAppToolStripMenuItem";
-            this.aboutAppToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1;
-            this.aboutAppToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.aboutAppToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
             this.aboutAppToolStripMenuItem.Text = "About XDAntispy...";
             this.aboutAppToolStripMenuItem.Click += new System.EventHandler(this.aboutAppToolStripMenuItem_Click);
             // 
             // aboutWebsiteToolStripMenuItem
             // 
+            this.aboutWebsiteToolStripMenuItem.Image = global::xdAntiSpy.Properties.Resources.asset_xd;
             this.aboutWebsiteToolStripMenuItem.Name = "aboutWebsiteToolStripMenuItem";
-            this.aboutWebsiteToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.aboutWebsiteToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
             this.aboutWebsiteToolStripMenuItem.Text = "Visit GitHub site";
             this.aboutWebsiteToolStripMenuItem.Click += new System.EventHandler(this.aboutWebsiteToolStripMenuItem_Click);
             // 
             // aboutUpdateToolStripMenuItem
             // 
             this.aboutUpdateToolStripMenuItem.Name = "aboutUpdateToolStripMenuItem";
-            this.aboutUpdateToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.aboutUpdateToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
             this.aboutUpdateToolStripMenuItem.Text = "Update...";
             this.aboutUpdateToolStripMenuItem.Click += new System.EventHandler(this.aboutUpdateToolStripMenuItem_Click);
             // 
             // aboutSymbolReferenceToolStripMenuItem
             // 
             this.aboutSymbolReferenceToolStripMenuItem.Name = "aboutSymbolReferenceToolStripMenuItem";
-            this.aboutSymbolReferenceToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.aboutSymbolReferenceToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1;
+            this.aboutSymbolReferenceToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
             this.aboutSymbolReferenceToolStripMenuItem.Text = "Symbol Reference...";
             this.aboutSymbolReferenceToolStripMenuItem.Click += new System.EventHandler(this.aboutSymbolReferenceToolStripMenuItem_Click);
+            // 
+            // pluginsToolStripMenuItem
+            // 
+            this.pluginsToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.pluginsToolStripMenuItem.Font = new System.Drawing.Font("Segoe MDL2 Assets", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pluginsToolStripMenuItem.Name = "pluginsToolStripMenuItem";
+            this.pluginsToolStripMenuItem.Size = new System.Drawing.Size(26, 20);
+            this.pluginsToolStripMenuItem.Text = "...";
+            this.pluginsToolStripMenuItem.Click += new System.EventHandler(this.pluginsToolStripMenuItem_Click);
             // 
             // statusToolStripMenuItem
             // 
             this.statusToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.statusToolStripMenuItem.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.statusToolStripMenuItem.Name = "statusToolStripMenuItem";
-            this.statusToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
-            this.statusToolStripMenuItem.Text = "Status";
+            this.statusToolStripMenuItem.Size = new System.Drawing.Size(28, 20);
+            this.statusToolStripMenuItem.Text = "...";
             // 
             // contextManualMenu
             // 
@@ -312,6 +340,12 @@
             this.pinContextItem.Size = new System.Drawing.Size(182, 22);
             this.pinContextItem.Text = "Pin";
             this.pinContextItem.CheckedChanged += new System.EventHandler(this.pinContextItem_CheckedChanged);
+            // 
+            // contextPluginsStrip
+            // 
+            this.contextPluginsStrip.Name = "contextPluginsStrip";
+            this.contextPluginsStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.contextPluginsStrip.Size = new System.Drawing.Size(61, 4);
             // 
             // MainForm
             // 
@@ -352,8 +386,6 @@
         private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolsRefreshToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolsDebloaterToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem toolsOpenPluginsDirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutAppToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutWebsiteToolStripMenuItem;
@@ -361,6 +393,11 @@
         private System.Windows.Forms.ToolStripMenuItem aboutSymbolReferenceToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem statusToolStripMenuItem;
         public System.Windows.Forms.MenuStrip menuMainStrip;
+        private System.Windows.Forms.ToolStripMenuItem pluginsToolStripMenuItem;
+        public System.Windows.Forms.ContextMenuStrip contextPluginsStrip;
+        private System.Windows.Forms.ToolStripMenuItem modeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modeStandardToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modeAccessibleToolStripMenuItem;
     }
 }
 

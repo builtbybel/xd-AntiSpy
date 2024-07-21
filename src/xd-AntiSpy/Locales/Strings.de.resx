@@ -559,9 +559,6 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
     <value>Profile</value>
   </data>
-  <data name="menu_toolsOpenPluginsDirToolStripMenuItem" xml:space="preserve">
-    <value>Plugin-Verzeichnis öffnen</value>
-  </data>
   <data name="menu_toolsRefreshToolStripMenuItem" xml:space="preserve">
     <value>Aktualisieren</value>
   </data>
@@ -570,5 +567,14 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
   </data>
   <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
     <value>Spezial</value>
+  </data>
+  <data name="menu_modeAccessibleToolStripMenuItem" xml:space="preserve">
+    <value>Barrierefrei</value>
+  </data>
+  <data name="menu_modeStandardToolStripMenuItem" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="menu_modeToolStripMenuItem" xml:space="preserve">
+    <value>Modus</value>
   </data>
 </root>

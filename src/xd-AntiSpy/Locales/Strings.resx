@@ -561,7 +561,13 @@ xD-Antispy – because privacy settings should make you smile!
   <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
     <value>About XDAntiSpy...</value>
   </data>
-  <data name="menu_toolsOpenPluginsDirToolStripMenuItem" xml:space="preserve">
-    <value>Open Plugins directory</value>
+  <data name="menu_modeAccessibleToolStripMenuItem" xml:space="preserve">
+    <value>Accessible</value>
+  </data>
+  <data name="menu_modeStandardToolStripMenuItem" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="menu_modeToolStripMenuItem" xml:space="preserve">
+    <value>Mode</value>
   </data>
 </root>

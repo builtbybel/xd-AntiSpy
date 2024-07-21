@@ -56,7 +56,9 @@ namespace xdAntiSpy
             toolsToolStripMenuItem.Text = Locales.Strings.menu_toolsToolStripMenuItem;
             toolsRefreshToolStripMenuItem.Text = Locales.Strings.menu_toolsRefreshToolStripMenuItem;
             toolsDebloaterToolStripMenuItem.Text = Locales.Strings.menu_toolsToolDebloaterToolStripMenuItem;
-            toolsOpenPluginsDirToolStripMenuItem.Text = Locales.Strings.menu_toolsOpenPluginsDirToolStripMenuItem;
+            modeToolStripMenuItem.Text = Locales.Strings.menu_modeToolStripMenuItem;
+            modeStandardToolStripMenuItem.Text = Locales.Strings.menu_modeStandardToolStripMenuItem;
+            modeAccessibleToolStripMenuItem.Text = Locales.Strings.menu_modeAccessibleToolStripMenuItem;
             aboutToolStripMenuItem.Text = Locales.Strings.menu_aboutToolStripMenuItem;
             aboutAppToolStripMenuItem.Text = Locales.Strings.menu_aboutToolStripMenuItem;
             aboutAppToolStripMenuItem.Text = Locales.Strings.menu_aboutAppToolStripMenuItem;
@@ -97,6 +99,9 @@ namespace xdAntiSpy
 
             // Set default style for RichTextBox
             rtbDescription.BackColor = Color.FromArgb(255, 255, 206);
+
+            // Segoe MDL2 Assets
+            pluginsToolStripMenuItem.Text = "\uE70D"; // Plugins menu
 
             // Set default NavPage
             Views.SwitchView.INavPage = pnlForm.Controls[0];
@@ -228,7 +233,7 @@ namespace xdAntiSpy
                 logger.Log(Strings._logPluginsFeatureCheck, Color.Blue);
                 treeSettings.BeginUpdate();
 
-                await PluginsBase.LoadPlugins(pluginDirectory, treeSettings.Nodes, logger, toolsToolStripMenuItem);
+                await PluginsBase.LoadPlugins(pluginDirectory, treeSettings.Nodes, logger, contextPluginsStrip);
 
                 treeSettings.EndUpdate();
                 // Plugin checks completed.
@@ -437,26 +442,6 @@ namespace xdAntiSpy
             RunFeatureChecks();
         }
 
-        private void toolsOpenPluginsDirToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            string pluginsDirectory = Path.GetFullPath("plugins");
-            if (Directory.Exists(pluginsDirectory))
-            {
-                try
-                {
-                    Process.Start("explorer.exe", pluginsDirectory);
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Error opening plugins directory: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-            else
-            {
-                MessageBox.Show("The plugins directory does not exist.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
         private void toolsDebloaterToolStripMenuItem_Click(object sender, EventArgs e)
             => Views.SwitchView.SetView(new toolDebloaterPageView());
 
@@ -474,6 +459,9 @@ namespace xdAntiSpy
 
         private void rtbDescription_LinkClicked(object sender, LinkClickedEventArgs e)
             => Utils.LaunchUri(e.LinkText);
+
+        private void pluginsToolStripMenuItem_Click(object sender, EventArgs e)
+           => this.contextPluginsStrip.Show(Cursor.Position.X, Cursor.Position.Y);
 
         private void contextMenuDo_Click(object sender, EventArgs e)
         {
@@ -571,6 +559,75 @@ namespace xdAntiSpy
                 treeSettings.SelectedNode.ForeColor = treeSettings.ForeColor;
                 rtbDescription.Clear();
             }
+        }
+
+        private void UpdateAccessibilityMode(bool accessibilityMode)
+        {
+            void UpdateNodeText(TreeNode node)
+            {
+                if (node is SettingsNode settingsNode)
+                {
+                    bool isActive = settingsNode.Checked;
+                    node.Text = accessibilityMode
+                        ? $"{(settingsNode.Checked ? Strings.statusEnabled : Strings.statusDisabled)} - {settingsNode.Feature.ID()}"
+                        : settingsNode.Feature.ID();
+
+                    if (accessibilityMode)
+                    {
+                        node.BackColor = isActive ? Color.LightGreen : Color.LightCoral;
+                        node.ForeColor = Color.Black;
+                    }
+                    else
+                    {
+                        node.BackColor = Color.Transparent; // Reset to default
+                        node.ForeColor = isActive ? Color.DarkGray : Color.Black;
+                    }
+                }
+                else if (node.Tag is PluginsBase plugin)
+                {
+                    bool isActive = plugin.PlugCheckFeature();
+                    node.Text = accessibilityMode
+                        ? $"{(plugin.PlugCheckFeature() ? Strings.statusEnabled : Strings.statusDisabled)} - {plugin.PlugID}"
+                        : plugin.PlugID;
+
+                    if (accessibilityMode)
+                    {
+                        node.BackColor = isActive ? Color.LightGreen : Color.LightCoral;
+                        node.ForeColor = Color.Black;
+                    }
+                    else
+                    {
+                        node.BackColor = Color.Transparent; // Reset to default
+                        node.ForeColor = isActive ? Color.DarkGray : Color.Black;
+                    }
+                }
+
+                // Recursively update child nodes
+                foreach (TreeNode childNode in node.Nodes)
+                {
+                    UpdateNodeText(childNode);
+                }
+            }
+
+            // Update all nodes in the TreeView
+            foreach (TreeNode node in treeSettings.Nodes)
+            {
+                UpdateNodeText(node);
+            }
+        }
+
+        private void modeAccessibleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UpdateAccessibilityMode(true);
+            modeAccessibleToolStripMenuItem.CheckState = CheckState.Indeterminate;
+            modeStandardToolStripMenuItem.CheckState = CheckState.Unchecked;
+        }
+
+        private void modeStandardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UpdateAccessibilityMode(false);
+            modeStandardToolStripMenuItem.CheckState = CheckState.Indeterminate;
+            modeAccessibleToolStripMenuItem.CheckState = CheckState.Unchecked;
         }
     }
 }

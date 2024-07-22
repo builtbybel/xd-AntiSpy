@@ -324,6 +324,13 @@
   <data name="_privacyPrivacyExperience" xml:space="preserve">
     <value>Disable Privacy Settings Experience at sign-in</value>
   </data>
+  <data name="ctl_btnApps" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="ctl_btnWindows" xml:space="preserve">
+    <value>Windows</value>
+    <value>Windows</value>
+  </data>
   <data name="_privacyTelemetry" xml:space="preserve">
     <value>Turn off Telemetry data collection</value>
   </data>
@@ -569,5 +576,46 @@ xD-Antispy – because privacy settings should make you smile!
   </data>
   <data name="menu_modeToolStripMenuItem" xml:space="preserve">
     <value>Mode</value>
+  </data>
+  <data name="menu_copySettingsToolStripMenuItem" xml:space="preserve">
+    <value>Copy to Clipboard</value>
+  </data>
+  <data name="menu_exportCurrentSettingsStripMenuItem" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="menu_gitHubSiteToolStripMenuItem" xml:space="preserve">
+    <value>xd-AntiSpy's GitHub site</value>
+  </data>
+  <data name="menu_helpToolStripMenuItem" xml:space="preserve">
+    <value>?</value>
+    <comment>Help Menu</comment>
+  </data>
+  <data name="menu_importSettingsToolStripMenuItem" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="menu_openPluginsDirectoryToolStripMenuItem" xml:space="preserve">
+    <value>Open the Plugins folder</value>
+  </data>
+  <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
+    <value>Profile</value>
+    <comment>Profile Menu</comment>
+  </data>
+  <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="menu_searchForCrappyAppsToolStripMenuItem" xml:space="preserve">
+    <value>Search for crappy apps...</value>
+  </data>
+  <data name="menu_shareSettingsOnXTwitterToolStripMenuItem" xml:space="preserve">
+    <value>Share with X...</value>
+  </data>
+  <data name="menu_symbolrefToolStripMenuItem" xml:space="preserve">
+    <value>Symbol Reference...</value>
+  </data>
+  <data name="menu_updateToolStripMenuItem" xml:space="preserve">
+    <value>Update...</value>
+  </data>
+  <data name="formToolDebloater_btnBack" xml:space="preserve">
+    <value>&lt; Return</value>
   </data>
 </root>

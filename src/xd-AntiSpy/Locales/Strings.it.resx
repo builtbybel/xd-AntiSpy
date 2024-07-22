@@ -553,7 +553,7 @@ xD-Antispy – perché le impostazioni sulla privacy dovrebbero farti sorridere!
     <value>Inoltre, per questa app, sono disponibili profili interessanti e consigliati in varie comunità online come Reddit e Deskmodder. Poiché l'app è nuova e in crescita, se non sei sicuro di quali impostazioni configurare, controllare questi profili può fornire informazioni preziose. Esplora e scopri le configurazioni ottimali che si adattano alle tue preferenze, garantendo un'esperienza utente personalizzata e migliorata!</value>
   </data>
   <data name="formToolDebloater_checkBoxShowAllApps" xml:space="preserve">
-    <value>Visualizza tutti installato</value>
+    <value>Visualizza tutti installati</value>
   </data>
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
     <value>Profili</value>
@@ -565,7 +565,7 @@ xD-Antispy – perché le impostazioni sulla privacy dovrebbero farti sorridere!
     <value>Strumenti</value>
   </data>
   <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
-    <value>Infoi su XDAntiSpy...</value>
+    <value>Info su XDAntiSpy...</value>
   </data>
   <data name="menu_modeAccessibleToolStripMenuItem" xml:space="preserve">
     <value>Accessibile</value>
@@ -575,5 +575,46 @@ xD-Antispy – perché le impostazioni sulla privacy dovrebbero farti sorridere!
   </data>
   <data name="menu_modeToolStripMenuItem" xml:space="preserve">
     <value>Modo</value>
+  </data>
+  <data name="menu_copySettingsToolStripMenuItem" xml:space="preserve">
+    <value>Copia negli Appunti</value>
+  </data>
+  <data name="menu_exportCurrentSettingsStripMenuItem" xml:space="preserve">
+    <value>Esporta</value>
+  </data>
+  <data name="menu_gitHubSiteToolStripMenuItem" xml:space="preserve">
+    <value>Sito GitHub xd-AntiSpy</value>
+  </data>
+  <data name="menu_helpToolStripMenuItem" xml:space="preserve">
+    <value>?</value>
+    <comment>Menu Aiuto</comment>
+  </data>
+  <data name="menu_importSettingsToolStripMenuItem" xml:space="preserve">
+    <value>Importa</value>
+  </data>
+  <data name="menu_openPluginsDirectoryToolStripMenuItem" xml:space="preserve">
+    <value>Apri cartella plugin</value>
+  </data>
+  <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
+    <value>Profilo</value>
+    <comment>Menu profilo</comment>
+  </data>
+  <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
+    <value>Aggiorna</value>
+  </data>
+  <data name="menu_searchForCrappyAppsToolStripMenuItem" xml:space="preserve">
+    <value>Cerca app scadenti...</value>
+  </data>
+  <data name="menu_shareSettingsOnXTwitterToolStripMenuItem" xml:space="preserve">
+    <value>Condividi con X...</value>
+  </data>
+  <data name="menu_symbolrefToolStripMenuItem" xml:space="preserve">
+    <value>Riferimento simbolo...</value>
+  </data>
+  <data name="menu_updateToolStripMenuItem" xml:space="preserve">
+    <value>Aggiorna...</value>
+  </data>
+  <data name="formToolDebloater_btnBack" xml:space="preserve">
+    <value>&lt; Indietro</value>
   </data>
 </root>

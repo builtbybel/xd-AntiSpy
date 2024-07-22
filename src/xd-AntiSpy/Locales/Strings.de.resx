@@ -419,10 +419,10 @@
     <value>Letzte Prüfungen in Arbeit...</value>
   </data>
   <data name="_logFinalCheckMessage" xml:space="preserve">
-    <value>Vielen Dank, dass du xd-AntiSpy nutzt! Wenn dir das Tool gefällt, denk bitte über eine Spende zur Unterstützung der Entwicklung nach: https://paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG</value>
+    <value>Vielen Dank, dass Du xd-AntiSpy verwendest! Wenn dir dieses Tool nützlich erscheint, denk bitte über eine Spende nach, um die Entwicklung zu unterstützen: https://paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG</value>
   </data>
   <data name="_logFinalCheckMessage2" xml:space="preserve">
-    <value>Verfolge das Projekt auf GitHub und trage dazu bei: https://github.com/builtbybel/xd-AntiSpy</value>
+    <value>Das Projekt auf GitHub verfolgen und dazu beitragen: https://github.com/builtbybel/xd-AntiSpy</value>
   </data>
   <data name="_logFinalCheck_complete" xml:space="preserve">
     <value>Alle Prüfungen abgeschlossen.</value>
@@ -452,7 +452,7 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
 -Belim-</value>
   </data>
   <data name="formAbout_linkDonation" xml:space="preserve">
-    <value>Ihre Unterstützung trägt dazu bei, dass diese App fortzuführen – vielen Dank! – Belim</value>
+    <value>Ihre Unterstützung trägt dazu bei, diese App fortzuführen – vielen Dank! – Belim</value>
   </data>
   <data name="formToolDebloater_btnChooseDB" xml:space="preserve">
     <value>Benutzerdefinierte Datenbank auswählen...</value>
@@ -485,7 +485,7 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
     <value>Apps erfolgreich entfernt.</value>
   </data>
   <data name="statusHasBeen" xml:space="preserve">
-    <value>wurde</value>
+    <value>war</value>
   </data>
   <data name="statusIsCurrently" xml:space="preserve">
     <value>derzeit</value>
@@ -530,7 +530,7 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
     <value>Alle installierten anzeigen</value>
   </data>
   <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
-    <value>Über XDAntiSpy...</value>
+    <value>Über xd-AntiSpy...</value>
   </data>
   <data name="menu_aboutSymbolReferenceToolStripMenuItem" xml:space="preserve">
     <value>Symbolreferenz...</value>
@@ -542,10 +542,10 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
     <value>Update...</value>
   </data>
   <data name="menu_aboutWebsiteToolStripMenuItem" xml:space="preserve">
-    <value>xd-AntiSpy-GitHub</value>
+    <value>GitHub-Website besuchen</value>
   </data>
   <data name="menu_profileCopyToolStripMenuItem" xml:space="preserve">
-    <value>In Zwischenablage kopieren</value>
+    <value>In die Zwischenablage kopieren</value>
   </data>
   <data name="menu_profileExportToolStripMenuItem" xml:space="preserve">
     <value>Exportieren</value>

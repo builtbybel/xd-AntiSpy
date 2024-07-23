@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -141,7 +141,6 @@
   </data>
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
     <value>プロファイル</value>
-    <comment>プロファイルメニュー</comment>
   </data>
   <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
     <value>更新</value>
@@ -157,7 +156,6 @@
   </data>
   <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
     <value>ツール</value>
-    <comment>ツールメニュー</comment>
   </data>
   <data name="menu_updateToolStripMenuItem" xml:space="preserve">
     <value>アップデート...</value>
@@ -167,6 +165,7 @@
   </data>
   <data name="_adsFinishSetupAds_desc" xml:space="preserve">
     <value>エクスプローラーの広告を無効にします。</value>
+    <comment>!!!</comment>
   </data>
   <data name="_adsLockScreenAds_desc" xml:space="preserve">
     <value>ロック画面のヒントや広告を無効にします。</value>
@@ -564,5 +563,47 @@ xD-Antispy – プライバシー設定はあなたを笑顔にするはずで�
   </data>
   <data name="formSymbolRef_lblRed" xml:space="preserve">
     <value>さらに、このアプリにはRedditやDeskmodderなどのさまざまなオンラインコミュニティで利用できる、クールでおすすめのプロファイルがあります。アプリは新しく成長中なので、どの設定を構成するか分からない場合は、これらのプロファイルを確認すると貴重な洞察が得られます。好みに合った最適な構成を探して見つけ、パーソナライズされた強化されたユーザー エクスペリエンスを実現しましょう！</value>
+  </data>
+  <data name="menu_profileCopyToolStripMenuItem" xml:space="preserve">
+    <value>クリップボードにコピー</value>
+  </data>
+  <data name="menu_profileExportToolStripMenuItem" xml:space="preserve">
+    <value>エクスポート</value>
+  </data>
+  <data name="menu_aboutWebsiteToolStripMenuItem" xml:space="preserve">
+    <value>GithHubを訪問する</value>
+  </data>
+  <data name="menu_profilesImportToolStripMenuItem" xml:space="preserve">
+    <value>インポート</value>
+  </data>
+  <data name="menu_toolsRefreshToolStripMenuItem" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="menu_profileShareSettingsToolStripMenuItem" xml:space="preserve">
+    <value>共有</value>
+  </data>
+  <data name="menu_aboutSymbolReferenceToolStripMenuItem" xml:space="preserve">
+    <value>シンボルのリファレンス</value>
+  </data>
+  <data name="menu_aboutUpdateToolStripMenuItem" xml:space="preserve">
+    <value>アップデート...</value>
+  </data>
+  <data name="formToolDebloater_checkBoxShowAllApps" xml:space="preserve">
+    <value>インストール済みすべて</value>
+  </data>
+  <data name="menu_toolsToolDebloaterToolStripMenuItem" xml:space="preserve">
+    <value>不要なアプリを検索...</value>
+  </data>
+  <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
+    <value>XDAntiSpyについて...</value>
+  </data>
+  <data name="menu_modeAccessibleToolStripMenuItem" xml:space="preserve">
+    <value>アクセシブル</value>
+  </data>
+  <data name="menu_modeStandardToolStripMenuItem" xml:space="preserve">
+    <value>スタンダード</value>
+  </data>
+  <data name="menu_modeToolStripMenuItem" xml:space="preserve">
+    <value>モード</value>
   </data>
 </root>

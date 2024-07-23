@@ -120,45 +120,11 @@
   <data name="menu_aboutToolStripMenuItem" xml:space="preserve">
     <value>XDAntiSpyについて...</value>
   </data>
-  <data name="menu_copySettingsToolStripMenuItem" xml:space="preserve">
-    <value>クリップボードにコピー</value>
-  </data>
-  <data name="menu_exportCurrentSettingsStripMenuItem" xml:space="preserve">
-    <value>エクスポート</value>
-  </data>
-  <data name="menu_gitHubSiteToolStripMenuItem" xml:space="preserve">
-    <value>xd-AntiSpyのGitHubサイトへ</value>
-  </data>
-  <data name="menu_helpToolStripMenuItem" xml:space="preserve">
-    <value>?</value>
-    <comment>Help Menu</comment>
-  </data>
-  <data name="menu_importSettingsToolStripMenuItem" xml:space="preserve">
-    <value>インポート</value>
-  </data>
-  <data name="menu_openPluginsDirectoryToolStripMenuItem" xml:space="preserve">
-    <value>プラグインフォルダーを開く</value>
-  </data>
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
     <value>プロファイル</value>
   </data>
-  <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
-    <value>更新</value>
-  </data>
-  <data name="menu_searchForCrappyAppsToolStripMenuItem" xml:space="preserve">
-    <value>crappyなアプリを検索...</value>
-  </data>
-  <data name="menu_shareSettingsOnXTwitterToolStripMenuItem" xml:space="preserve">
-    <value>Xでシェア...</value>
-  </data>
-  <data name="menu_symbolrefToolStripMenuItem" xml:space="preserve">
-    <value>シンボルのリファレンス...</value>
-  </data>
   <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
     <value>ツール</value>
-  </data>
-  <data name="menu_updateToolStripMenuItem" xml:space="preserve">
-    <value>アップデート...</value>
   </data>
   <data name="ctl_btnApply" xml:space="preserve">
     <value>設定を適用</value>
@@ -509,9 +475,6 @@ xD-Antispy – プライバシー設定はあなたを笑顔にするはずで�
   </data>
   <data name="formAbout_linkDonation" xml:space="preserve">
     <value>あなたのサポートのおかげで、このアプリは継続して成長しています。ありがとうございます！ — Belim</value>
-  </data>
-  <data name="formToolDebloater_btnBack" xml:space="preserve">
-    <value>&lt; 戻る</value>
   </data>
   <data name="formToolDebloater_btnChooseDB" xml:space="preserve">
     <value>カスタムdbを選択...</value>

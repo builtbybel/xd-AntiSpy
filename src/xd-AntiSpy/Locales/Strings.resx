@@ -588,7 +588,6 @@ xD-Antispy – because privacy settings should make you smile!
   </data>
   <data name="menu_helpToolStripMenuItem" xml:space="preserve">
     <value />
-    <comment>Help Menu</comment>
   </data>
   <data name="menu_importSettingsToolStripMenuItem" xml:space="preserve">
     <value />

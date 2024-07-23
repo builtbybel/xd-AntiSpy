@@ -988,29 +988,11 @@ namespace xdAntiSpy.Locales {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Apply Setting ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Apply Settings ähnelt.
         /// </summary>
         internal static string ctl_btnApply {
             get {
                 return ResourceManager.GetString("ctl_btnApply", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Applications ähnelt.
-        /// </summary>
-        internal static string ctl_btnApps {
-            get {
-                return ResourceManager.GetString("ctl_btnApps", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Windows ähnelt.
-        /// </summary>
-        internal static string ctl_btnWindows {
-            get {
-                return ResourceManager.GetString("ctl_btnWindows", resourceCulture);
             }
         }
         
@@ -1087,15 +1069,6 @@ namespace xdAntiSpy.Locales {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die &lt; Back ähnelt.
-        /// </summary>
-        internal static string formToolDebloater_btnBack {
-            get {
-                return ResourceManager.GetString("formToolDebloater_btnBack", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Select custom db... ähnelt.
         /// </summary>
         internal static string formToolDebloater_btnChooseDB {
@@ -1110,6 +1083,15 @@ namespace xdAntiSpy.Locales {
         internal static string formToolDebloater_btnRemoveSelected {
             get {
                 return ResourceManager.GetString("formToolDebloater_btnRemoveSelected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Show all installed ähnelt.
+        /// </summary>
+        internal static string formToolDebloater_checkBoxShowAllApps {
+            get {
+                return ResourceManager.GetString("formToolDebloater_checkBoxShowAllApps", resourceCulture);
             }
         }
         
@@ -1188,81 +1170,144 @@ namespace xdAntiSpy.Locales {
         /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die About XDAntiSpy... ähnelt.
         /// </summary>
-        internal static string menu_aboutStripMenuItem {
+        internal static string menu_aboutAppToolStripMenuItem {
             get {
-                return ResourceManager.GetString("menu_aboutStripMenuItem", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Copy to clipboard ähnelt.
-        /// </summary>
-        internal static string menu_copySettingsToolStripMenuItem {
-            get {
-                return ResourceManager.GetString("menu_copySettingsToolStripMenuItem", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Export current ähnelt.
-        /// </summary>
-        internal static string menu_exportCurrentSettingsStripMenuItem {
-            get {
-                return ResourceManager.GetString("menu_exportCurrentSettingsStripMenuItem", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Import ähnelt.
-        /// </summary>
-        internal static string menu_importSettingsStripMenuItem {
-            get {
-                return ResourceManager.GetString("menu_importSettingsStripMenuItem", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Refresh ähnelt.
-        /// </summary>
-        internal static string menu_refreshStripMenuItem {
-            get {
-                return ResourceManager.GetString("menu_refreshStripMenuItem", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Share on X... ähnelt.
-        /// </summary>
-        internal static string menu_shareSettingsStripMenuItem {
-            get {
-                return ResourceManager.GetString("menu_shareSettingsStripMenuItem", resourceCulture);
+                return ResourceManager.GetString("menu_aboutAppToolStripMenuItem", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Symbol Reference... ähnelt.
         /// </summary>
-        internal static string menu_symbolrefStripMenuItem {
+        internal static string menu_aboutSymbolReferenceToolStripMenuItem {
             get {
-                return ResourceManager.GetString("menu_symbolrefStripMenuItem", resourceCulture);
+                return ResourceManager.GetString("menu_aboutSymbolReferenceToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die ? ähnelt.
+        /// </summary>
+        internal static string menu_aboutToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_aboutToolStripMenuItem", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Update... ähnelt.
         /// </summary>
-        internal static string menu_updateStripMenuItem {
+        internal static string menu_aboutUpdateToolStripMenuItem {
             get {
-                return ResourceManager.GetString("menu_updateStripMenuItem", resourceCulture);
+                return ResourceManager.GetString("menu_aboutUpdateToolStripMenuItem", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Visit GitHub site ähnelt.
         /// </summary>
-        internal static string menu_websiteStripMenuItem {
+        internal static string menu_aboutWebsiteToolStripMenuItem {
             get {
-                return ResourceManager.GetString("menu_websiteStripMenuItem", resourceCulture);
+                return ResourceManager.GetString("menu_aboutWebsiteToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Accessible ähnelt.
+        /// </summary>
+        internal static string menu_modeAccessibleToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_modeAccessibleToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Standard ähnelt.
+        /// </summary>
+        internal static string menu_modeStandardToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_modeStandardToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Mode ähnelt.
+        /// </summary>
+        internal static string menu_modeToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_modeToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Copy to clipboard ähnelt.
+        /// </summary>
+        internal static string menu_profileCopyToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_profileCopyToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Export current ähnelt.
+        /// </summary>
+        internal static string menu_profileExportToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_profileExportToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Share ähnelt.
+        /// </summary>
+        internal static string menu_profileShareSettingsToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_profileShareSettingsToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Import ähnelt.
+        /// </summary>
+        internal static string menu_profilesImportToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_profilesImportToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Profiles ähnelt.
+        /// </summary>
+        internal static string menu_profilesToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_profilesToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Refresh ähnelt.
+        /// </summary>
+        internal static string menu_toolsRefreshToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_toolsRefreshToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Search for crappy apps... ähnelt.
+        /// </summary>
+        internal static string menu_toolsToolDebloaterToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_toolsToolDebloaterToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Tools ähnelt.
+        /// </summary>
+        internal static string menu_toolsToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_toolsToolStripMenuItem", resourceCulture);
             }
         }
         

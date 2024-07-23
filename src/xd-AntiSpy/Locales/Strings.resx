@@ -117,38 +117,39 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="menu_aboutStripMenuItem" xml:space="preserve">
-    <value>About XDAntiSpy...</value>
+  <data name="menu_aboutToolStripMenuItem" xml:space="preserve">
+    <value>?</value>
   </data>
-  <data name="menu_copySettingsToolStripMenuItem" xml:space="preserve">
+  <data name="menu_profileCopyToolStripMenuItem" xml:space="preserve">
     <value>Copy to clipboard</value>
   </data>
-  <data name="menu_exportCurrentSettingsStripMenuItem" xml:space="preserve">
+  <data name="menu_profileExportToolStripMenuItem" xml:space="preserve">
     <value>Export current</value>
   </data>
-  <data name="menu_websiteStripMenuItem" xml:space="preserve">
+  <data name="menu_aboutWebsiteToolStripMenuItem" xml:space="preserve">
     <value>Visit GitHub site</value>
   </data>
-  <data name="menu_importSettingsStripMenuItem" xml:space="preserve">
+  <data name="menu_profilesImportToolStripMenuItem" xml:space="preserve">
     <value>Import</value>
   </data>
-  <data name="menu_refreshStripMenuItem" xml:space="preserve">
+  <data name="menu_toolsRefreshToolStripMenuItem" xml:space="preserve">
     <value>Refresh</value>
   </data>
-  <data name="menu_shareSettingsStripMenuItem" xml:space="preserve">
-    <value>Share on X...</value>
+  <data name="menu_profileShareSettingsToolStripMenuItem" xml:space="preserve">
+    <value>Share</value>
   </data>
-  <data name="menu_symbolrefStripMenuItem" xml:space="preserve">
+  <data name="menu_aboutSymbolReferenceToolStripMenuItem" xml:space="preserve">
     <value>Symbol Reference...</value>
   </data>
-  <data name="menu_updateStripMenuItem" xml:space="preserve">
+  <data name="menu_aboutUpdateToolStripMenuItem" xml:space="preserve">
     <value>Update...</value>
   </data>
   <data name="ctl_btnApply" xml:space="preserve">
-    <value>Apply Setting</value>
+    <value>Apply Settings</value>
   </data>
   <data name="_adsFinishSetupAds_desc" xml:space="preserve">
     <value>This feature will disable the "Lets finish setting up your device" and other advertising.</value>
+    <comment>!!!</comment>
   </data>
   <data name="_adsLockScreenAds_desc" xml:space="preserve">
     <value>This feature will disable tips and ads on the lock screen.</value>
@@ -495,9 +496,6 @@ xD-Antispy – because privacy settings should make you smile!
   <data name="formAbout_linkDonation" xml:space="preserve">
     <value>Your support helps keep this app running and growing—thank you! — Belim</value>
   </data>
-  <data name="formToolDebloater_btnBack" xml:space="preserve">
-    <value>&lt; Back</value>
-  </data>
   <data name="formToolDebloater_btnChooseDB" xml:space="preserve">
     <value>Select custom db...</value>
   </data>
@@ -549,10 +547,70 @@ xD-Antispy – because privacy settings should make you smile!
   <data name="formSymbolRef_lblRed" xml:space="preserve">
     <value>Additionally, for this app, there are cool and recommended profiles available on various online communities like Reddit and Deskmodder. As the app is new and growing, if you're unsure about which settings to configure, checking out these profiles can provide valuable insights. Explore and discover optimal configurations that suit your preferences, ensuring a personalized and enhanced user experience!</value>
   </data>
+  <data name="formToolDebloater_checkBoxShowAllApps" xml:space="preserve">
+    <value>Show all installed</value>
+  </data>
+  <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
+    <value>Profiles</value>
+  </data>
+  <data name="menu_toolsToolDebloaterToolStripMenuItem" xml:space="preserve">
+    <value>Search for crappy apps...</value>
+  </data>
+  <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
+    <value>About XDAntiSpy...</value>
+  </data>
+  <data name="menu_modeAccessibleToolStripMenuItem" xml:space="preserve">
+    <value>Accessible</value>
+  </data>
+  <data name="menu_modeStandardToolStripMenuItem" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="menu_modeToolStripMenuItem" xml:space="preserve">
+    <value>Mode</value>
+  </data>
   <data name="ctl_btnApps" xml:space="preserve">
-    <value>Applications</value>
+    <value />
   </data>
   <data name="ctl_btnWindows" xml:space="preserve">
-    <value>Windows</value>
+    <value />
+  </data>
+  <data name="menu_copySettingsToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_exportCurrentSettingsStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_gitHubSiteToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_helpToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_importSettingsToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_openPluginsDirectoryToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_searchForCrappyAppsToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_shareSettingsOnXTwitterToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_symbolrefToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_updateToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="formToolDebloater_btnBack" xml:space="preserve">
+    <value />
   </data>
 </root>

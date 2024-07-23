@@ -56,7 +56,7 @@ namespace Settings.System
                     else
                     {
                         // Timeout occurred
-                        logger.Log("PowerShell command timed out. Skipping feature check.", Color.Orange);
+                        logger.Log("Check XPSWriter timed out. Skipping feature check.", Color.Orange);
                     }
                 }
             }

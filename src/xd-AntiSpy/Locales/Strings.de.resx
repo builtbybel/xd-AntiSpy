@@ -117,27 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="menu_aboutStripMenuItem" xml:space="preserve">
-    <value>Über xd-AntiSpy...</value>
-  </data>
-  <data name="menu_copySettingsToolStripMenuItem" xml:space="preserve">
-    <value>In die Zwischenablage kopieren</value>
-  </data>
-  <data name="menu_websiteStripMenuItem" xml:space="preserve">
-    <value>GitHub-Website besuchen</value>
-  </data>
-  <data name="menu_importSettingsToolStripMenuItem" xml:space="preserve">
-    <value>Importieren</value>
-  </data>
-  <data name="menu_refreshStripMenuItem" xml:space="preserve">
-    <value>Aktualisieren</value>
-  </data>
-  <data name="menu_shareSettingsStripMenuItem" xml:space="preserve">
-    <value>Auf X teilen...</value>
-  </data>
-  <data name="menu_updateStripMenuItem" xml:space="preserve">
-    <value>Update...</value>
-  </data>
   <data name="ctl_btnApply" xml:space="preserve">
     <value>Einstellungen übernehmen</value>
   </data>
@@ -147,12 +126,6 @@
   </data>
   <data name="_adsLockScreenAds_desc" xml:space="preserve">
     <value>Diese Funktion deaktiviert Tipps und Werbung auf dem Sperrbildschirm.</value>
-  </data>
-  <data name="menu_exportCurrentSettingsStripMenuItem" xml:space="preserve">
-    <value>Exportieren</value>
-  </data>
-  <data name="menu_symbolrefStripMenuItem" xml:space="preserve">
-    <value>Symbolreferenz...</value>
   </data>
   <data name="_adsPersonalizedAds_desc" xml:space="preserve">
     <value>Durch diese Funktion wird die personalisierte Werbung deaktiviert.</value>
@@ -446,10 +419,10 @@
     <value>Letzte Prüfungen in Arbeit...</value>
   </data>
   <data name="_logFinalCheckMessage" xml:space="preserve">
-    <value>Vielen Dank, dass du xd-AntiSpy nutzt! Wenn dir das Tool gefällt, denk bitte über eine Spende zur Unterstützung der Entwicklung nach: https://paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG</value>
+    <value>Vielen Dank, dass Du xd-AntiSpy verwendest! Wenn dir dieses Tool nützlich erscheint, denk bitte über eine Spende nach, um die Entwicklung zu unterstützen: https://paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG</value>
   </data>
   <data name="_logFinalCheckMessage2" xml:space="preserve">
-    <value>Verfolge das Projekt auf GitHub und trage dazu bei: https://github.com/builtbybel/xd-AntiSpy</value>
+    <value>Das Projekt auf GitHub verfolgen und dazu beitragen: https://github.com/builtbybel/xd-AntiSpy</value>
   </data>
   <data name="_logFinalCheck_complete" xml:space="preserve">
     <value>Alle Prüfungen abgeschlossen.</value>
@@ -479,10 +452,7 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
 -Belim-</value>
   </data>
   <data name="formAbout_linkDonation" xml:space="preserve">
-    <value>Ihre Unterstützung trägt dazu bei, dass diese App fortzuführen – vielen Dank! – Belim</value>
-  </data>
-  <data name="formToolDebloater_btnBack" xml:space="preserve">
-    <value>&lt; Zurück</value>
+    <value>Ihre Unterstützung trägt dazu bei, diese App fortzuführen – vielen Dank! – Belim</value>
   </data>
   <data name="formToolDebloater_btnChooseDB" xml:space="preserve">
     <value>Benutzerdefinierte Datenbank auswählen...</value>
@@ -509,7 +479,7 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
     <value>entfernt.</value>
   </data>
   <data name="formToolDebloater_statusRemoving" xml:space="preserve">
-    <value>Entferne...</value>
+    <value>Entferne</value>
   </data>
   <data name="formToolDebloater_successRemoved" xml:space="preserve">
     <value>Apps erfolgreich entfernt.</value>
@@ -555,5 +525,56 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
   </data>
   <data name="ctl_btnWindows" xml:space="preserve">
     <value>Windows</value>
+  </data>
+  <data name="formToolDebloater_checkBoxShowAllApps" xml:space="preserve">
+    <value>Alle installierten anzeigen</value>
+  </data>
+  <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
+    <value>Über xd-AntiSpy...</value>
+  </data>
+  <data name="menu_aboutSymbolReferenceToolStripMenuItem" xml:space="preserve">
+    <value>Symbolreferenz...</value>
+  </data>
+  <data name="menu_aboutToolStripMenuItem" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="menu_aboutUpdateToolStripMenuItem" xml:space="preserve">
+    <value>Update...</value>
+  </data>
+  <data name="menu_aboutWebsiteToolStripMenuItem" xml:space="preserve">
+    <value>GitHub-Website besuchen</value>
+  </data>
+  <data name="menu_profileCopyToolStripMenuItem" xml:space="preserve">
+    <value>In die Zwischenablage kopieren</value>
+  </data>
+  <data name="menu_profileExportToolStripMenuItem" xml:space="preserve">
+    <value>Exportieren</value>
+  </data>
+  <data name="menu_profileShareSettingsToolStripMenuItem" xml:space="preserve">
+    <value>Teilen</value>
+  </data>
+  <data name="menu_profilesImportToolStripMenuItem" xml:space="preserve">
+    <value>Importieren</value>
+  </data>
+  <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="menu_toolsRefreshToolStripMenuItem" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="menu_toolsToolDebloaterToolStripMenuItem" xml:space="preserve">
+    <value>Nach unnötigen Apps suchen...</value>
+  </data>
+  <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
+    <value>Spezial</value>
+  </data>
+  <data name="menu_modeAccessibleToolStripMenuItem" xml:space="preserve">
+    <value>Barrierefrei</value>
+  </data>
+  <data name="menu_modeStandardToolStripMenuItem" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="menu_modeToolStripMenuItem" xml:space="preserve">
+    <value>Modus</value>
   </data>
 </root>

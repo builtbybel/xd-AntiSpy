@@ -149,6 +149,7 @@
   </data>
   <data name="_adsFinishSetupAds_desc" xml:space="preserve">
     <value>This feature will disable the "Lets finish setting up your device" and other advertising.</value>
+    <comment>!!!</comment>
   </data>
   <data name="_adsLockScreenAds_desc" xml:space="preserve">
     <value>This feature will disable tips and ads on the lock screen.</value>
@@ -569,5 +570,47 @@ xD-Antispy – because privacy settings should make you smile!
   </data>
   <data name="menu_modeToolStripMenuItem" xml:space="preserve">
     <value>Mode</value>
+  </data>
+  <data name="ctl_btnApps" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ctl_btnWindows" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_copySettingsToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_exportCurrentSettingsStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_gitHubSiteToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_helpToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_importSettingsToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_openPluginsDirectoryToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_searchForCrappyAppsToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_shareSettingsOnXTwitterToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_symbolrefToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_updateToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="formToolDebloater_btnBack" xml:space="preserve">
+    <value />
   </data>
 </root>

@@ -38,7 +38,7 @@ namespace Settings.AI
         {
             try
             {
-                Registry.SetValue(keyName, "DisableAIDataAnalysis", 1, Microsoft.Win32.RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 1, Microsoft.Win32.RegistryValueKind.DWord);
                 logger.Log("You've even disabled system-wide Snapshots for all users now.", Color.Green);
                 return true;
             }
@@ -54,7 +54,7 @@ namespace Settings.AI
         {
             try
             {
-                Registry.SetValue(keyName, "DisableAIDataAnalysis", desiredValue, Microsoft.Win32.RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, desiredValue, Microsoft.Win32.RegistryValueKind.DWord);
                 return true;
             }
             catch (Exception ex)

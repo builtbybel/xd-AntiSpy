@@ -1,8 +1,8 @@
-﻿using xdAntiSpy;
-using xdAntiSpy.Locales;
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
 using System.Drawing;
+using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.Privacy
 {

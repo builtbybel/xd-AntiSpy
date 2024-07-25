@@ -1,18 +1,19 @@
-﻿using xdAntiSpy;
-using xdAntiSpy.Locales;    
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
 using System.Drawing;
+using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.Ads
 {
     internal class TailoredExperiences : SettingsBase
     {
-        public TailoredExperiences( Logger logger) : base(logger)
+        public TailoredExperiences(Logger logger) : base(logger)
         {
         }
 
         private const string keyName = @"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Privacy";
+        private const string valueName = "TailoredExperiencesWithDiagnosticDataEnabled";
         private const int desiredValue = 0;
 
         public override string ID()
@@ -28,7 +29,7 @@ namespace Settings.Ads
         public override bool CheckFeature()
         {
             return (
-                   Utils.IntEquals(keyName, "TailoredExperiencesWithDiagnosticDataEnabled", desiredValue)
+                   Utils.IntEquals(keyName, valueName, desiredValue)
              );
         }
 
@@ -36,7 +37,7 @@ namespace Settings.Ads
         {
             try
             {
-                Registry.SetValue(keyName, "TailoredExperiencesWithDiagnosticDataEnabled", 0, RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 0, RegistryValueKind.DWord);
                 return true;
             }
             catch (Exception ex)
@@ -51,7 +52,7 @@ namespace Settings.Ads
         {
             try
             {
-                Registry.SetValue(keyName, "TailoredExperiencesWithDiagnosticDataEnabled", 1, RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 1, RegistryValueKind.DWord);
                 return true;
             }
             catch (Exception ex)

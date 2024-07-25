@@ -1,18 +1,19 @@
-﻿using xdAntiSpy;
-using xdAntiSpy.Locales;
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
 using System.Drawing;
+using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.Privacy
 {
     internal class FindMyDevice : SettingsBase
     {
-        public FindMyDevice( Logger logger) : base(logger)
+        public FindMyDevice(Logger logger) : base(logger)
         {
         }
 
         private const string keyName = @"HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\location";
+        private const string valueName = "Value";
         private const string desiredValue = @"Allow";
 
         public override string ID()
@@ -28,7 +29,7 @@ namespace Settings.Privacy
         public override bool CheckFeature()
         {
             return !(
-                  Utils.StringEquals(keyName, "Value", desiredValue)
+                  Utils.StringEquals(keyName, valueName, desiredValue)
             );
         }
 
@@ -36,7 +37,7 @@ namespace Settings.Privacy
         {
             try
             {
-                Registry.SetValue(keyName, "Value", "Deny", RegistryValueKind.String);
+                Registry.SetValue(keyName, valueName, "Deny", RegistryValueKind.String);
                 return true;
             }
             catch (Exception ex)
@@ -51,7 +52,7 @@ namespace Settings.Privacy
         {
             try
             {
-                Registry.SetValue(keyName, "Value", "Allow", RegistryValueKind.String);
+                Registry.SetValue(keyName, valueName, desiredValue, RegistryValueKind.String);
 
                 return true;
             }

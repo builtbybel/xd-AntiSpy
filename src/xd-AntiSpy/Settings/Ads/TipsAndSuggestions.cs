@@ -1,18 +1,19 @@
-﻿using xdAntiSpy;
-using xdAntiSpy.Locales;
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
 using System.Drawing;
+using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.Ads
 {
     internal class TipsAndSuggestions : SettingsBase
     {
-        public TipsAndSuggestions( Logger logger) : base(logger)
+        public TipsAndSuggestions(Logger logger) : base(logger)
         {
         }
 
         private const string keyName = @"HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager";
+        private const string valueName = "SubscribedContent-338389Enabled";
         private const int desiredValue = 0;
 
         public override string ID() => Strings._adsTipsAndSuggestions;
@@ -21,7 +22,7 @@ namespace Settings.Ads
 
         public override bool CheckFeature()
         {
-            return (Utils.IntEquals(keyName, "SubscribedContent-338389Enabled", desiredValue)
+            return (Utils.IntEquals(keyName, valueName, desiredValue)
                  );
         }
 
@@ -29,7 +30,7 @@ namespace Settings.Ads
         {
             try
             {
-                Registry.SetValue(keyName, "SubscribedContent-338389Enabled", 0, Microsoft.Win32.RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 0, Microsoft.Win32.RegistryValueKind.DWord);
 
                 return true;
             }
@@ -45,7 +46,7 @@ namespace Settings.Ads
         {
             try
             {
-                Registry.SetValue(keyName, "SubscribedContent-338389Enabled", 1, Microsoft.Win32.RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 1, Microsoft.Win32.RegistryValueKind.DWord);
 
                 return true;
             }

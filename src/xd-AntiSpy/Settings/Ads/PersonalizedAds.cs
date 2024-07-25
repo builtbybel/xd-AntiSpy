@@ -1,34 +1,35 @@
 ﻿using Microsoft.Win32;
-using xdAntiSpy;
 using System;
 using System.Drawing;
+using xdAntiSpy;
 using xdAntiSpy.Locales;
 
 namespace Settings.Ads
 {
-    public class PersonalizedAds: SettingsBase
+    public class PersonalizedAds : SettingsBase
     {
-        public PersonalizedAds( Logger logger) : base(logger)
+        public PersonalizedAds(Logger logger) : base(logger)
         {
         }
 
         private const string keyName = @"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo";
-        private const int desiredValue =0;
+        private const string valueName = "Enabled";
+        private const int desiredValue = 0;
 
         public override string ID() => Strings._adsPersonalizedAds;
 
-        public override string Info() => Strings._adsPersonalizedAds_desc; 
+        public override string Info() => Strings._adsPersonalizedAds_desc;
 
         public override bool CheckFeature()
         {
-            return Utils.IntEquals(keyName, "Enabled", 0);
+            return Utils.IntEquals(keyName, valueName, 0);
         }
 
         public override bool DoFeature()
         {
             try
             {
-                Registry.SetValue(keyName, "Enabled", 0, Microsoft.Win32.RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 0, Microsoft.Win32.RegistryValueKind.DWord);
 
                 return true;
             }
@@ -44,7 +45,7 @@ namespace Settings.Ads
         {
             try
             {
-                Registry.SetValue(keyName, "Enabled", 1, Microsoft.Win32.RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 1, Microsoft.Win32.RegistryValueKind.DWord);
 
                 return true;
             }

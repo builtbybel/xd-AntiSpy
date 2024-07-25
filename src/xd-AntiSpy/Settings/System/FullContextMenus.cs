@@ -3,6 +3,7 @@ using System;
 using System.Drawing;
 using xdAntiSpy;
 using xdAntiSpy.Locales;
+
 namespace Settings.System
 {
     internal class FullContextMenus : SettingsBase

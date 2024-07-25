@@ -1,18 +1,19 @@
-﻿using xdAntiSpy;
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
 using System.Drawing;
+using xdAntiSpy;
 using xdAntiSpy.Locales;
 
 namespace Settings.Taskbar
 {
     internal class MostUsedApps : SettingsBase
     {
-        public MostUsedApps( Logger logger) : base(logger)
+        public MostUsedApps(Logger logger) : base(logger)
         {
         }
 
         private const string keyName = @"HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer";
+        private const string valueName = "ShowOrHideMostUsedApps";
         private const int desiredValue = 2;
 
         public override string ID()
@@ -28,7 +29,7 @@ namespace Settings.Taskbar
         public override bool CheckFeature()
         {
             return (
-                   Utils.IntEquals(keyName, "ShowOrHideMostUsedApps", desiredValue)
+                   Utils.IntEquals(keyName, valueName, desiredValue)
              );
         }
 
@@ -36,7 +37,7 @@ namespace Settings.Taskbar
         {
             try
             {
-                Registry.SetValue(keyName, "ShowOrHideMostUsedApps", 2, RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 2, RegistryValueKind.DWord);
                 return true;
             }
             catch (Exception ex)
@@ -51,7 +52,7 @@ namespace Settings.Taskbar
         {
             try
             {
-                Registry.SetValue(keyName, "ShowOrHideMostUsedApps", 1, RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 1, RegistryValueKind.DWord);
                 return true;
             }
             catch (Exception ex)

@@ -1,19 +1,20 @@
-﻿using xdAntiSpy;
-using xdAntiSpy.Locales;
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
 using System.Drawing;
+using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.System
 {
     internal class LockScreen : SettingsBase
     {
-        public LockScreen( Logger logger) : base(logger)
+        public LockScreen(Logger logger) : base(logger)
         {
         }
 
         private const string keyName = @"HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization";
-        private const int desiredValue =0;
+        private const string valueName = "NoLockScreen";
+        private const int desiredValue = 0;
 
         public override string ID()
         {
@@ -28,7 +29,7 @@ namespace Settings.System
         public override bool CheckFeature()
         {
             return !(
-                   Utils.IntEquals(keyName, "NoLockScreen", desiredValue)
+                   Utils.IntEquals(keyName, valueName, desiredValue)
              );
         }
 
@@ -36,7 +37,7 @@ namespace Settings.System
         {
             try
             {
-                Registry.SetValue(keyName, "NoLockScreen", 1, RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 1, RegistryValueKind.DWord);
                 return true;
             }
             catch (Exception ex)
@@ -51,7 +52,7 @@ namespace Settings.System
         {
             try
             {
-                Registry.SetValue(keyName, "NoLockScreen", 0, RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 0, RegistryValueKind.DWord);
 
                 return true;
             }

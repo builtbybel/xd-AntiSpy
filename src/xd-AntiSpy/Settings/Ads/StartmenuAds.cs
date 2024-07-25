@@ -13,6 +13,7 @@ namespace Settings.Ads
         }
 
         private const string keyName = @"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced";
+        private const string valueName = "Start_IrisRecommendations";
         private const int desiredValue = 0;
 
         public override string ID()
@@ -28,7 +29,7 @@ namespace Settings.Ads
         public override bool CheckFeature()
         {
             return (
-                   Utils.IntEquals(keyName, "Start_IrisRecommendations", desiredValue)
+                   Utils.IntEquals(keyName, valueName, desiredValue)
              );
         }
 
@@ -36,7 +37,7 @@ namespace Settings.Ads
         {
             try
             {
-                Registry.SetValue(keyName, "Start_IrisRecommendations", 0, RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 0, RegistryValueKind.DWord);
                 return true;
             }
             catch (Exception ex)
@@ -51,7 +52,7 @@ namespace Settings.Ads
         {
             try
             {
-                Registry.SetValue(keyName, "Start_IrisRecommendations", 1, RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 1, RegistryValueKind.DWord);
                 return true;
             }
             catch (Exception ex)

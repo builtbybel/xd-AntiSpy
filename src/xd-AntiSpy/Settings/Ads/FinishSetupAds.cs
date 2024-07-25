@@ -13,6 +13,7 @@ namespace Settings.Ads
         }
 
         private const string keyName = @"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement";
+        private const string valueName = "ScoobeSystemSettingEnabled";
         private const int desiredValue = 0;
 
         public override string ID() => Strings._adsFinishSetupAds;
@@ -21,14 +22,14 @@ namespace Settings.Ads
 
         public override bool CheckFeature()
         {
-            return Utils.IntEquals(keyName, "ScoobeSystemSettingEnabled", 0);
+            return Utils.IntEquals(keyName, valueName, 0);
         }
 
         public override bool DoFeature()
         {
             try
             {
-                Registry.SetValue(keyName, "ScoobeSystemSettingEnabled", 0, Microsoft.Win32.RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 0, Microsoft.Win32.RegistryValueKind.DWord);
 
                 return true;
             }
@@ -44,7 +45,7 @@ namespace Settings.Ads
         {
             try
             {
-                Registry.SetValue(keyName, "ScoobeSystemSettingEnabled", 1, Microsoft.Win32.RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 1, Microsoft.Win32.RegistryValueKind.DWord);
 
                 return true;
             }

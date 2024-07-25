@@ -124,10 +124,10 @@
   <data name="asset_Info" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\asset_Info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="asset_Uncheck" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\asset_Uncheck.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="asset_xd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\asset_xd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asset_Uncheck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asset_Uncheck.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

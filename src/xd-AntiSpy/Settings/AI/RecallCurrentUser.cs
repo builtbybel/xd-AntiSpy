@@ -16,7 +16,7 @@ namespace Settings.AI
         private const string valueName = "DisableAIDataAnalysis";
         private const int desiredValue = 0;
 
-        public override string ID() =>Strings._aiRecallCurrentUser;
+        public override string ID() => Strings._aiRecallCurrentUser;
 
         public override string Info() => Strings._aiRecallCurrentUser_desc;
 
@@ -38,7 +38,7 @@ namespace Settings.AI
         {
             try
             {
-                Registry.SetValue(keyName, "DisableAIDataAnalysis", 1, Microsoft.Win32.RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 1, Microsoft.Win32.RegistryValueKind.DWord);
                 logger.Log("You've got snapshots disabled.", Color.Green);
                 return true;
             }
@@ -54,7 +54,7 @@ namespace Settings.AI
         {
             try
             {
-                Registry.SetValue(keyName, "DisableAIDataAnalysis", desiredValue, Microsoft.Win32.RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, desiredValue, Microsoft.Win32.RegistryValueKind.DWord);
                 return true;
             }
             catch (Exception ex)

@@ -8,32 +8,32 @@ namespace Settings.Ads
 {
     internal class LockScreenAds : SettingsBase
     {
-        public LockScreenAds( Logger logger) : base(logger)
+        public LockScreenAds(Logger logger) : base(logger)
         {
         }
 
         private const string keyName = @"HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager";
+        private const string valueName = "RotatingLockScreenOverlayEnabled";
+        private const string valueName2 = "SubscribedContent-338387Enabled";
         private const int desiredValue = 0;
 
         public override string ID() => Strings._adsLockScreenAds;
 
         public override string Info() => Strings._adsLockScreenAds_desc;
 
-
         public override bool CheckFeature()
         {
-            return (Utils.IntEquals(keyName, "RotatingLockScreenOverlayEnabled", desiredValue) &&
-                   Utils.IntEquals(keyName, "SubscribedContent-338387Enabled", desiredValue)
+            return (Utils.IntEquals(keyName, valueName, desiredValue) &&
+                   Utils.IntEquals(keyName, valueName2, desiredValue)
             );
         }
-
 
         public override bool DoFeature()
         {
             try
             {
-                Registry.SetValue(keyName, "RotatingLockScreenOverlayEnabled", 0, Microsoft.Win32.RegistryValueKind.DWord);
-                Registry.SetValue(keyName, "SubscribedContent-338387Enabled", 0, Microsoft.Win32.RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 0, Microsoft.Win32.RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName2, 0, Microsoft.Win32.RegistryValueKind.DWord);
 
                 return true;
             }
@@ -49,8 +49,8 @@ namespace Settings.Ads
         {
             try
             {
-                Registry.SetValue(keyName, "RotatingLockScreenOverlayEnabled", 1, Microsoft.Win32.RegistryValueKind.DWord);
-                Registry.SetValue(keyName, "SubscribedContent-338387Enabled",1, Microsoft.Win32.RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 1, Microsoft.Win32.RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName2, 1, Microsoft.Win32.RegistryValueKind.DWord);
 
                 return true;
             }

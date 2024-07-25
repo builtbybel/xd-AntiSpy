@@ -1,9 +1,9 @@
-﻿using xdAntiSpy;
-using xdAntiSpy.Locales;
+﻿using System;
 using System.Drawing;
 using System.Management.Automation;
 using System.Threading.Tasks;
-using System;
+using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.System
 {
@@ -17,7 +17,6 @@ namespace Settings.System
         {
             return Strings._systemXPSWriter;
         }
-
 
         public override string Info()
         {
@@ -67,7 +66,6 @@ namespace Settings.System
 
             return isFeatureDisabled;
         }
-
 
         public override bool DoFeature()
         {

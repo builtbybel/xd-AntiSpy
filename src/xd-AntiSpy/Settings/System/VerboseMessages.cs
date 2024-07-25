@@ -1,18 +1,19 @@
-﻿using xdAntiSpy;
-using xdAntiSpy.Locales;
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
 using System.Drawing;
+using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.System
 {
     public class VerboseMessages : SettingsBase
     {
-        public VerboseMessages( Logger logger) : base(logger)
+        public VerboseMessages(Logger logger) : base(logger)
         {
         }
 
         private const string keyName = @"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System";
+        private const string valueName = "verbosestatus";
         private const int desiredValue = 0;
 
         public override string ID() => Strings._systemVerboseMessages;
@@ -21,14 +22,14 @@ namespace Settings.System
 
         public override bool CheckFeature()
         {
-            return !Utils.IntEquals(keyName, "verbosestatus", desiredValue);
+            return !Utils.IntEquals(keyName, valueName, desiredValue);
         }
 
         public override bool DoFeature()
         {
             try
             {
-                Registry.SetValue(keyName, "verbosestatus", 1, RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 1, RegistryValueKind.DWord);
 
                 return true;
             }
@@ -44,7 +45,7 @@ namespace Settings.System
         {
             try
             {
-                Registry.SetValue(keyName, "verbosestatus", desiredValue, Microsoft.Win32.RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, desiredValue, Microsoft.Win32.RegistryValueKind.DWord);
 
                 return true;
             }

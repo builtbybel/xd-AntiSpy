@@ -1,18 +1,19 @@
-﻿using xdAntiSpy;
-using xdAntiSpy.Locales;
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
 using System.Drawing;
+using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.Privacy
 {
     internal class BackgroundApps : SettingsBase
     {
-        public BackgroundApps( Logger logger) : base(logger)
+        public BackgroundApps(Logger logger) : base(logger)
         {
         }
 
         private const string keyName = @"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications";
+        private const string valueName = "GlobalUserDisabled";
         private const int desiredValue = 0;
 
         public override string ID()
@@ -28,7 +29,7 @@ namespace Settings.Privacy
         public override bool CheckFeature()
         {
             return !(
-                   Utils.IntEquals(keyName, "GlobalUserDisabled", desiredValue)
+                   Utils.IntEquals(keyName, valueName, desiredValue)
              );
         }
 
@@ -36,7 +37,7 @@ namespace Settings.Privacy
         {
             try
             {
-                Registry.SetValue(keyName, "GlobalUserDisabled", 1, RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 1, RegistryValueKind.DWord);
                 return true;
             }
             catch (Exception ex)
@@ -51,7 +52,7 @@ namespace Settings.Privacy
         {
             try
             {
-                Registry.SetValue(keyName, "GlobalUserDisabled", desiredValue, RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, desiredValue, RegistryValueKind.DWord);
 
                 return true;
             }

@@ -1,8 +1,8 @@
-﻿using xdAntiSpy;
-using xdAntiSpy.Locales;
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
 using System.Drawing;
+using xdAntiSpy;
+using xdAntiSpy.Locales;
 
 namespace Settings.Taskbar
 {
@@ -13,6 +13,7 @@ namespace Settings.Taskbar
         }
 
         private const string keyName = @"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced";
+        private const string valueName = "TaskbarAl";
         private const int desiredValue = 1;
 
         public override string ID()
@@ -28,7 +29,7 @@ namespace Settings.Taskbar
         public override bool CheckFeature()
         {
             return !(
-                   Utils.IntEquals(keyName, "TaskbarAl", desiredValue)
+                   Utils.IntEquals(keyName, valueName, desiredValue)
              );
         }
 
@@ -36,7 +37,7 @@ namespace Settings.Taskbar
         {
             try
             {
-                Registry.SetValue(keyName, "TaskbarAl", 0, RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 0, RegistryValueKind.DWord);
                 return true;
             }
             catch (Exception ex)
@@ -51,7 +52,7 @@ namespace Settings.Taskbar
         {
             try
             {
-                Registry.SetValue(keyName, "TaskbarAl", 1, RegistryValueKind.DWord);
+                Registry.SetValue(keyName, valueName, 1, RegistryValueKind.DWord);
                 return true;
             }
             catch (Exception ex)

@@ -23,6 +23,6 @@ The "XP" in the name has now become a smiley "XD", which stands for eXtreme Defe
 **If you want to motivate me, feel free to do so with a [donation here](https://www.paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG) 💝**
 
 # Translating the App
-xd-AntiSpy is multilingual and already supports several languages. [You can find them for download in the extensions repo for xd-AntiSpy](https://github.com/builtbybel/xd-AntiSpyEx).
+xd-AntiSpy is multilingual and already supports several languages.
 If you want to help and translate xd-AntiSpy into your language, you'll find a corresponding quick guide [here](https://github.com/builtbybel/xd-AntiSpy/discussions/12#discussioncomment-10012049).
 

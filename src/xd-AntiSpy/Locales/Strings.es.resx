@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="menu_aboutToolStripMenuItem" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="_taskbarStartButtonAlignment" xml:space="preserve">
+    <value>Alinear el botón de inicio a la izquierda</value>
+  </data>
+  <data name="_catAdblock" xml:space="preserve">
+    <value>Bloqueo de Porquerìa de Publicidad</value>
+  </data>
+  <data name="_catAI" xml:space="preserve">
+    <value>IA/Copiloto y Recall</value>
+  </data>
+  <data name="formAbout_lblAbout" xml:space="preserve">
+    <value>(c)2024 Creación de una aplicación Belim
+Si bien no hay garantía de que XD-Antispy funcione perfectamente en su sistema, lo he probado exhaustivamente.  Recuerda, es un proyecto de una sola persona y yo solo soy humano.
+
+Esta herramienta es de código abierto y siempre será gratuita.  Me comprometo a mantenerlo actualizado y mejorarlo.
+
+XD-Antispy es una bifurcación moderna del clásico XP-Antispy para Windows 11, que evoluciona para enfrentar los desafíos de privacidad actuales. 
+
+XD-Antispy - ¡porque la configuración de privacidad debería hacerte sonreír!
+
+- Belim-</value>
+  </data>
+  <data name="formSymbolRef_lblActive" xml:space="preserve">
+    <value>Activo: Cuando una opción está marcada y atenuada, significa que la configuración está activa.</value>
+  </data>
+  <data name="formSymbolRef_lblRed" xml:space="preserve">
+    <value>Además, para esta aplicación, hay perfiles geniales y recomendados disponibles en varias comunidades en línea como Reddit y Deskmodder. Como la aplicación es nueva y está creciendo, si no está seguro de qué configuraciones configurar, consultar estos perfiles puede brindarle información valiosa. ¡Explore y descubra configuraciones óptimas que se adapten a sus preferencias, asegurando una experiencia de usuario personalizada y mejorada!</value>
+  </data>
+  <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
+    <value>Acerca de xD-AntiSpy (anteriormente XP-AntiSpy)</value>
+  </data>
+  <data name="menu_modeAccessibleToolStripMenuItem" xml:space="preserve">
+    <value>Accesible</value>
+  </data>
+  <data name="ctl_btnApps" xml:space="preserve">
+    <value>Aplicación</value>
+  </data>
+  <data name="ctl_btnWindows" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="menu_aboutWebsiteToolStripMenuItem" xml:space="preserve">
+    <value>Visitar al sitio de Github</value>
+  </data>
+  <data name="menu_aboutUpdateToolStripMenuItem" xml:space="preserve">
+    <value>Actualizando</value>
+  </data>
+  <data name="_edgeBrowserSignin_desc" xml:space="preserve">
+    <value>Esta configuración controla si un usuario puede iniciar sesión en Microsoft Edge con una cuenta para usar servicios como sincronización e inicio de sesión único</value>
+  </data>
+  <data name="_edgeImportOnEachLaunch_desc" xml:space="preserve">
+    <value>Permitir la importación de datos de otros navegadores en cada lanzamiento de Microsoft Edge.</value>
+  </data>
+  <data name="_edgeUserFeedback_desc" xml:space="preserve">
+    <value>Permitir el envío de comentarios, sugerencias o encuestas a los clientes, así como informar problemas con el navegador.</value>
+  </data>
+  <data name="_gamingGameDVR" xml:space="preserve">
+    <value>Desactivar Game DVR</value>
+  </data>
+  <data name="_gamingPowerThrottling" xml:space="preserve">
+    <value>Desactivar la Acceleracion de Potencia (PowerThrottling)</value>
+  </data>
+  <data name="_privacyTelemetry" xml:space="preserve">
+    <value>Desactivar la recopilación de datos de telemetría</value>
+  </data>
+  <data name="_privacyTelemetry_desc" xml:space="preserve">
+    <value>Desafortunadamente, Microsoft no permite quienes poseen a los usuarios de Windows 11 o Windows 10 Home edition desactiven por completo la recopilación de datos de telemetría. Sin embargo, esos usuarios aún pueden limitar cierta recopilación de datos opcional a través de la configuración del sistema.</value>
+  </data>
+  <data name="_systemFaxPrinter" xml:space="preserve">
+    <value>Desinstala Impresora Fax</value>
+  </data>
+  <data name="_systemXPSWriter" xml:space="preserve">
+    <value>Desinstalar Impresora de XPS</value>
+  </data>
+  <data name="_systemXPSWriter_desc" xml:space="preserve">
+    <value>Esta función desinstalará la impresion virtual para XPS</value>
+  </data>
+  <data name="_taskbarWidgets_desc" xml:space="preserve">
+    <value>Esta función eliminará los widgets de la barra de tareas.</value>
+  </data>
+  <data name="_systemFaxPrinter_desc" xml:space="preserve">
+    <value>Esta función desinstalará la impresora de fax.</value>
+  </data>
+  <data name="_logFinalCheck_complete" xml:space="preserve">
+    <value>Todos los controles ya completados.</value>
+  </data>
+  <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
+    <value>Herramientas</value>
+    <comment>ツールメニュー</comment>
+  </data>
+  <data name="menu_profileCopyToolStripMenuItem" xml:space="preserve">
+    <value>Copiar al portapapel</value>
+  </data>
+  <data name="menu_profileShareSettingsToolStripMenuItem" xml:space="preserve">
+    <value>Compartir</value>
+  </data>
+  <data name="ctl_btnApply" xml:space="preserve">
+    <value>Aplicar configuracion</value>
+  </data>
+  <data name="_adsTailoredExperiences_desc" xml:space="preserve">
+    <value>Las experiencias personalizadas permiten a Microsoft obtener información de usted para ofrecer consejos, anuncios y recomendaciones personalizados. Mucha gente llamaría a esto telemetría,o incluso espionaje. </value>
+  </data>
+  <data name="_edgeEdgeShoppingAssistant_desc" xml:space="preserve">
+    <value>La función Comprar en Microsoft Edge le encontrará automáticamente los mejores precios y cupones de toda la web a medida que compre.</value>
+  </data>
+  <data name="_edgeTabPageQuickLinks_desc" xml:space="preserve">
+    <value>De forma predeterminada, cuando abres una pestaña nueva, ves una barra de búsqueda de Bing, Bing image of the day establecida como fondo de la página. Para los sitios web compatibles, los enlaces rápidos en la página Nueva pestaña pueden mostrar actualizaciones recientes directamente en el mosaico.</value>
+  </data>
+  <data name="_edgeEdgeCollections" xml:space="preserve">
+    <value>Deshabilitar el acceso a la función Colecciones</value>
+  </data>
+  <data name="_taskbarTaskbarChat_desc" xml:space="preserve">
+    <value>De forma predeterminada, la función de chat le permite acceder a Microsoft Teams fácilmente. Pero, si no usa Teams o simplemente no desea el ícono en su barra de tareas, puede ocultarlo.</value>
+  </data>
+  <data name="menuDoContextItem" xml:space="preserve">
+    <value>Establecer la Configuración Manualmente</value>
+  </data>
+  <data name="menuUndoContextItem" xml:space="preserve">
+    <value>Resetear la configuración</value>
+  </data>
+  <data name="statusApplied" xml:space="preserve">
+    <value>Aplicado    </value>
+  </data>
+  <data name="_catSystem" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="_catTaskbar" xml:space="preserve">
+    <value>Barra de Tareas</value>
+  </data>
+  <data name="_logFinalCheckMessage" xml:space="preserve">
+    <value>¡Gracias por usar xd-AntiSpy! Si encuentra útil esta herramienta, considere donar para apoyar su desarrollo: https://paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG</value>
+  </data>
+  <data name="formAbout_linkDonation" xml:space="preserve">
+    <value>Su apoyo ayuda a mantener esta aplicación en funcionamiento y creciendo, ¡gracias! - Belim</value>
+  </data>
+  <data name="formToolDebloater_btnChooseDB" xml:space="preserve">
+    <value>Seleccionar bd personalizada</value>
+  </data>
+  <data name="formToolDebloater_btnRemoveSelected" xml:space="preserve">
+    <value>Aplicacion eliminada por selecciòn</value>
+  </data>
+  <data name="formToolDebloater_DeselectAll" xml:space="preserve">
+    <value>Deseleccionar todos</value>
+  </data>
+  <data name="formToolDebloater_selectAll" xml:space="preserve">
+    <value>Seleccionar Todos</value>
+  </data>
+  <data name="formToolDebloater_statusCheckComplete" xml:space="preserve">
+    <value>Chequeo completado</value>
+  </data>
+  <data name="formToolDebloater_statusChecking" xml:space="preserve">
+    <value>Verificando</value>
+  </data>
+  <data name="formToolDebloater_statusRemoved" xml:space="preserve">
+    <value>Eliminado</value>
+  </data>
+  <data name="formToolDebloater_statusRemoving" xml:space="preserve">
+    <value>Quitando</value>
+  </data>
+  <data name="formToolDebloater_successRemoved" xml:space="preserve">
+    <value>Aplicaciones eliminadas con éxito.</value>
+  </data>
+  <data name="menu_toolsToolDebloaterToolStripMenuItem" xml:space="preserve">
+    <value>Buscando porquerías de aplicaciones basuras (crapware y/o bloatware)</value>
+  </data>
+  <data name="menu_modeStandardToolStripMenuItem" xml:space="preserve">
+    <value>Estàndar</value>
+  </data>
+  <data name="_edgeBrowserSignin" xml:space="preserve">
+    <value>Deshabilitar el inicio de sesión en el navegador y los servicios de sincronización</value>
+  </data>
+  <data name="_taskbarBingSearch" xml:space="preserve">
+    <value>Deshabilitar la búsqueda de contenido en la nube de Bing</value>
+  </data>
+  <data name="menu_profileExportToolStripMenuItem" xml:space="preserve">
+    <value>Exportacion actual</value>
+  </data>
+  <data name="menu_profilesImportToolStripMenuItem" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="_edgeDefaultTopSites_desc" xml:space="preserve">
+    <value>Ocultar los sitios principales predeterminados de la página nueva pestaña en Microsoft Edge</value>
+  </data>
+  <data name="_edgeDefautBrowserSetting_desc" xml:space="preserve">
+    <value>Forzar a Edge a dejar de solicitar cambiar el navegador predeterminado.</value>
+  </data>
+  <data name="_edgeEdgeCollections_desc" xml:space="preserve">
+    <value>Permite a los usuarios acceder a la función Colecciones, lo que les permite recopilar, organizar, compartir y exportar contenido de manera más eficiente con la integración de Office.</value>
+  </data>
+  <data name="_edgeFirstRunExperience_desc" xml:space="preserve">
+    <value>Ocultar la pantalla de inicio y' Primeros pasos ' en el lanzamiento inicial (a partir de la versión 80).</value>
+  </data>
+  <data name="_edgeGamerMode_desc" xml:space="preserve">
+    <value>El modo Microsoft Edge Gamer permite a los jugadores personalizar su navegador con temas de juegos y les da la opción de habilitar el modo Eficiencia para juegos de PC, la fuente de juegos en nuevas pestañas, aplicaciones de la barra lateral para jugadores y más.</value>
+  </data>
+  <data name="_edgeStartupBoost_desc" xml:space="preserve">
+    <value>Permite que los procesos de Microsoft Edge se inicialicen al iniciar el sistema operativo y se reinicien en segundo plano después de cerrar la última ventana del navegador.</value>
+  </data>
+  <data name="_adsFileExplorerAds" xml:space="preserve">
+    <value>Deshabilitar la porquerìa de los Anuncios del Explorador de Archivos</value>
+  </data>
+  <data name="_adsFinishSetupAds" xml:space="preserve">
+    <value>Deshabilitar la porquería de los Anuncios de Configuración de Finalización</value>
+  </data>
+  <data name="_adsLockScreenAds" xml:space="preserve">
+    <value>Deshabilitar Sugerencias y la porquería de Anuncios de la Pantalla de Bloqueo</value>
+  </data>
+  <data name="_adsPersonalizedAds" xml:space="preserve">
+    <value>Deshabilitar la porquería de los Anuncios Personalizados</value>
+  </data>
+  <data name="_adsSettingAds" xml:space="preserve">
+    <value>Deshabilitar la configuracion de la porquería de Anuncios</value>
+  </data>
+  <data name="_adsStartmenuAds" xml:space="preserve">
+    <value>Deshabilitar la porquería de los anuncios del menú Inicio</value>
+  </data>
+  <data name="_adsTailoredExperiences" xml:space="preserve">
+    <value>Deshabilitar Experiencias personalizadas</value>
+  </data>
+  <data name="_adsTipsAndSuggestions" xml:space="preserve">
+    <value>Deshabilitar Consejos y la porquería de los Anuncios Generales</value>
+  </data>
+  <data name="_adsWelcomeExperienceAds" xml:space="preserve">
+    <value>Deshabilitar la porquería de los Anuncios de Experiencia de Bienvenida</value>
+  </data>
+  <data name="_aiCopilotTaskbar" xml:space="preserve">
+    <value>No Mostrar Copilot en la Barra de tareas</value>
+  </data>
+  <data name="_aiRecallCurrentUser" xml:space="preserve">
+    <value>No permita que Windows guarde instantáneas de su pantalla</value>
+  </data>
+  <data name="_aiRecallLocalMachine" xml:space="preserve">
+    <value>No permitir las instantáneas de todo el sistema</value>
+  </data>
+  <data name="_edgeDefaultTopSites" xml:space="preserve">
+    <value>No mostrar enlaces patrocinados en la página nueva pestaña</value>
+  </data>
+  <data name="_edgeDefautBrowserSetting" xml:space="preserve">
+    <value>Deshabilitar Microsoft Edge como navegador predeterminado</value>
+  </data>
+  <data name="_edgeEdgeShoppingAssistant" xml:space="preserve">
+    <value>Deshabilitar el asistente de compras en Microsoft Edge (eliminar compras compulsivas)</value>
+  </data>
+  <data name="_edgeFirstRunExperience" xml:space="preserve">
+    <value>No Mostrar La Experiencia De La Primera Ejecución</value>
+  </data>
+  <data name="_edgeGamerMode" xml:space="preserve">
+    <value>Desactivar Modo Juego</value>
+  </data>
+  <data name="_edgeHubsSidebar" xml:space="preserve">
+    <value>Deshabilitar el símbolo de Copiloto en Edge</value>
+  </data>
+  <data name="_edgeImportOnEachLaunch" xml:space="preserve">
+    <value>No permita importar datos de otros navegadores en cada inicio</value>
+  </data>
+  <data name="_edgeStartupBoost" xml:space="preserve">
+    <value>Deshabilitar el Impulso de Inicio</value>
+  </data>
+  <data name="_edgeTabPageQuickLinks" xml:space="preserve">
+    <value>No mostrar enlaces rápidos en la página nueva pestaña</value>
+  </data>
+  <data name="_edgeUserFeedback" xml:space="preserve">
+    <value>Opción de no enviar los comentarios de los usuarios</value>
+  </data>
+  <data name="_gamingVisualFX" xml:space="preserve">
+    <value>Deshabilitar Visual FX</value>
+  </data>
+  <data name="_privacyBackgroundApps" xml:space="preserve">
+    <value>Deshabilitar aplicaciones en ejecución en segundo plano</value>
+  </data>
+  <data name="_privacyFindMyDevice" xml:space="preserve">
+    <value>Deshabilitar Buscar mi dispositivo</value>
+  </data>
+  <data name="_privacyPrivacyExperience" xml:space="preserve">
+    <value>Deshabilitar la Experiencia de Configuración de Privacidad al iniciar sesión</value>
+  </data>
+  <data name="_systemLockScreen" xml:space="preserve">
+    <value>No uses la pantalla de bloqueo personalizada</value>
+  </data>
+  <data name="_systemVerboseMessages" xml:space="preserve">
+    <value>Mostrar mensajes de estado muy detallados</value>
+  </data>
+  <data name="_taskbarMostUsedApps" xml:space="preserve">
+    <value>Ocultar las aplicaciones más utilizadas en el menú inicio</value>
+  </data>
+  <data name="_taskbarSearchbox" xml:space="preserve">
+    <value>Ocultar cuadro de búsqueda en la barra de tareas</value>
+  </data>
+  <data name="_taskbarTaskbarChat" xml:space="preserve">
+    <value>Ocultar el icono de chat en la barra de tareas</value>
+  </data>
+  <data name="_taskbarTaskView" xml:space="preserve">
+    <value>Ocultar el botón de vista de tareas en la barra de tareas</value>
+  </data>
+  <data name="_taskbarWidgets" xml:space="preserve">
+    <value>Ocultar widgets de la barra de tareas</value>
+  </data>
+  <data name="statusDisabled" xml:space="preserve">
+    <value>Desactivado</value>
+  </data>
+  <data name="statusEnabled" xml:space="preserve">
+    <value>Activado</value>
+  </data>
+  <data name="statusIsDisabled" xml:space="preserve">
+    <value>ha sido deshabilitado.</value>
+  </data>
+  <data name="statusIsEnabled" xml:space="preserve">
+    <value>se ha habilitado.</value>
+  </data>
+  <data name="_catGaming" xml:space="preserve">
+    <value>Juegos</value>
+  </data>
+  <data name="_catMSEdge" xml:space="preserve">
+    <value>Microsoft Edge</value>
+  </data>
+  <data name="_logFinalCheck" xml:space="preserve">
+    <value>Verificaciones finales en curso...</value>
+  </data>
+  <data name="_logFinalCheckMessage2" xml:space="preserve">
+    <value>Siga y contribuya al proyecto en GitHub: https://github.com/builtbybel/xd-AntiSpy</value>
+  </data>
+  <data name="_logNativeFeatureCheck_complete" xml:space="preserve">
+    <value>Comprobaciones de características completadas.</value>
+  </data>
+  <data name="statusHasBeen" xml:space="preserve">
+    <value>ha sido</value>
+  </data>
+  <data name="statusIsCurrently" xml:space="preserve">
+    <value>el estado es actualmente</value>
+  </data>
+  <data name="formSymbolRef_checkInfoPlugins" xml:space="preserve">
+    <value>Además, los complementos generados y verificados por IA se han cargado automáticamente en la carpeta de complementos de la aplicación. Estos complementos se pueden integrar sin problemas en la vista de lista o acceder a ellos a través del menú herramientas. Explore estas mejoras para adaptar su experiencia y optimizar la funcionalidad sin esfuerzo.</value>
+  </data>
+  <data name="formSymbolRef_lblInactive" xml:space="preserve">
+    <value>Inactivo: Si una opción está desmarcada y el texto tiene un color normal, la configuración está inactiva. Puede habilitarlo simplemente marcando la casilla y presionando el botón Aplicar.</value>
+  </data>
+  <data name="menu_toolsRefreshToolStripMenuItem" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="menu_aboutSymbolReferenceToolStripMenuItem" xml:space="preserve">
+    <value>Referencia del Símbolo...</value>
+  </data>
+  <data name="_adsFinishSetupAds_desc" xml:space="preserve">
+    <value>Esta función deshabilitará la publicidad" Terminemos de configurar su dispositivo " y otras porquerías de anuncios.</value>
+    <comment>!!!</comment>
+  </data>
+  <data name="_adsLockScreenAds_desc" xml:space="preserve">
+    <value>Esta función deshabilitará sugerencias y de la porquería de anuncios en la pantalla de bloqueo.</value>
+  </data>
+  <data name="_adsPersonalizedAds_desc" xml:space="preserve">
+    <value>Esta función deshabilitará la porquería de los anuncios personalizados.</value>
+  </data>
+  <data name="_adsSettingAds_desc" xml:space="preserve">
+    <value>Esta función deshabilitará la porquería de los anuncios en la configuración.</value>
+  </data>
+  <data name="_adsStartmenuAds_desc" xml:space="preserve">
+    <value>Esta función deshabilitará la porquería de los anuncios en el menú inicio.</value>
+  </data>
+  <data name="_adsFileExplorerAds_desc" xml:space="preserve">
+    <value>Esta función deshabilitará la porquería de los anuncios en el Explorador de archivos.</value>
+  </data>
+  <data name="_adsTipsAndSuggestions_desc" xml:space="preserve">
+    <value>Esta función deshabilitará los consejos y de la porquería de anuncios generales.</value>
+  </data>
+  <data name="_adsWelcomeExperienceAds_desc" xml:space="preserve">
+    <value>Esta función deshabilitará la porquería de los anuncios en la experiencia de bienvenida.</value>
+  </data>
+  <data name="_aiRecallCurrentUser_desc" xml:space="preserve">
+    <value>Esta función deshabilitará la recuperación de guardar instantáneas de su pantalla.</value>
+  </data>
+  <data name="_edgeHubsSidebar_desc" xml:space="preserve">
+    <value>Esta función deshabilitará Copilot en Microsoft Edge.</value>
+  </data>
+  <data name="_aiCopilotTaskbar_desc" xml:space="preserve">
+    <value>Esta función deshabilitará Copilot en la barra de tareas.</value>
+  </data>
+  <data name="_gamingGameDVR_desc" xml:space="preserve">
+    <value>Esta función deshabilitará Game DVR.</value>
+  </data>
+  <data name="_gamingPowerThrottling_desc" xml:space="preserve">
+    <value>Esta función deshabilitará la Limitación de aceleracción (Power Throttling)</value>
+  </data>
+  <data name="_gamingVisualFX_desc" xml:space="preserve">
+    <value>Esta función deshabilitará Visual FX.</value>
+  </data>
+  <data name="_privacyBackgroundApps_desc" xml:space="preserve">
+    <value>Esta función deshabilitará la ejecución de aplicaciones en segundo plano.</value>
+  </data>
+  <data name="_privacyPrivacyExperience_desc" xml:space="preserve">
+    <value>Esta función deshabilitará la Experiencia de Configuración de privacidad al iniciar sesión.</value>
+  </data>
+  <data name="_privacyFindMyDevice_desc" xml:space="preserve">
+    <value>Esta función deshabilitará buscar mi dispositivo.</value>
+  </data>
+  <data name="_systemFullContextMenus" xml:space="preserve">
+    <value>Mostrar menús contextuales completos en Windows 11</value>
+  </data>
+  <data name="_systemFullContextMenus_desc" xml:space="preserve">
+    <value>Esta función habilitará menús contextuales completos en Windows 11.</value>
+  </data>
+  <data name="_systemLockScreen_desc" xml:space="preserve">
+    <value>Esta función deshabilitará la pantalla de bloqueo personalizada.</value>
+  </data>
+  <data name="_systemVerboseMessages_desc" xml:space="preserve">
+    <value>Esta función mostrará mensajes de estado muy detallados.</value>
+  </data>
+  <data name="_taskbarBingSearch_desc" xml:space="preserve">
+    <value>Esta función deshabilitará la búsqueda de contenido en la nube de Bing.</value>
+  </data>
+  <data name="_taskbarMostUsedApps_desc" xml:space="preserve">
+    <value>Esta función ocultará las aplicaciones más utilizadas en el menú inicio.</value>
+  </data>
+  <data name="_taskbarSearchbox_desc" xml:space="preserve">
+    <value>Esta función eliminará el cuadro de búsqueda de la barra de tareas.</value>
+  </data>
+  <data name="_taskbarStartButtonAlignment_desc" xml:space="preserve">
+    <value>Esta función alineará el botón de inicio a la izquierda.</value>
+  </data>
+  <data name="_taskbarStartmenuLayout" xml:space="preserve">
+    <value>Ancle más aplicaciones en el menú Inicio</value>
+  </data>
+  <data name="_taskbarStartmenuLayout_desc" xml:space="preserve">
+    <value>Esta función cambiará el diseño de inicio para mostrar más pines (y ocultar recomendaciones) en el menú Inicio. Si está deshabilitado, se mostrarán más recomendaciones en lugar de pines.</value>
+  </data>
+  <data name="_taskbarTaskView_desc" xml:space="preserve">
+    <value>Esta función deshabilitará el botón vista de tareas en la barra de tareas.</value>
+  </data>
+  <data name="menuPinContextItem" xml:space="preserve">
+    <value>Anclar</value>
+  </data>
+  <data name="_aiRecallLocalMachine_desc" xml:space="preserve">
+    <value>Esta función deshabilitará las instantáneas de todo el sistema.</value>
+  </data>
+  <data name="_catPrivacy" xml:space="preserve">
+    <value>Privacidad</value>
+  </data>
+  <data name="_logNativeFeatureCheck" xml:space="preserve">
+    <value>Iniciando comprobaciones de características nativas...</value>
+  </data>
+  <data name="_logPluginsFeatureCheck" xml:space="preserve">
+    <value>Iniciando comprobaciones de complementos...</value>
+  </data>
+  <data name="_logPluginsFeatureCheck_complete" xml:space="preserve">
+    <value>Comprobaciones de complementos completadas.</value>
+  </data>
+  <data name="formToolDebloater_errorNoAppsCount" xml:space="preserve">
+    <value>Seleccione al menos una aplicación para eliminar.</value>
+  </data>
+  <data name="formSymbolRef_lblGreen" xml:space="preserve">
+    <value>Recuerde, mantener activas ciertas configuraciones puede mejorar la privacidad y el rendimiento de su sistema. ¡Ajuste estas opciones según sus necesidades y disfrute de una experiencia informática más segura!</value>
+  </data>
+  <data name="formToolDebloater_checkBoxShowAllApps" xml:space="preserve">
+    <value>Mostrar todo instalado</value>
+  </data>
+  <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
+    <value>Perfil</value>
+    <comment>プロファイルメニュー</comment>
+  </data>
+  <data name="menu_modeToolStripMenuItem" xml:space="preserve">
+    <value>Modo</value>
+  </data>
+</root>

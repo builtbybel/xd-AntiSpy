@@ -149,7 +149,6 @@
   </data>
   <data name="_adsFinishSetupAds_desc" xml:space="preserve">
     <value>This feature will disable the "Lets finish setting up your device" and other advertising.</value>
-    <comment>!!!</comment>
   </data>
   <data name="_adsLockScreenAds_desc" xml:space="preserve">
     <value>This feature will disable tips and ads on the lock screen.</value>
@@ -371,10 +370,10 @@
     <value>This feature will hide the most used apps in start menu.</value>
   </data>
   <data name="_taskbarSearchbox" xml:space="preserve">
-    <value>Hide Searchbox on Taskbar</value>
+    <value>Hide search box on taskbar</value>
   </data>
   <data name="_taskbarSearchbox_desc" xml:space="preserve">
-    <value>This feature will remove Searchbox from the Taskbar.</value>
+    <value>You can choose whether the search box shows on your taskbar. If you don't want to see a search box on your taskbar, you can hide it here.</value>
   </data>
   <data name="_taskbarStartButtonAlignment" xml:space="preserve">
     <value>Align Start button to left</value>
@@ -383,7 +382,7 @@
     <value>This feature will align the Start button to the left.</value>
   </data>
   <data name="_taskbarStartmenuLayout" xml:space="preserve">
-    <value>Pin more Apps on Start menu</value>
+    <value>Pin more Apps on start menu</value>
   </data>
   <data name="_taskbarStartmenuLayout_desc" xml:space="preserve">
     <value>This feature will change the start layout to show more pins (and hide recommendations) in the Start menu. If disabled, more recommendations will be shown instead of pins.</value>
@@ -570,47 +569,5 @@ xD-Antispy – because privacy settings should make you smile!
   </data>
   <data name="menu_modeToolStripMenuItem" xml:space="preserve">
     <value>Mode</value>
-  </data>
-  <data name="ctl_btnApps" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ctl_btnWindows" xml:space="preserve">
-    <value />
-  </data>
-  <data name="menu_copySettingsToolStripMenuItem" xml:space="preserve">
-    <value />
-  </data>
-  <data name="menu_exportCurrentSettingsStripMenuItem" xml:space="preserve">
-    <value />
-  </data>
-  <data name="menu_gitHubSiteToolStripMenuItem" xml:space="preserve">
-    <value />
-  </data>
-  <data name="menu_helpToolStripMenuItem" xml:space="preserve">
-    <value />
-  </data>
-  <data name="menu_importSettingsToolStripMenuItem" xml:space="preserve">
-    <value />
-  </data>
-  <data name="menu_openPluginsDirectoryToolStripMenuItem" xml:space="preserve">
-    <value />
-  </data>
-  <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
-    <value />
-  </data>
-  <data name="menu_searchForCrappyAppsToolStripMenuItem" xml:space="preserve">
-    <value />
-  </data>
-  <data name="menu_shareSettingsOnXTwitterToolStripMenuItem" xml:space="preserve">
-    <value />
-  </data>
-  <data name="menu_symbolrefToolStripMenuItem" xml:space="preserve">
-    <value />
-  </data>
-  <data name="menu_updateToolStripMenuItem" xml:space="preserve">
-    <value />
-  </data>
-  <data name="formToolDebloater_btnBack" xml:space="preserve">
-    <value />
   </data>
 </root>

@@ -880,7 +880,7 @@ namespace xdAntiSpy.Locales {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Hide Searchbox on Taskbar ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Hide search box on taskbar ähnelt.
         /// </summary>
         internal static string _taskbarSearchbox {
             get {
@@ -889,7 +889,7 @@ namespace xdAntiSpy.Locales {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die This feature will remove Searchbox from the Taskbar. ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die You can choose whether the search box shows on your taskbar. If you don&apos;t want to see a search box on your taskbar, you can hide it here. ähnelt.
         /// </summary>
         internal static string _taskbarSearchbox_desc {
             get {
@@ -916,7 +916,7 @@ namespace xdAntiSpy.Locales {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Pin more Apps on Start menu ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Pin more Apps on start menu ähnelt.
         /// </summary>
         internal static string _taskbarStartmenuLayout {
             get {

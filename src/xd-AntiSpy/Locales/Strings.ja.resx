@@ -122,9 +122,11 @@
   </data>
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
     <value>プロファイル</value>
+    <comment>プロファイルメニュー</comment>
   </data>
   <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
     <value>ツール</value>
+    <comment>ツールメニュー</comment>
   </data>
   <data name="ctl_btnApply" xml:space="preserve">
     <value>設定を適用</value>

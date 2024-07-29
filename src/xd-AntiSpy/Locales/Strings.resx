@@ -149,6 +149,7 @@
   </data>
   <data name="_adsFinishSetupAds_desc" xml:space="preserve">
     <value>This feature will disable the "Lets finish setting up your device" and other advertising.</value>
+    <comment>!!!</comment>
   </data>
   <data name="_adsLockScreenAds_desc" xml:space="preserve">
     <value>This feature will disable tips and ads on the lock screen.</value>
@@ -551,12 +552,14 @@ xD-Antispy – because privacy settings should make you smile!
   </data>
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
     <value>Profiles</value>
+    <comment>プロファイルメニュー</comment>
   </data>
   <data name="menu_toolsToolDebloaterToolStripMenuItem" xml:space="preserve">
     <value>Search for crappy apps...</value>
   </data>
   <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
     <value>Tools</value>
+    <comment>ツールメニュー</comment>
   </data>
   <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
     <value>About XDAntiSpy...</value>
@@ -569,5 +572,11 @@ xD-Antispy – because privacy settings should make you smile!
   </data>
   <data name="menu_modeToolStripMenuItem" xml:space="preserve">
     <value>Mode</value>
+  </data>
+  <data name="ctl_btnApps" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ctl_btnWindows" xml:space="preserve">
+    <value />
   </data>
 </root>

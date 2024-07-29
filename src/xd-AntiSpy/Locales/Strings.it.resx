@@ -149,6 +149,7 @@
   </data>
   <data name="_adsFinishSetupAds_desc" xml:space="preserve">
     <value>Questa funzione disabiliterà "Completiamo la configurazione del tuo dispositivo" e altre pubblicità.</value>
+    <comment>!!!</comment>
   </data>
   <data name="_adsLockScreenAds_desc" xml:space="preserve">
     <value>Questa funzione disabiliterà suggerimenti e annunci nella schermata di blocco.</value>
@@ -324,13 +325,13 @@
   <data name="_privacyPrivacyExperience" xml:space="preserve">
     <value>Disabilita Esperienza impostazioni privacy all'accesso</value>
   </data>
- <data name="ctl_btnApps" xml:space="preserve">
+  <data name="ctl_btnApps" xml:space="preserve">
     <value>Applicazioni</value>
   </data>
- <data name="ctl_btnWindows" xml:space="preserve">
+  <data name="ctl_btnWindows" xml:space="preserve">
     <value>Windows</value>
   </data>
-    <data name="_privacyTelemetry" xml:space="preserve">
+  <data name="_privacyTelemetry" xml:space="preserve">
     <value>Disabilita raccolta dati telemetria</value>
   </data>
   <data name="_privacyTelemetry_desc" xml:space="preserve">
@@ -557,12 +558,14 @@ xD-Antispy – perché le impostazioni sulla privacy dovrebbero farti sorridere!
   </data>
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
     <value>Profili</value>
+    <comment>プロファイルメニュー</comment>
   </data>
   <data name="menu_toolsToolDebloaterToolStripMenuItem" xml:space="preserve">
     <value>Cerca app scadenti...</value>
   </data>
   <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
     <value>Strumenti</value>
+    <comment>ツールメニュー</comment>
   </data>
   <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
     <value>Infoi su XDAntiSpy...</value>

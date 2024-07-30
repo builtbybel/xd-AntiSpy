@@ -559,7 +559,7 @@ xD-Antispy – потому что настройки конфиденциаль
     <value>Инструменты</value>
   </data>
   <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
-    <value>О XDAntiSpy...</value>
+    <value>О xd-AntiSpy...</value>
   </data>
   <data name="menu_modeAccessibleToolStripMenuItem" xml:space="preserve">
     <value>Доступный</value>

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="menu_aboutToolStripMenuItem" xml:space="preserve">
-    <value>XDAntiSpyについて...</value>
+    <value>xd-AntiSpyについて...</value>
   </data>
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
     <value>プロファイル</value>
@@ -558,7 +558,7 @@ xD-Antispy – プライバシー設定はあなたを笑顔にするはずで�
     <value>不要なアプリを検索...</value>
   </data>
   <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
-    <value>XDAntiSpyについて...</value>
+    <value>xd-AntiSpyについて...</value>
   </data>
   <data name="menu_modeAccessibleToolStripMenuItem" xml:space="preserve">
     <value>アクセシブル</value>

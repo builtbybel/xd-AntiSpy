@@ -559,7 +559,7 @@ xD-Antispy – because privacy settings should make you smile!
     <value>Tools</value>
   </data>
   <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
-    <value>About XDAntiSpy...</value>
+    <value>About xd-AntiSpy...</value>
   </data>
   <data name="menu_modeAccessibleToolStripMenuItem" xml:space="preserve">
     <value>Accessible</value>

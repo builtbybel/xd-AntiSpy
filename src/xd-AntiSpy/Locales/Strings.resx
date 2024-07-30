@@ -244,7 +244,7 @@
     <value>Don't Show Copilot in Taskbar</value>
   </data>
   <data name="_aiRecallCurrentUser" xml:space="preserve">
-    <value>Dont' Allow Windows to save snapshots of your screen</value>
+    <value>Don't Allow Windows to save snapshots of your screen</value>
   </data>
   <data name="_aiRecallLocalMachine" xml:space="preserve">
     <value>Don't Allow system-wide snapshots</value>

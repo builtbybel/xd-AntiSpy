@@ -149,6 +149,7 @@
   </data>
   <data name="_adsFinishSetupAds_desc" xml:space="preserve">
     <value>Эта функция отключит "Давайте завершим настройку этого компьютера" и другую рекламу.</value>
+    <comment>!!!</comment>
   </data>
   <data name="_adsLockScreenAds_desc" xml:space="preserve">
     <value>Эта функция отключит подсказки и рекламу на экране блокировки.</value>
@@ -551,12 +552,14 @@ xD-Antispy – потому что настройки конфиденциаль
   </data>
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
     <value>Профили</value>
+    <comment>プロファイルメニュー</comment>
   </data>
   <data name="menu_toolsToolDebloaterToolStripMenuItem" xml:space="preserve">
     <value>Искать ненужные приложения...</value>
   </data>
   <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
     <value>Инструменты</value>
+    <comment>ツールメニュー</comment>
   </data>
   <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
     <value>О XDAntiSpy...</value>

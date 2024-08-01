@@ -558,7 +558,6 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
   </data>
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
     <value>Profile</value>
-    <comment>プロファイルメニュー</comment>
   </data>
   <data name="menu_toolsRefreshToolStripMenuItem" xml:space="preserve">
     <value>Aktualisieren</value>
@@ -568,7 +567,6 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
   </data>
   <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
     <value>Spezial</value>
-    <comment>ツールメニュー</comment>
   </data>
   <data name="menu_modeAccessibleToolStripMenuItem" xml:space="preserve">
     <value>Barrierefrei</value>
@@ -578,5 +576,8 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
   </data>
   <data name="menu_modeToolStripMenuItem" xml:space="preserve">
     <value>Modus</value>
+  </data>
+  <data name="ctl_lblSpotlight" xml:space="preserve">
+    <value>xd-AntiSpy ist zurück und kann jetzt auch Bloatware aufspüren</value>
   </data>
 </root>

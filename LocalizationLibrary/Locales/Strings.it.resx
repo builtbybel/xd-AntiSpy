@@ -579,4 +579,10 @@ xD-Antispy – perché le impostazioni sulla privacy dovrebbero farti sorridere!
   <data name="menu_modeToolStripMenuItem" xml:space="preserve">
     <value>Modo</value>
   </data>
+  <data name="menu_profileStatisticsToolStripMenuItem" xml:space="preserve">
+    <value>Visualizza statistiche</value>
+  </data>
+  <data name="ctl_lblSpotlight" xml:space="preserve">
+    <value>Dai un'occhiata al nuovo plugin debloater e rileva il bloatware</value>
+  </data>
 </root>

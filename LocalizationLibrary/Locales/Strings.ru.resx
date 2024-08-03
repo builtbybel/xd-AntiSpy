@@ -562,7 +562,7 @@ xD-Antispy – потому что настройки конфиденциаль
     <comment>ツールメニュー</comment>
   </data>
   <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
-    <value>О XDAntiSpy...</value>
+    <value>О xd-AntiSpy...</value>
   </data>
   <data name="menu_modeAccessibleToolStripMenuItem" xml:space="preserve">
     <value>Доступный</value>
@@ -578,5 +578,11 @@ xD-Antispy – потому что настройки конфиденциаль
   </data>
   <data name="ctl_btnWindows" xml:space="preserve">
     <value>Windows</value>
+  </data>
+  <data name="menu_profileStatisticsToolStripMenuItem" xml:space="preserve">
+    <value>Показать статистику</value>
+  </data>
+  <data name="ctl_lblSpotlight" xml:space="preserve">
+    <value>Ознакомьтесь с новым плагином для удаления bloatware и обнаружьте ненужные программы</value>
   </data>
 </root>

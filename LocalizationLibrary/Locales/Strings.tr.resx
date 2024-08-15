@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="menu_aboutToolStripMenuItem" xml:space="preserve">
+    <value>?</value>
+    <comment/>
+  </data>
+  <data name="menu_profileStatisticsToolStripMenuItem" xml:space="preserve">
+    <value>İstatistikleri göster</value>
+    <comment/>
+  </data>
+  <data name="menu_profileExportToolStripMenuItem" xml:space="preserve">
+    <value>Şimdikini dışa aktar</value>
+    <comment/>
+  </data>
+  <data name="menu_aboutWebsiteToolStripMenuItem" xml:space="preserve">
+    <value>GitHub sitesine git</value>
+    <comment/>
+  </data>
+  <data name="menu_profilesImportToolStripMenuItem" xml:space="preserve">
+    <value>İçeri aktar</value>
+    <comment/>
+  </data>
+  <data name="menu_toolsRefreshToolStripMenuItem" xml:space="preserve">
+    <value>Yenile</value>
+    <comment/>
+  </data>
+  <data name="menu_profileShareSettingsToolStripMenuItem" xml:space="preserve">
+    <value>Paylaş</value>
+    <comment/>
+  </data>
+  <data name="menu_aboutSymbolReferenceToolStripMenuItem" xml:space="preserve">
+    <value>Sembol Anlamları...</value>
+    <comment/>
+  </data>
+  <data name="menu_aboutUpdateToolStripMenuItem" xml:space="preserve">
+    <value>Güncelle...</value>
+    <comment/>
+  </data>
+  <data name="ctl_btnApply" xml:space="preserve">
+    <value>Ayarları Uygula</value>
+    <comment/>
+  </data>
+  <data name="_adsFinishSetupAds_desc" xml:space="preserve">
+    <value>Bu özellik “Cihazınızın kurulumunuzu tamamlayalım” ve diğer reklamları devre dışı bırakır.</value>
+    <comment/>
+  </data>
+  <data name="_adsLockScreenAds_desc" xml:space="preserve">
+    <value>Bu özellik kilit ekranındaki ipuçlarını ve reklamları devre dışı bırakır.</value>
+    <comment/>
+  </data>
+  <data name="_adsPersonalizedAds_desc" xml:space="preserve">
+    <value>Bu özellik kişiselleştirilmiş reklamları devre dışı bırakır.</value>
+    <comment/>
+  </data>
+  <data name="_adsSettingAds_desc" xml:space="preserve">
+    <value>Bu özellik ayarlardaki reklamları devre dışı bırakır.</value>
+    <comment/>
+  </data>
+  <data name="_adsStartmenuAds_desc" xml:space="preserve">
+    <value>Bu özellik başlat menüsündeki reklamları devre dışı bırakır.</value>
+    <comment/>
+  </data>
+  <data name="_adsTailoredExperiences_desc" xml:space="preserve">
+    <value>Kişiselleştirilmiş Deneyimler, Microsoft'un kişiselleştirilmiş ipuçları, reklamlar ve öneriler sunmak için sizden bilgi almasını sağlar. Birçok kişi bunu ölçüm, hatta casusluk olarak adlandırabilir.</value>
+    <comment/>
+  </data>
+  <data name="_adsFileExplorerAds_desc" xml:space="preserve">
+    <value>Bu özellik Dosya Gezginindeki reklamları devre dışı bırakır.</value>
+    <comment/>
+  </data>
+  <data name="_adsTipsAndSuggestions_desc" xml:space="preserve">
+    <value>Bu özellik genel ipuçlarını ve reklamları devre dışı bırakır.</value>
+    <comment/>
+  </data>
+  <data name="_adsWelcomeExperienceAds_desc" xml:space="preserve">
+    <value>Bu özellik karşılama deneyimindeki reklamları devre dışı bırakır.</value>
+    <comment/>
+  </data>
+  <data name="_aiRecallCurrentUser_desc" xml:space="preserve">
+    <value>Bu özellik Recall'ın ekranınızın anlık görüntülerini kaydetmesini devre dışı bırakır.</value>
+    <comment/>
+  </data>
+  <data name="_edgeBrowserSignin_desc" xml:space="preserve">
+    <value>Bu ayar, bir kullanıcının eşitleme ve çoklu oturum açma gibi hizmetleri kullanmak için Microsoft Edge'de bir hesapla oturum açıp açmayacağını denetler</value>
+    <comment/>
+  </data>
+  <data name="_edgeDefaultTopSites_desc" xml:space="preserve">
+    <value>Microsoft Edge'de yeni sekme sayfasından varsayılan popüler siteleri gizle</value>
+    <comment/>
+  </data>
+  <data name="_edgeDefautBrowserSetting_desc" xml:space="preserve">
+    <value>Edge'i varsayılan tarayıcıyı değiştirmeyi istememeye zorlayın.</value>
+    <comment/>
+  </data>
+  <data name="_edgeEdgeCollections_desc" xml:space="preserve">
+    <value>Kullanıcıların Koleksiyonlar özelliğine erişmesini sağlayarak Office entegrasyonu ile içeriği daha verimli bir şekilde toplamalarına, düzenlemelerine, paylaşmalarına ve dışa aktarmalarını sağlar.</value>
+    <comment/>
+  </data>
+  <data name="_edgeEdgeShoppingAssistant_desc" xml:space="preserve">
+    <value>Microsoft Edge'de Alışveriş özelliği, siz alışveriş yaparken web'deki en iyi fiyatları ve kuponları otomatik olarak bulur.</value>
+    <comment/>
+  </data>
+  <data name="_edgeFirstRunExperience_desc" xml:space="preserve">
+    <value>İlk başlatmada ana ekranı ve 'Başlarken'i gizleyin (sürüm 80'den itibaren).</value>
+    <comment/>
+  </data>
+  <data name="_edgeGamerMode_desc" xml:space="preserve">
+    <value>Microsoft Edge Gamer Mode, oyuncuların tarayıcılarını oyun temalarıyla kişiselleştirmelerini sağlar ve onlara PC oyunları için Verimlilik Modu, yeni sekmelerde Oyun Akışı, oyuncular için kenar çubuğu uygulamaları ve daha fazlasını etkinleştirmelerini sağlar.</value>
+    <comment/>
+  </data>
+  <data name="_edgeHubsSidebar_desc" xml:space="preserve">
+    <value>Bu özellik Microsoft Edge'de Copilot'u devre dışı bırakır.</value>
+    <comment/>
+  </data>
+  <data name="_edgeImportOnEachLaunch_desc" xml:space="preserve">
+    <value>Microsoft Edge'in her açılışta diğer tarayıcılardan veri alınmasına izin verin.</value>
+    <comment/>
+  </data>
+  <data name="_edgeStartupBoost_desc" xml:space="preserve">
+    <value>Microsoft Edge işlemlerinin işletim sistemi başlangıcında başlatılmasını ve son tarayıcı penceresi kapatıldıktan sonra arka planda yeniden başlatılmasını sağlar.</value>
+    <comment/>
+  </data>
+  <data name="_edgeTabPageQuickLinks_desc" xml:space="preserve">
+    <value>Varsayılan olarak, yeni bir sekme açtığınızda, Bing arama çubuğunu ve arka plan olarak günün Bing resmini görürsünüz. Desteklenen web siteleri için Yeni Sekme sayfasındaki Hızlı Bağlantılar, son güncellemeleri doğrudan kutucukta görüntüleyebilir.</value>
+    <comment/>
+  </data>
+  <data name="_edgeUserFeedback_desc" xml:space="preserve">
+    <value>Geri bildirim, öneri veya müşteri anketlerinin gönderilmesine ve tarayıcı ile ilgili sorunların bildirilmesine izin verin.</value>
+    <comment/>
+  </data>
+  <data name="_adsFileExplorerAds" xml:space="preserve">
+    <value>Dosya Gezgini reklamlarını kaldır</value>
+    <comment/>
+  </data>
+  <data name="_adsFinishSetupAds" xml:space="preserve">
+    <value>Kurulumu Bitir reklamlarını kaldır</value>
+    <comment/>
+  </data>
+  <data name="_adsLockScreenAds" xml:space="preserve">
+    <value>Kilit Ekranı İpuçlarını ve reklamlarını kaldır</value>
+    <comment/>
+  </data>
+  <data name="_adsPersonalizedAds" xml:space="preserve">
+    <value>Kişiselleştirilmiş reklamları kaldır</value>
+    <comment/>
+  </data>
+  <data name="_adsSettingAds" xml:space="preserve">
+    <value>Ayarlar reklamlarını kaldır</value>
+    <comment/>
+  </data>
+  <data name="_adsStartmenuAds" xml:space="preserve">
+    <value>Başlangıç Menüsü reklamlarını kaldır</value>
+    <comment/>
+  </data>
+  <data name="_adsTailoredExperiences" xml:space="preserve">
+    <value>Kişiselleştirilmiş deneyimleri kapat</value>
+    <comment/>
+  </data>
+  <data name="_adsTipsAndSuggestions" xml:space="preserve">
+    <value>Genel İpuçları ve Reklamları Kaldır</value>
+    <comment/>
+  </data>
+  <data name="_adsWelcomeExperienceAds" xml:space="preserve">
+    <value>Hoş Geldiniz Deneyimi reklamlarını kaldır</value>
+    <comment/>
+  </data>
+  <data name="_aiCopilotTaskbar" xml:space="preserve">
+    <value>Görev Çubuğunda Copilot'u Gösterme</value>
+    <comment/>
+  </data>
+  <data name="_aiRecallCurrentUser" xml:space="preserve">
+    <value>Windows'un ekranınızın anlık görüntülerini kaydetmesine izin verme</value>
+    <comment/>
+  </data>
+  <data name="_aiRecallLocalMachine" xml:space="preserve">
+    <value>Sistem çapında anlık görüntülere izin verme</value>
+    <comment/>
+  </data>
+  <data name="_edgeBrowserSignin" xml:space="preserve">
+    <value>Tarayıcı oturum açma ve eşitleme hizmetlerini devre dışı bırak</value>
+    <comment/>
+  </data>
+  <data name="_edgeDefaultTopSites" xml:space="preserve">
+    <value>Sponsorlu bağlantıları yeni sekme sayfasında gösterme</value>
+    <comment/>
+  </data>
+  <data name="_edgeDefautBrowserSetting" xml:space="preserve">
+    <value>Microsoft Edge'i varsayılan tarayıcı olmaktan çıkar</value>
+    <comment/>
+  </data>
+  <data name="_edgeEdgeCollections" xml:space="preserve">
+    <value>Koleksiyonlar özelliğine erişimi devre dışı bırak</value>
+    <comment/>
+  </data>
+  <data name="_edgeEdgeShoppingAssistant" xml:space="preserve">
+    <value>Microsoft Edge'de Alışveriş Asistanını kapat</value>
+    <comment/>
+  </data>
+  <data name="_edgeFirstRunExperience" xml:space="preserve">
+    <value>Başlangıç Deneyimini gösterme</value>
+    <comment/>
+  </data>
+  <data name="_edgeGamerMode" xml:space="preserve">
+    <value>Oyun Modunu kapat</value>
+    <comment/>
+  </data>
+  <data name="_edgeHubsSidebar" xml:space="preserve">
+    <value>Edge'den Copilot Sembolünü kaldır</value>
+    <comment/>
+  </data>
+  <data name="_edgeImportOnEachLaunch" xml:space="preserve">
+    <value>Her açılışta diğer tarayıcılardan veri alımına izin verme</value>
+    <comment/>
+  </data>
+  <data name="_edgeStartupBoost" xml:space="preserve">
+    <value>Başlangıç Hızlandırıcısını kapat</value>
+    <comment/>
+  </data>
+  <data name="_edgeTabPageQuickLinks" xml:space="preserve">
+    <value>Yeni sekme sayfasında Hızlı bağlantıları gösterme</value>
+    <comment/>
+  </data>
+  <data name="_edgeUserFeedback" xml:space="preserve">
+    <value>Kullanıcı geri bildirimi seçeneğini gönderme</value>
+    <comment/>
+  </data>
+  <data name="_aiCopilotTaskbar_desc" xml:space="preserve">
+    <value>Bu özellik Görev Çubuğundan Copilot'u kaldırır.</value>
+    <comment/>
+  </data>
+  <data name="_gamingGameDVR" xml:space="preserve">
+    <value>GameDVR'ı kapat</value>
+    <comment/>
+  </data>
+  <data name="_gamingGameDVR_desc" xml:space="preserve">
+    <value>This feature will disable GameDVR.</value>
+    <comment/>
+  </data>
+  <data name="_gamingPowerThrottling" xml:space="preserve">
+    <value>PowerThrottling'i kapat</value>
+    <comment/>
+  </data>
+  <data name="_gamingPowerThrottling_desc" xml:space="preserve">
+    <value>Bu özellik PowerThrottling özelliğini kapatır.</value>
+    <comment/>
+  </data>
+  <data name="_gamingVisualFX" xml:space="preserve">
+    <value>VisualFX'i kapat</value>
+    <comment/>
+  </data>
+  <data name="_gamingVisualFX_desc" xml:space="preserve">
+    <value>Bu özellik VisualFX'i kapatır.</value>
+    <comment/>
+  </data>
+  <data name="_privacyBackgroundApps" xml:space="preserve">
+    <value>Arka planda çalışan uygulamaları devre dışı bırak</value>
+    <comment/>
+  </data>
+  <data name="_privacyBackgroundApps_desc" xml:space="preserve">
+    <value>Bu özellik arka planda çalışan uygulamaları devre dışı bırakır.</value>
+    <comment/>
+  </data>
+  <data name="_privacyPrivacyExperience_desc" xml:space="preserve">
+    <value>Bu özellik, oturum açma sırasında Gizlilik Ayarları Deneyimini devre dışı bırakır.</value>
+    <comment/>
+  </data>
+  <data name="_privacyFindMyDevice" xml:space="preserve">
+    <value>Cihazımı Bul'u devre dışı bırakın.</value>
+    <comment/>
+  </data>
+  <data name="_privacyFindMyDevice_desc" xml:space="preserve">
+    <value>Bu özellik Cihazımı Bul özelliğini devre dışı bırakır.</value>
+    <comment/>
+  </data>
+  <data name="_privacyPrivacyExperience" xml:space="preserve">
+    <value>Oturum açma sırasında Gizlilik Ayarları Deneyimini devre dışı bırak</value>
+    <comment/>
+  </data>
+  <data name="_privacyTelemetry" xml:space="preserve">
+    <value>Ölçüm verisi toplamayı devre dışı bırak</value>
+    <comment/>
+  </data>
+  <data name="_privacyTelemetry_desc" xml:space="preserve">
+    <value>Maalesef Microsoft, Windows 11 veya Windows 10 Home sürümü kullanıcılarının ölçüm verilerinin toplanmasını tamamen kapatmasına izin vermiyor. Ancak bu kullanıcılar yine de sistem ayarları aracılığıyla bazı isteğe bağlı veri toplama seçeneklerini sınırlayabilirler.</value>
+    <comment/>
+  </data>
+  <data name="_systemFaxPrinter" xml:space="preserve">
+    <value>Faks Yazıcısını kaldır</value>
+    <comment/>
+  </data>
+  <data name="_systemFullContextMenus" xml:space="preserve">
+    <value>Windows 11'de tam içerik menülerini göster</value>
+    <comment/>
+  </data>
+  <data name="_systemFullContextMenus_desc" xml:space="preserve">
+    <value>Bu özellik Windows 11'de tam içerik menülerini etkinleştirecektir.</value>
+    <comment/>
+  </data>
+  <data name="_systemLockScreen" xml:space="preserve">
+    <value>Kişiselleştirilmiş kilit ekranını kapat</value>
+    <comment/>
+  </data>
+  <data name="_systemLockScreen_desc" xml:space="preserve">
+    <value>Bu özellik kişiselleştirilmiş kilit ekranını devre dışı bırakır.</value>
+    <comment/>
+  </data>
+  <data name="_systemVerboseMessages" xml:space="preserve">
+    <value>Yüksek detaylı durum mesajlarını görüntüle</value>
+    <comment/>
+  </data>
+  <data name="_systemVerboseMessages_desc" xml:space="preserve">
+    <value>Bu özellik yüksek detaylı durum mesajlarını gösterir.</value>
+    <comment/>
+  </data>
+  <data name="_systemXPSWriter" xml:space="preserve">
+    <value>XPS Görüntüleyicisini Kaldır</value>
+    <comment/>
+  </data>
+  <data name="_systemXPSWriter_desc" xml:space="preserve">
+    <value>Bu özellik XPS Belge Görüntüleyicisini kaldırır.</value>
+    <comment/>
+  </data>
+  <data name="_taskbarBingSearch" xml:space="preserve">
+    <value>Bing Cloud içerik aramasını devre dışı bırak</value>
+    <comment/>
+  </data>
+  <data name="_taskbarBingSearch_desc" xml:space="preserve">
+    <value>Bu özellik Bing Cloud içerik aramasını devre dışı bırakır.</value>
+    <comment/>
+  </data>
+  <data name="_taskbarMostUsedApps" xml:space="preserve">
+    <value>Başlangıç menüsünde en çok kullanılan uygulamaları gizle</value>
+    <comment/>
+  </data>
+  <data name="_taskbarMostUsedApps_desc" xml:space="preserve">
+    <value>Bu özellik başlangıç menüsünde en çok kullanılan uygulamaları gizler.</value>
+    <comment/>
+  </data>
+  <data name="_taskbarSearchbox" xml:space="preserve">
+    <value>Görev çubuğundaki arama çubuğunu gizle</value>
+    <comment/>
+  </data>
+  <data name="_taskbarSearchbox_desc" xml:space="preserve">
+    <value>Arama çubuğunun görev çubuğunuzda gösterilip gösterilmeyeceğini belirleyebilirsiniz. Görev çubuğunuzda bir arama çubuğu görmek istemiyorsanız, buradan gizleyebilirsiniz.</value>
+    <comment/>
+  </data>
+  <data name="_taskbarStartButtonAlignment" xml:space="preserve">
+    <value>Başlat tuşunu sola hizala</value>
+    <comment/>
+  </data>
+  <data name="_taskbarStartButtonAlignment_desc" xml:space="preserve">
+    <value>Bu özellik Başlat tuşunu sola hizalar.</value>
+    <comment/>
+  </data>
+  <data name="_taskbarStartmenuLayout" xml:space="preserve">
+    <value>Başlangıç menüsüne daha fazla uygulama sabitle</value>
+    <comment/>
+  </data>
+  <data name="_taskbarStartmenuLayout_desc" xml:space="preserve">
+    <value>Bu özellik başlangıç menüsünü daha çok sabitlenmiş uygulama gösterecek ve önerileri kaldıracaktır. Devre dışı bırakılırsa, sabitlemeler yerine daha fazla öneri gösterilecektir.</value>
+    <comment/>
+  </data>
+  <data name="_taskbarTaskbarChat" xml:space="preserve">
+    <value>Görev çubuğundaki Sohbet simgesini gizle</value>
+    <comment/>
+  </data>
+  <data name="_taskbarTaskbarChat_desc" xml:space="preserve">
+    <value>Varsayılan olarak, sohbet özelliği Microsoft Teams'e kolayca erişmenizi sağlar. Ancak, Teams'i kullanmıyorsanız veya simgenin görev çubuğunuzda olmasını istemiyorsanız, gizleyebilirsiniz.</value>
+    <comment/>
+  </data>
+  <data name="_taskbarTaskView" xml:space="preserve">
+    <value>Görev çubuğundaki Görev Görünümü tuşunu gizle</value>
+    <comment/>
+  </data>
+  <data name="_taskbarTaskView_desc" xml:space="preserve">
+    <value>Bu özellik görev çubuğundaki Görev Görünümü tuşunu devre dışı bırakır.</value>
+    <comment/>
+  </data>
+  <data name="_taskbarWidgets" xml:space="preserve">
+    <value>Görev Çubuğundaki Widget'ları gizle</value>
+    <comment/>
+  </data>
+  <data name="_taskbarWidgets_desc" xml:space="preserve">
+    <value>Bu özellik görev çubuğundan Widget'ları kaldırır.</value>
+    <comment/>
+  </data>
+  <data name="_systemFaxPrinter_desc" xml:space="preserve">
+    <value>Bu özellik Faks Yazıcısını kaldırır.</value>
+    <comment/>
+  </data>
+  <data name="menuDoContextItem" xml:space="preserve">
+    <value>Ayarı Manuel Olarak Ayarla</value>
+    <comment/>
+  </data>
+  <data name="menuPinContextItem" xml:space="preserve">
+    <value>Sabitle</value>
+    <comment/>
+  </data>
+  <data name="menuUndoContextItem" xml:space="preserve">
+    <value>Ayarı Sıfırla</value>
+    <comment/>
+  </data>
+  <data name="statusApplied" xml:space="preserve">
+    <value>Uygulandı:</value>
+    <comment/>
+  </data>
+  <data name="statusDisabled" xml:space="preserve">
+    <value>Devre Dışı</value>
+    <comment/>
+  </data>
+  <data name="statusEnabled" xml:space="preserve">
+    <value>Etkin</value>
+    <comment/>
+  </data>
+  <data name="statusIsDisabled" xml:space="preserve">
+    <value>devre dışı bırakıldı.</value>
+    <comment/>
+  </data>
+  <data name="statusIsEnabled" xml:space="preserve">
+    <value>etkinleştirildi.</value>
+    <comment/>
+  </data>
+  <data name="_aiRecallLocalMachine_desc" xml:space="preserve">
+    <value>Bu özellik sistem çapında anlık görüntüleri devre dışı bırakır.</value>
+    <comment/>
+  </data>
+  <data name="_catAdblock" xml:space="preserve">
+    <value>Reklam Engel</value>
+    <comment/>
+  </data>
+  <data name="_catAI" xml:space="preserve">
+    <value>YZ/Copilot ve Recall</value>
+    <comment/>
+  </data>
+  <data name="_catGaming" xml:space="preserve">
+    <value>Oyun</value>
+    <comment/>
+  </data>
+  <data name="_catMSEdge" xml:space="preserve">
+    <value>Microsoft Edge</value>
+    <comment/>
+  </data>
+  <data name="_catPrivacy" xml:space="preserve">
+    <value>Gizlilik</value>
+    <comment/>
+  </data>
+  <data name="_catSystem" xml:space="preserve">
+    <value>Sistem</value>
+    <comment/>
+  </data>
+  <data name="_catTaskbar" xml:space="preserve">
+    <value>Görev Çubuğu</value>
+    <comment/>
+  </data>
+  <data name="_logFinalCheck" xml:space="preserve">
+    <value>Son kontroller yapılıyor...</value>
+    <comment/>
+  </data>
+  <data name="_logFinalCheckMessage" xml:space="preserve">
+    <value>xd-AntiSpy'ı kullandığınız için teşekkür ederiz! Bu aracı kullanışlı buluyorsanız, gelişimini desteklemek için bağış yapabilirsiniz: https://paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG</value>
+    <comment/>
+  </data>
+  <data name="_logFinalCheckMessage2" xml:space="preserve">
+    <value>GitHub'da projeyi takip edin ve katkıda bulunun: https://github.com/builtbybel/xd-AntiSpy</value>
+    <comment/>
+  </data>
+  <data name="_logFinalCheck_complete" xml:space="preserve">
+    <value>Tüm kontroller tamamlandı.</value>
+    <comment/>
+  </data>
+  <data name="_logNativeFeatureCheck" xml:space="preserve">
+    <value>Yerleşik özellik kontrolleri başlatılıyor...</value>
+    <comment/>
+  </data>
+  <data name="_logNativeFeatureCheck_complete" xml:space="preserve">
+    <value>Özellik kontrolleri tamamlandı.</value>
+    <comment/>
+  </data>
+  <data name="_logPluginsFeatureCheck" xml:space="preserve">
+    <value>Eklenti kontrolleri başlatılıyor...</value>
+    <comment/>
+  </data>
+  <data name="_logPluginsFeatureCheck_complete" xml:space="preserve">
+    <value>Eklenti kontrolleri tamamlandı.</value>
+    <comment/>
+  </data>
+  <data name="formAbout_lblAbout" xml:space="preserve">
+    <value>(c)2024 Belim Uygulama Geliştirme
+xD-Antispy'ın sisteminizde mükemmel çalışacağının garantisi olmasa da, kapsamlı bir şekilde test ettim. Unutmayın, bu tek kişilik bir proje ve ben de bir insanım.
+
+Bu araç açık kaynaktır ve hep ücretsiz olacak. Güncel tutmaya ve geliştirmeye kararlıyım. 
+
+xD-Antispy, Windows 11 için klasik XP-Antispy'ın modern bir sürümüdür ve günümüzün gizlilik sorunlarını aşmak için geliştirilmiştir.
+
+xD-Antispy - çünkü gizlilik ayarları sizi mutlu etmeli! 
+
+-Belim-</value>
+    <comment/>
+  </data>
+  <data name="formAbout_linkDonation" xml:space="preserve">
+    <value>Desteğiniz bu uygulamanın çalışmasına ve büyümesine yardımcı oluyor - teşekkürler! — Belim</value>
+    <comment/>
+  </data>
+  <data name="formToolDebloater_btnChooseDB" xml:space="preserve">
+    <value>Özel veri tabanı seçin...</value>
+    <comment/>
+  </data>
+  <data name="formToolDebloater_btnRemoveSelected" xml:space="preserve">
+    <value>Seçilen uygulamaları kaldır</value>
+    <comment/>
+  </data>
+  <data name="formToolDebloater_DeselectAll" xml:space="preserve">
+    <value>Tümünün Seçimini Kaldır</value>
+    <comment/>
+  </data>
+  <data name="formToolDebloater_errorNoAppsCount" xml:space="preserve">
+    <value>Lütfen kaldırmak için en az bir uygulama seçin.</value>
+    <comment/>
+  </data>
+  <data name="formToolDebloater_selectAll" xml:space="preserve">
+    <value>Hepsini Seç</value>
+    <comment/>
+  </data>
+  <data name="formToolDebloater_statusCheckComplete" xml:space="preserve">
+    <value>Kontrol tamamlandı</value>
+    <comment/>
+  </data>
+  <data name="formToolDebloater_statusChecking" xml:space="preserve">
+    <value>Kontrol ediliyor</value>
+    <comment/>
+  </data>
+  <data name="formToolDebloater_statusRemoved" xml:space="preserve">
+    <value>kaldırıldı.</value>
+    <comment/>
+  </data>
+  <data name="formToolDebloater_statusRemoving" xml:space="preserve">
+    <value>Kaldırılıyor</value>
+    <comment/>
+  </data>
+  <data name="formToolDebloater_successRemoved" xml:space="preserve">
+    <value>Uygulamalar başarıyla kaldırıldı.</value>
+    <comment/>
+  </data>
+  <data name="statusHasBeen" xml:space="preserve">
+    <value>başarıyla</value>
+    <comment/>
+  </data>
+  <data name="statusIsCurrently" xml:space="preserve">
+    <value>şu anda</value>
+    <comment/>
+  </data>
+  <data name="formSymbolRef_checkInfoPlugins" xml:space="preserve">
+    <value>Ayrıca, yapay zeka tarafından oluşturulan ve doğrulanan eklentiler otomatik olarak uygulamanın eklentiler klasörüne yüklendi. Bu eklentiler liste görünümüne sorunsuz bir şekilde entegre edilebilir veya araçlar menüsünden erişilebilir. Deneyiminizi kişiselleştirmek ve işlevselliği kolayca iyileştirmek için bu geliştirmeleri inceleyin.</value>
+    <comment/>
+  </data>
+  <data name="formSymbolRef_lblActive" xml:space="preserve">
+    <value>Etkin: Bir seçenek işaretlendiğinde ve grileştiğinde, ayarın etkin olduğu anlamına gelir.</value>
+    <comment/>
+  </data>
+  <data name="formSymbolRef_lblGreen" xml:space="preserve">
+    <value>Unutmayın, belirli ayarları etkin tutmak sisteminizin gizliliğini ve performansını artırabilir. Bu seçenekleri ihtiyaçlarınıza göre ayarlayın ve daha güvenli bir bilgisayar kullanımının keyfini çıkarın!</value>
+    <comment/>
+  </data>
+  <data name="formSymbolRef_lblInactive" xml:space="preserve">
+    <value>Devre dışı: Bir seçenek işaretlenmemişse ve metin normal renkteyse, ayar etkin değildir. Kutuyu işaretleyip uygula tuşuna basarak etkinleştirebilirsiniz.</value>
+    <comment/>
+  </data>
+  <data name="formSymbolRef_lblRed" xml:space="preserve">
+    <value>Ayrıca, bu uygulama için Reddit ve Deskmodder gibi çeşitli çevrimiçi topluluklarda harika ve önerilen profiller mevcut. Uygulama yeni ve gelişmekte olduğundan, hangi ayarları ayarlayacağınızdan emin değilseniz, bu profillere göz atmak önemli bilgiler sağlayabilir. Kişiselleştirilmiş ve geliştirilmiş bir kullanıcı deneyimi sağlamak için tercihlerinize en uygun ayarları keşfedin!</value>
+    <comment/>
+  </data>
+  <data name="formToolDebloater_checkBoxShowAllApps" xml:space="preserve">
+    <value>Tüm kurulanları göster</value>
+    <comment/>
+  </data>
+  <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
+    <value>Profiller</value>
+    <comment/>
+  </data>
+  <data name="menu_toolsToolDebloaterToolStripMenuItem" xml:space="preserve">
+    <value>Kalitesiz uygulamaları arayın...</value>
+    <comment/>
+  </data>
+  <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
+    <value>Araçlar</value>
+    <comment/>
+  </data>
+  <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
+    <value>XDAntiSpy Hakkında...</value>
+    <comment/>
+  </data>
+  <data name="menu_modeAccessibleToolStripMenuItem" xml:space="preserve">
+    <value>Erişilebilir</value>
+    <comment/>
+  </data>
+  <data name="menu_modeStandardToolStripMenuItem" xml:space="preserve">
+    <value>Standart</value>
+    <comment/>
+  </data>
+  <data name="menu_modeToolStripMenuItem" xml:space="preserve">
+    <value>Mod</value>
+    <comment/>
+  </data>
+  <data name="ctl_lblSpotlight" xml:space="preserve">
+    <value>Yeni debloater eklentisine göz atın ve gereksiz yazılımları şimdi bulun</value>
+    <comment/>
+  </data>
+</root>

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="menu_aboutToolStripMenuItem" xml:space="preserve">
-    <value>?</value>
+    <value>Help</value>
   </data>
   <data name="menu_profileStatisticsToolStripMenuItem" xml:space="preserve">
     <value>Show statistics</value>
@@ -129,14 +129,8 @@
   <data name="menu_aboutWebsiteToolStripMenuItem" xml:space="preserve">
     <value>Visit GitHub site</value>
   </data>
-  <data name="menu_profilesImportToolStripMenuItem" xml:space="preserve">
+  <data name="menu_profileImportToolStripMenuItem" xml:space="preserve">
     <value>Import</value>
-  </data>
-  <data name="menu_toolsRefreshToolStripMenuItem" xml:space="preserve">
-    <value>Refresh</value>
-  </data>
-  <data name="menu_profileShareSettingsToolStripMenuItem" xml:space="preserve">
-    <value>Share</value>
   </data>
   <data name="menu_aboutSymbolReferenceToolStripMenuItem" xml:space="preserve">
     <value>Symbol Reference...</value>
@@ -492,22 +486,16 @@ xD-Antispy – because privacy settings should make you smile!
 
 -Belim-</value>
   </data>
-  <data name="formAbout_linkDonation" xml:space="preserve">
-    <value>Your support helps keep this app running and growing—thank you! — Belim</value>
-  </data>
   <data name="formToolDebloater_btnChooseDB" xml:space="preserve">
     <value>Select custom db...</value>
   </data>
   <data name="formToolDebloater_btnRemoveSelected" xml:space="preserve">
     <value>Remove selected apps</value>
   </data>
-  <data name="formToolDebloater_DeselectAll" xml:space="preserve">
-    <value>Deselect All</value>
-  </data>
   <data name="formToolDebloater_errorNoAppsCount" xml:space="preserve">
     <value>Please select at least one app to remove.</value>
   </data>
-  <data name="formToolDebloater_selectAll" xml:space="preserve">
+  <data name="formToolDebloater_selectAllToolStripMenuItem" xml:space="preserve">
     <value>Select All</value>
   </data>
   <data name="formToolDebloater_statusCheckComplete" xml:space="preserve">
@@ -555,9 +543,6 @@ xD-Antispy – because privacy settings should make you smile!
   <data name="menu_toolsToolDebloaterToolStripMenuItem" xml:space="preserve">
     <value>Search for crappy apps...</value>
   </data>
-  <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
-    <value>Tools</value>
-  </data>
   <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
     <value>About XDAntiSpy...</value>
   </data>
@@ -570,7 +555,25 @@ xD-Antispy – because privacy settings should make you smile!
   <data name="menu_modeToolStripMenuItem" xml:space="preserve">
     <value>Mode</value>
   </data>
-  <data name="ctl_lblSpotlight" xml:space="preserve">
-    <value>Check out the new debloater plugin and find bloatware now</value>
+  <data name="formAbout_lblHeaderInfo" xml:space="preserve">
+    <value>Info about xd-AntiSpy</value>
+  </data>
+  <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="menu_moreToolStripMenuItem" xml:space="preserve">
+    <value>More...</value>
+  </data>
+  <data name="ctl_comboPlugins" xml:space="preserve">
+    <value>More tools</value>
+  </data>
+  <data name="formToolDebloater_installedToolStripMenuItem" xml:space="preserve">
+    <value>Show all installed</value>
+  </data>
+  <data name="formToolDebloater_customDatabaseToolStripMenuItem" xml:space="preserve">
+    <value>Select custom database...</value>
+  </data>
+  <data name="formToolDebloater_deselectAllToolStripMenuItem" xml:space="preserve">
+    <value>Unselect all</value>
   </data>
 </root>

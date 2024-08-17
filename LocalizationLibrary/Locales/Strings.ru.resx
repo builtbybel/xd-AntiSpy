@@ -585,4 +585,28 @@ xD-Antispy – потому что настройки конфиденциаль
   <data name="ctl_lblSpotlight" xml:space="preserve">
     <value>Ознакомьтесь с новым плагином для удаления bloatware и обнаружьте ненужные программы</value>
   </data>
+  <data name="menu_profileImportToolStripMenuItem" xml:space="preserve">
+    <value>Импортировать</value>
+  </data>
+  <data name="formAbout_lblHeaderInfo" xml:space="preserve">
+    <value>Информация о xd-AntiSpy</value>
+  </data>
+  <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="menu_moreToolStripMenuItem" xml:space="preserve">
+    <value>Больше...</value>
+  </data>
+  <data name="ctl_comboPlugins" xml:space="preserve">
+    <value>Другие инструменты</value>
+  </data>
+  <data name="formToolDebloater_installedToolStripMenuItem" xml:space="preserve">
+    <value>Показать все установленные</value>
+  </data>
+  <data name="formToolDebloater_customDatabaseToolStripMenuItem" xml:space="preserve">
+    <value>Выбрать пользовательскую базу данных...</value>
+  </data>
+  <data name="formToolDebloater_deselectAllToolStripMenuItem" xml:space="preserve">
+    <value>Снять все</value>
+  </data>
 </root>

@@ -149,6 +149,7 @@
   </data>
   <data name="_adsFinishSetupAds_desc" xml:space="preserve">
     <value>Эта функция отключит "Давайте завершим настройку этого компьютера" и другую рекламу.</value>
+    <comment>!!!</comment>
   </data>
   <data name="_adsLockScreenAds_desc" xml:space="preserve">
     <value>Эта функция отключит подсказки и рекламу на экране блокировки.</value>
@@ -551,15 +552,17 @@ xD-Antispy – потому что настройки конфиденциаль
   </data>
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
     <value>Профили</value>
+    <comment>プロファイルメニュー</comment>
   </data>
   <data name="menu_toolsToolDebloaterToolStripMenuItem" xml:space="preserve">
     <value>Искать ненужные приложения...</value>
   </data>
   <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
     <value>Инструменты</value>
+    <comment>ツールメニュー</comment>
   </data>
   <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
-    <value>О XDAntiSpy...</value>
+    <value>О xd-AntiSpy...</value>
   </data>
   <data name="menu_modeAccessibleToolStripMenuItem" xml:space="preserve">
     <value>Доступный</value>
@@ -575,5 +578,35 @@ xD-Antispy – потому что настройки конфиденциаль
   </data>
   <data name="ctl_btnWindows" xml:space="preserve">
     <value>Windows</value>
+  </data>
+  <data name="menu_profileStatisticsToolStripMenuItem" xml:space="preserve">
+    <value>Показать статистику</value>
+  </data>
+  <data name="ctl_lblSpotlight" xml:space="preserve">
+    <value>Ознакомьтесь с новым плагином для удаления bloatware и обнаружьте ненужные программы</value>
+  </data>
+  <data name="menu_profileImportToolStripMenuItem" xml:space="preserve">
+    <value>Импортировать</value>
+  </data>
+  <data name="formAbout_lblHeaderInfo" xml:space="preserve">
+    <value>Информация о xd-AntiSpy</value>
+  </data>
+  <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="menu_moreToolStripMenuItem" xml:space="preserve">
+    <value>Больше...</value>
+  </data>
+  <data name="ctl_comboPlugins" xml:space="preserve">
+    <value>Другие инструменты</value>
+  </data>
+  <data name="formToolDebloater_installedToolStripMenuItem" xml:space="preserve">
+    <value>Показать все установленные</value>
+  </data>
+  <data name="formToolDebloater_customDatabaseToolStripMenuItem" xml:space="preserve">
+    <value>Выбрать пользовательскую базу данных...</value>
+  </data>
+  <data name="formToolDebloater_deselectAllToolStripMenuItem" xml:space="preserve">
+    <value>Снять все</value>
   </data>
 </root>

@@ -149,6 +149,7 @@
   </data>
   <data name="_adsFinishSetupAds_desc" xml:space="preserve">
     <value>Questa funzione disabiliterà "Completiamo la configurazione del tuo dispositivo" e altre pubblicità.</value>
+    <comment>!!!</comment>
   </data>
   <data name="_adsLockScreenAds_desc" xml:space="preserve">
     <value>Questa funzione disabiliterà suggerimenti e annunci nella schermata di blocco.</value>
@@ -324,13 +325,13 @@
   <data name="_privacyPrivacyExperience" xml:space="preserve">
     <value>Disabilita Esperienza impostazioni privacy all'accesso</value>
   </data>
- <data name="ctl_btnApps" xml:space="preserve">
+  <data name="ctl_btnApps" xml:space="preserve">
     <value>Applicazioni</value>
   </data>
- <data name="ctl_btnWindows" xml:space="preserve">
+  <data name="ctl_btnWindows" xml:space="preserve">
     <value>Windows</value>
   </data>
-    <data name="_privacyTelemetry" xml:space="preserve">
+  <data name="_privacyTelemetry" xml:space="preserve">
     <value>Disabilita raccolta dati telemetria</value>
   </data>
   <data name="_privacyTelemetry_desc" xml:space="preserve">
@@ -499,7 +500,7 @@ xD-Antispy – perché le impostazioni sulla privacy dovrebbero farti sorridere!
 -Belim-</value>
   </data>
   <data name="formAbout_linkDonation" xml:space="preserve">
-    <value>Il tuo supporto aiuta a mantenere questa app operativa e in crescita: grazie! — Belim</value>
+    <value>Il tuo supporto aiuta a mantenere questa app operativa e in crescita. Grazie! — Belim</value>
   </data>
   <data name="formToolDebloater_btnChooseDB" xml:space="preserve">
     <value>Seleziona database personalizzato...</value>
@@ -508,7 +509,7 @@ xD-Antispy – perché le impostazioni sulla privacy dovrebbero farti sorridere!
     <value>Rimuovi app selezionate</value>
   </data>
   <data name="formToolDebloater_DeselectAll" xml:space="preserve">
-    <value>Deselezionare tutto</value>
+    <value>Deseleziona tutto</value>
   </data>
   <data name="formToolDebloater_errorNoAppsCount" xml:space="preserve">
     <value>Seleziona almeno un'app da rimuovere.</value>
@@ -557,12 +558,14 @@ xD-Antispy – perché le impostazioni sulla privacy dovrebbero farti sorridere!
   </data>
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
     <value>Profili</value>
+    <comment>プロファイルメニュー</comment>
   </data>
   <data name="menu_toolsToolDebloaterToolStripMenuItem" xml:space="preserve">
     <value>Cerca app scadenti...</value>
   </data>
   <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
     <value>Strumenti</value>
+    <comment>ツールメニュー</comment>
   </data>
   <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
     <value>Infoi su XDAntiSpy...</value>
@@ -575,5 +578,38 @@ xD-Antispy – perché le impostazioni sulla privacy dovrebbero farti sorridere!
   </data>
   <data name="menu_modeToolStripMenuItem" xml:space="preserve">
     <value>Modo</value>
+  </data>
+  <data name="menu_profileStatisticsToolStripMenuItem" xml:space="preserve">
+    <value>Visualizza statistiche</value>
+  </data>
+  <data name="ctl_lblSpotlight" xml:space="preserve">
+    <value>Dai un'occhiata al nuovo plugin debloater per rilevare il bloatware</value>
+  </data>
+  <data name="menu_profileImportToolStripMenuItem" xml:space="preserve">
+    <value>Importa</value>
+  </data>
+  <data name="formToolDebloater_selectAllToolStripMenuItem" xml:space="preserve">
+    <value>Seleziona tutto</value>
+  </data>
+  <data name="formAbout_lblHeaderInfo" xml:space="preserve">
+    <value>Info su xd-AntiSpy</value>
+  </data>
+  <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
+    <value>Aggiorna</value>
+  </data>
+  <data name="menu_moreToolStripMenuItem" xml:space="preserve">
+    <value>Altro...</value>
+  </data>
+  <data name="ctl_comboPlugins" xml:space="preserve">
+    <value>Altri strumenti</value>
+  </data>
+  <data name="formToolDebloater_installedToolStripMenuItem" xml:space="preserve">
+    <value>Visualizza tutti i programmi installati</value>
+  </data>
+  <data name="formToolDebloater_customDatabaseToolStripMenuItem" xml:space="preserve">
+    <value>Seleziona database personalizzato...</value>
+  </data>
+  <data name="formToolDebloater_deselectAllToolStripMenuItem" xml:space="preserve">
+    <value>Deseleziona tutto</value>
   </data>
 </root>

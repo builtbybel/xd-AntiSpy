@@ -997,6 +997,15 @@ namespace LocalizationLibrary.Locales {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die More tools ähnelt.
+        /// </summary>
+        public static string ctl_comboPlugins {
+            get {
+                return ResourceManager.GetString("ctl_comboPlugins", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die (c)2024 A Belim app creation
         ///While there&apos;s no guarantee xD-Antispy will work perfectly on your system, I&apos;ve tested it extensively.  Remember, it&apos;s a one-person project and I&apos;m just human.
         ///
@@ -1015,11 +1024,11 @@ namespace LocalizationLibrary.Locales {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Your support helps keep this app running and growing—thank you! — Belim ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Info about xd-AntiSpy ähnelt.
         /// </summary>
-        public static string formAbout_linkDonation {
+        public static string formAbout_lblHeaderInfo {
             get {
-                return ResourceManager.GetString("formAbout_linkDonation", resourceCulture);
+                return ResourceManager.GetString("formAbout_lblHeaderInfo", resourceCulture);
             }
         }
         
@@ -1096,11 +1105,20 @@ namespace LocalizationLibrary.Locales {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Deselect All ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Select custom database... ähnelt.
         /// </summary>
-        public static string formToolDebloater_DeselectAll {
+        public static string formToolDebloater_customDatabaseToolStripMenuItem {
             get {
-                return ResourceManager.GetString("formToolDebloater_DeselectAll", resourceCulture);
+                return ResourceManager.GetString("formToolDebloater_customDatabaseToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Unselect all ähnelt.
+        /// </summary>
+        public static string formToolDebloater_deselectAllToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("formToolDebloater_deselectAllToolStripMenuItem", resourceCulture);
             }
         }
         
@@ -1114,11 +1132,20 @@ namespace LocalizationLibrary.Locales {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Show all installed ähnelt.
+        /// </summary>
+        public static string formToolDebloater_installedToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("formToolDebloater_installedToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Select All ähnelt.
         /// </summary>
-        public static string formToolDebloater_selectAll {
+        public static string formToolDebloater_selectAllToolStripMenuItem {
             get {
-                return ResourceManager.GetString("formToolDebloater_selectAll", resourceCulture);
+                return ResourceManager.GetString("formToolDebloater_selectAllToolStripMenuItem", resourceCulture);
             }
         }
         
@@ -1186,7 +1213,7 @@ namespace LocalizationLibrary.Locales {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die ? ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Help ähnelt.
         /// </summary>
         public static string menu_aboutToolStripMenuItem {
             get {
@@ -1240,6 +1267,15 @@ namespace LocalizationLibrary.Locales {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die More... ähnelt.
+        /// </summary>
+        public static string menu_moreToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_moreToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Export current ähnelt.
         /// </summary>
         public static string menu_profileExportToolStripMenuItem {
@@ -1249,20 +1285,11 @@ namespace LocalizationLibrary.Locales {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Share ähnelt.
-        /// </summary>
-        public static string menu_profileShareSettingsToolStripMenuItem {
-            get {
-                return ResourceManager.GetString("menu_profileShareSettingsToolStripMenuItem", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Import ähnelt.
         /// </summary>
-        public static string menu_profilesImportToolStripMenuItem {
+        public static string menu_profileImportToolStripMenuItem {
             get {
-                return ResourceManager.GetString("menu_profilesImportToolStripMenuItem", resourceCulture);
+                return ResourceManager.GetString("menu_profileImportToolStripMenuItem", resourceCulture);
             }
         }
         
@@ -1287,9 +1314,9 @@ namespace LocalizationLibrary.Locales {
         /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Refresh ähnelt.
         /// </summary>
-        public static string menu_toolsRefreshToolStripMenuItem {
+        public static string menu_refreshToolStripMenuItem {
             get {
-                return ResourceManager.GetString("menu_toolsRefreshToolStripMenuItem", resourceCulture);
+                return ResourceManager.GetString("menu_refreshToolStripMenuItem", resourceCulture);
             }
         }
         
@@ -1299,15 +1326,6 @@ namespace LocalizationLibrary.Locales {
         public static string menu_toolsToolDebloaterToolStripMenuItem {
             get {
                 return ResourceManager.GetString("menu_toolsToolDebloaterToolStripMenuItem", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Tools ähnelt.
-        /// </summary>
-        public static string menu_toolsToolStripMenuItem {
-            get {
-                return ResourceManager.GetString("menu_toolsToolStripMenuItem", resourceCulture);
             }
         }
         

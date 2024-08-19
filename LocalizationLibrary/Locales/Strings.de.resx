@@ -117,6 +117,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="menu_aboutToolStripMenuItem" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="menu_profileStatisticsToolStripMenuItem" xml:space="preserve">
+    <value>Statistiken anzeigen</value>
+  </data>
+  <data name="menu_profileExportToolStripMenuItem" xml:space="preserve">
+    <value>Exportieren</value>
+  </data>
+  <data name="menu_aboutWebsiteToolStripMenuItem" xml:space="preserve">
+    <value>GitHub-Website besuchen</value>
+  </data>
+  <data name="menu_profileImportToolStripMenuItem" xml:space="preserve">
+    <value>Importieren</value>
+  </data>
+  <data name="menu_aboutSymbolReferenceToolStripMenuItem" xml:space="preserve">
+    <value>Symbolreferenz...</value>
+  </data>
+  <data name="menu_aboutUpdateToolStripMenuItem" xml:space="preserve">
+    <value>Update...</value>
+  </data>
   <data name="ctl_btnApply" xml:space="preserve">
     <value>Einstellungen übernehmen</value>
   </data>
@@ -160,6 +181,33 @@
   <data name="_edgeDefautBrowserSetting_desc" xml:space="preserve">
     <value>Erzwingen Sie, dass Microsoft Edge nicht mehr nach einer Änderung des Standardbrowsers fragt.</value>
   </data>
+  <data name="_edgeEdgeCollections_desc" xml:space="preserve">
+    <value>Die Funktion "Sammlung" ermöglicht es Ihnen, Inhalte mithilfe der Office-Integration effizienter zu sammeln, zu organisieren, zu teilen und zu exportieren.</value>
+  </data>
+  <data name="_edgeEdgeShoppingAssistant_desc" xml:space="preserve">
+    <value>Mit den Shopping-Funktion in Microsoft Edge finden Sie beim Einkaufen automatisch die besten Preise und Gutscheine im gesamten Internet.</value>
+  </data>
+  <data name="_edgeFirstRunExperience_desc" xml:space="preserve">
+    <value>Startbildschirm und „Erste Schritte“ beim ersten Start ausblenden (ab Version 80).</value>
+  </data>
+  <data name="_edgeGamerMode_desc" xml:space="preserve">
+    <value>Mit der Verbesserung des PC-Spielerlebnises können Gamer Ihren Browser mit Gaming-Themen personalisieren und haben die Möglichkeit, den Effizienzmodus für PC-Spiele, den Spiele-Feed auf neuen Tabs, Seitenleisten-Apps für Gamer und mehr zu aktivieren.</value>
+  </data>
+  <data name="_edgeHubsSidebar_desc" xml:space="preserve">
+    <value>Diese Funktion deaktiviert Copilot in Microsoft Edge.</value>
+  </data>
+  <data name="_edgeImportOnEachLaunch_desc" xml:space="preserve">
+    <value>Ermöglicht den Import von Daten aus anderen Browsern bei jedem Start von Microsoft Edge.</value>
+  </data>
+  <data name="_edgeStartupBoost_desc" xml:space="preserve">
+    <value>Ermöglicht die Initialisierung von Microsoft Edge-Prozessen beim Start des Betriebssystems und den Neustart im Hintergrund, nachdem das letzte Browserfenster geschlossen wurde.</value>
+  </data>
+  <data name="_edgeTabPageQuickLinks_desc" xml:space="preserve">
+    <value>Wenn Sie einen neuen Tab öffnen, sehen Sie standardmäßig eine Bing-Suchleiste und das Bing-Bild des Tages als Seitenhintergrund. Bei unterstützten Webseiten können Quick Links auf der „Neuer Tab“-Seite aktuelle Updates direkt in der Kachel anzeigen.</value>
+  </data>
+  <data name="_edgeUserFeedback_desc" xml:space="preserve">
+    <value>Ermöglicht Ihnen die Übermittlung von Feedback, Vorschlägen oder Teilnahme an Kundenumfragen, sowie die Meldung von Problemen mit dem Browser.</value>
+  </data>
   <data name="_adsFileExplorerAds" xml:space="preserve">
     <value>Werbung im Windows Explorer deaktivieren</value>
   </data>
@@ -183,6 +231,9 @@
   </data>
   <data name="_adsTipsAndSuggestions" xml:space="preserve">
     <value>Allgemeine Tipps und Werbung deaktivieren</value>
+  </data>
+  <data name="_adsWelcomeExperienceAds" xml:space="preserve">
+    <value>Werbung in "Erste Schritte" deaktivieren</value>
   </data>
   <data name="_aiCopilotTaskbar" xml:space="preserve">
     <value>Copilot nicht in der Taskleiste anzeigen</value>
@@ -208,6 +259,9 @@
   <data name="_edgeEdgeShoppingAssistant" xml:space="preserve">
     <value>Shopping-Funktionen in Microsoft Edge deaktivieren</value>
   </data>
+  <data name="_edgeFirstRunExperience" xml:space="preserve">
+    <value>"Erste Schritte" nicht anzeigen</value>
+  </data>
   <data name="_edgeGamerMode" xml:space="preserve">
     <value>Spielmodus deaktivieren</value>
   </data>
@@ -217,17 +271,29 @@
   <data name="_edgeImportOnEachLaunch" xml:space="preserve">
     <value>Importieren von Daten aus anderen Browsern bei jedem Start nicht zulassen</value>
   </data>
+  <data name="_edgeStartupBoost" xml:space="preserve">
+    <value>Startup-Boost deaktivieren</value>
+  </data>
   <data name="_edgeTabPageQuickLinks" xml:space="preserve">
     <value>Schnelllinks nicht auf der „Neuer Tab“-Seite anzeigen</value>
   </data>
   <data name="_edgeUserFeedback" xml:space="preserve">
     <value>Feedback-Option aus Werkzeugleiste entfernen</value>
   </data>
+  <data name="_aiCopilotTaskbar_desc" xml:space="preserve">
+    <value>Diese Funktion wird den Copilot in der Taskleiste deaktivieren.</value>
+  </data>
   <data name="_gamingGameDVR" xml:space="preserve">
     <value>GameDVR deaktivieren</value>
   </data>
   <data name="_gamingGameDVR_desc" xml:space="preserve">
     <value>Diese Funktion wird GameDVR deaktivieren.</value>
+  </data>
+  <data name="_gamingPowerThrottling" xml:space="preserve">
+    <value>Leistungsdrosselung deaktivieren</value>
+  </data>
+  <data name="_gamingPowerThrottling_desc" xml:space="preserve">
+    <value>Diese Funktion wird die Leistungsdrosselung unterbinden.</value>
   </data>
   <data name="_gamingVisualFX" xml:space="preserve">
     <value>VisualFX deaktivieren</value>
@@ -241,32 +307,17 @@
   <data name="_privacyBackgroundApps_desc" xml:space="preserve">
     <value>Diese Funktion verhindert, dass Apps im Hintergrund ausgeführt werden können.</value>
   </data>
-  <data name="statusDisabled" xml:space="preserve">
-    <value>Deaktiviert</value>
-  </data>
-  <data name="statusEnabled" xml:space="preserve">
-    <value>Aktiviert</value>
-  </data>
-  <data name="statusIsDisabled" xml:space="preserve">
-    <value>wurde deaktiviert.</value>
-  </data>
-  <data name="statusIsEnabled" xml:space="preserve">
-    <value>wurde aktiviert.</value>
-  </data>
-  <data name="_catAI" xml:space="preserve">
-    <value>KI/Copilot und Recall</value>
-  </data>
-  <data name="_catMSEdge" xml:space="preserve">
-    <value>Microsoft Edge</value>
-  </data>
-  <data name="_aiCopilotTaskbar_desc" xml:space="preserve">
-    <value>Diese Funktion wird den Copilot in der Taskleiste deaktivieren.</value>
+  <data name="_privacyPrivacyExperience_desc" xml:space="preserve">
+    <value>Diese Funktion deaktiviert das Erlebnis der Datenschutzeinstellungen bei der Anmeldung.</value>
   </data>
   <data name="_privacyFindMyDevice" xml:space="preserve">
     <value>Mein Gerät finden deaktivieren</value>
   </data>
   <data name="_privacyFindMyDevice_desc" xml:space="preserve">
     <value>Diese Funktion verhindert, dass Sie Ihr Gerät aus der Ferne orten können.</value>
+  </data>
+  <data name="_privacyPrivacyExperience" xml:space="preserve">
+    <value>Datenschutzeinstellugs-Erlebnis beim Anmelden deaktivieren</value>
   </data>
   <data name="_privacyTelemetry" xml:space="preserve">
     <value>Telemetrie deaktivieren</value>
@@ -283,8 +334,23 @@
   <data name="_systemFullContextMenus_desc" xml:space="preserve">
     <value>Diese Funktion gibt Ihnen die Möglichkeit immer ein vollständiges Kontextmenü anzuzeigen. (klassisches Startmenü)</value>
   </data>
+  <data name="_systemLockScreen" xml:space="preserve">
+    <value>Keinen personalisierten Sperrbildschirm verwenden</value>
+  </data>
+  <data name="_systemLockScreen_desc" xml:space="preserve">
+    <value>Diese Funktion wird den personalisieren Sperrbildschirm deaktivieren.</value>
+  </data>
+  <data name="_systemVerboseMessages" xml:space="preserve">
+    <value>Sehr detaillierte Statusmeldungen anzeigen</value>
+  </data>
+  <data name="_systemVerboseMessages_desc" xml:space="preserve">
+    <value>Diese Funktion wird dafür sorgen, dass sehr detailierte Statusmeldungen angezeigt werden.</value>
+  </data>
   <data name="_systemXPSWriter" xml:space="preserve">
     <value>XPS-Writer deinstallieren</value>
+  </data>
+  <data name="_systemXPSWriter_desc" xml:space="preserve">
+    <value>Diese Funktion wird den XPS-Writer deinstallieren.</value>
   </data>
   <data name="_taskbarBingSearch" xml:space="preserve">
     <value>Bing-Integration in Windows-Suche deaktivieren</value>
@@ -340,11 +406,26 @@
   <data name="menuDoContextItem" xml:space="preserve">
     <value>Einstellung manuell setzen</value>
   </data>
+  <data name="menuPinContextItem" xml:space="preserve">
+    <value>Anheften</value>
+  </data>
   <data name="menuUndoContextItem" xml:space="preserve">
     <value>Einstellung zurücksetzen</value>
   </data>
   <data name="statusApplied" xml:space="preserve">
     <value>Übernommen:</value>
+  </data>
+  <data name="statusDisabled" xml:space="preserve">
+    <value>Deaktiviert</value>
+  </data>
+  <data name="statusEnabled" xml:space="preserve">
+    <value>Aktiviert</value>
+  </data>
+  <data name="statusIsDisabled" xml:space="preserve">
+    <value>wurde deaktiviert.</value>
+  </data>
+  <data name="statusIsEnabled" xml:space="preserve">
+    <value>wurde aktiviert.</value>
   </data>
   <data name="_aiRecallLocalMachine_desc" xml:space="preserve">
     <value>Diese Funktion wird Recall daran hindern systemweit Schnappschüsse zu speichern.</value>
@@ -352,8 +433,14 @@
   <data name="_catAdblock" xml:space="preserve">
     <value>Blockieren von Werbung</value>
   </data>
+  <data name="_catAI" xml:space="preserve">
+    <value>KI/Copilot und Recall</value>
+  </data>
   <data name="_catGaming" xml:space="preserve">
     <value>Spielen</value>
+  </data>
+  <data name="_catMSEdge" xml:space="preserve">
+    <value>Microsoft Edge</value>
   </data>
   <data name="_catPrivacy" xml:space="preserve">
     <value>Datenschutz</value>
@@ -363,57 +450,6 @@
   </data>
   <data name="_catTaskbar" xml:space="preserve">
     <value>Taskleiste</value>
-  </data>
-  <data name="_edgeEdgeCollections_desc" xml:space="preserve">
-    <value>Die Funktion "Sammlung" ermöglicht es Ihnen, Inhalte mithilfe der Office-Integration effizienter zu sammeln, zu organisieren, zu teilen und zu exportieren.</value>
-  </data>
-  <data name="_edgeEdgeShoppingAssistant_desc" xml:space="preserve">
-    <value>Mit den Shopping-Funktion in Microsoft Edge finden Sie beim Einkaufen automatisch die besten Preise und Gutscheine im gesamten Internet.</value>
-  </data>
-  <data name="_edgeFirstRunExperience_desc" xml:space="preserve">
-    <value>Startbildschirm und „Erste Schritte“ beim ersten Start ausblenden (ab Version 80).</value>
-  </data>
-  <data name="_edgeGamerMode_desc" xml:space="preserve">
-    <value>Mit der Verbesserung des PC-Spielerlebnises können Gamer Ihren Browser mit Gaming-Themen personalisieren und haben die Möglichkeit, den Effizienzmodus für PC-Spiele, den Spiele-Feed auf neuen Tabs, Seitenleisten-Apps für Gamer und mehr zu aktivieren.</value>
-  </data>
-  <data name="_edgeHubsSidebar_desc" xml:space="preserve">
-    <value>Diese Funktion deaktiviert Copilot in Microsoft Edge.</value>
-  </data>
-  <data name="_edgeImportOnEachLaunch_desc" xml:space="preserve">
-    <value>Ermöglicht den Import von Daten aus anderen Browsern bei jedem Start von Microsoft Edge.</value>
-  </data>
-  <data name="_edgeStartupBoost_desc" xml:space="preserve">
-    <value>Ermöglicht die Initialisierung von Microsoft Edge-Prozessen beim Start des Betriebssystems und den Neustart im Hintergrund, nachdem das letzte Browserfenster geschlossen wurde.</value>
-  </data>
-  <data name="_edgeTabPageQuickLinks_desc" xml:space="preserve">
-    <value>Wenn Sie einen neuen Tab öffnen, sehen Sie standardmäßig eine Bing-Suchleiste und das Bing-Bild des Tages als Seitenhintergrund. Bei unterstützten Webseiten können Quick Links auf der „Neuer Tab“-Seite aktuelle Updates direkt in der Kachel anzeigen.</value>
-  </data>
-  <data name="_edgeUserFeedback_desc" xml:space="preserve">
-    <value>Ermöglicht Ihnen die Übermittlung von Feedback, Vorschlägen oder Teilnahme an Kundenumfragen, sowie die Meldung von Problemen mit dem Browser.</value>
-  </data>
-  <data name="_edgeFirstRunExperience" xml:space="preserve">
-    <value>"Erste Schritte" nicht anzeigen</value>
-  </data>
-  <data name="_edgeStartupBoost" xml:space="preserve">
-    <value>Startup-Boost deaktivieren</value>
-  </data>
-  <data name="_systemLockScreen" xml:space="preserve">
-    <value>Keinen personalisierten Sperrbildschirm verwenden</value>
-  </data>
-  <data name="_systemLockScreen_desc" xml:space="preserve">
-    <value>Diese Funktion wird den personalisieren Sperrbildschirm deaktivieren.</value>
-  </data>
-  <data name="_systemVerboseMessages" xml:space="preserve">
-    <value>Sehr detaillierte Statusmeldungen anzeigen</value>
-  </data>
-  <data name="_systemVerboseMessages_desc" xml:space="preserve">
-    <value>Diese Funktion wird dafür sorgen, dass sehr detailierte Statusmeldungen angezeigt werden.</value>
-  </data>
-  <data name="_systemXPSWriter_desc" xml:space="preserve">
-    <value>Diese Funktion wird den XPS-Writer deinstallieren.</value>
-  </data>
-  <data name="menuPinContextItem" xml:space="preserve">
-    <value>Anheften</value>
   </data>
   <data name="_logFinalCheck" xml:space="preserve">
     <value>Letzte Prüfungen in Arbeit...</value>
@@ -451,22 +487,16 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
 
 -Belim-</value>
   </data>
-  <data name="formAbout_linkDonation" xml:space="preserve">
-    <value>Ihre Unterstützung trägt dazu bei, diese App fortzuführen – vielen Dank! – Belim</value>
-  </data>
   <data name="formToolDebloater_btnChooseDB" xml:space="preserve">
     <value>Benutzerdefinierte Datenbank auswählen...</value>
   </data>
   <data name="formToolDebloater_btnRemoveSelected" xml:space="preserve">
     <value>Ausgewählte Apps entfernen</value>
   </data>
-  <data name="formToolDebloater_DeselectAll" xml:space="preserve">
-    <value>Alle abwählen</value>
-  </data>
   <data name="formToolDebloater_errorNoAppsCount" xml:space="preserve">
     <value>Bitte wählen Sie mindestens eine App zum Entfernen aus.</value>
   </data>
-  <data name="formToolDebloater_selectAll" xml:space="preserve">
+  <data name="formToolDebloater_selectAllToolStripMenuItem" xml:space="preserve">
     <value>Alle auswählen</value>
   </data>
   <data name="formToolDebloater_statusCheckComplete" xml:space="preserve">
@@ -485,7 +515,7 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
     <value>Apps erfolgreich entfernt.</value>
   </data>
   <data name="statusHasBeen" xml:space="preserve">
-    <value>war</value>
+    <value>wurde</value>
   </data>
   <data name="statusIsCurrently" xml:space="preserve">
     <value>derzeit</value>
@@ -505,68 +535,17 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
   <data name="formSymbolRef_lblRed" xml:space="preserve">
     <value>Darüber hinaus gibt es für diese App coole und empfohlene Profile in verschiedenen Online-Communities wie Reddit und Deskmodder. Da die App neu ist und wächst, können Ihnen diese Profile wertvolle Erkenntnisse liefern, wenn Sie unsicher sind, welche Einstellungen Sie konfigurieren sollen. Entdecken Sie optimale Konfigurationen, die Ihren Vorlieben entsprechen und so ein personalisiertes und verbessertes Benutzererlebnis gewährleisten!</value>
   </data>
-  <data name="_adsWelcomeExperienceAds" xml:space="preserve">
-    <value>Werbung in "Erste Schritte" deaktivieren</value>
-  </data>
-  <data name="_gamingPowerThrottling" xml:space="preserve">
-    <value>Leistungsdrosselung deaktivieren</value>
-  </data>
-  <data name="_gamingPowerThrottling_desc" xml:space="preserve">
-    <value>Diese Funktion wird die Leistungsdrosselung unterbinden.</value>
-  </data>
-  <data name="_privacyPrivacyExperience_desc" xml:space="preserve">
-    <value>Diese Funktion deaktiviert das Erlebnis der Datenschutzeinstellungen bei der Anmeldung.</value>
-  </data>
-  <data name="_privacyPrivacyExperience" xml:space="preserve">
-    <value>Datenschutzeinstellugs-Erlebnis beim Anmelden deaktivieren</value>
-  </data>
-  <data name="ctl_btnApps" xml:space="preserve">
-    <value>Anwendungen</value>
-  </data>
-  <data name="ctl_btnWindows" xml:space="preserve">
-    <value>Windows</value>
-  </data>
   <data name="formToolDebloater_checkBoxShowAllApps" xml:space="preserve">
     <value>Alle installierten anzeigen</value>
-  </data>
-  <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
-    <value>Über xd-AntiSpy...</value>
-  </data>
-  <data name="menu_aboutSymbolReferenceToolStripMenuItem" xml:space="preserve">
-    <value>Symbolreferenz...</value>
-  </data>
-  <data name="menu_aboutToolStripMenuItem" xml:space="preserve">
-    <value>?</value>
-  </data>
-  <data name="menu_aboutUpdateToolStripMenuItem" xml:space="preserve">
-    <value>Update...</value>
-  </data>
-  <data name="menu_aboutWebsiteToolStripMenuItem" xml:space="preserve">
-    <value>GitHub-Website besuchen</value>
-  </data>
-  <data name="menu_profileStatisticsToolStripMenuItem" xml:space="preserve">
-    <value>Statistiken anzeigen</value>
-  </data>
-  <data name="menu_profileExportToolStripMenuItem" xml:space="preserve">
-    <value>Exportieren</value>
-  </data>
-  <data name="menu_profileShareSettingsToolStripMenuItem" xml:space="preserve">
-    <value>Teilen</value>
-  </data>
-  <data name="menu_profilesImportToolStripMenuItem" xml:space="preserve">
-    <value>Importieren</value>
   </data>
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
     <value>Profile</value>
   </data>
-  <data name="menu_toolsRefreshToolStripMenuItem" xml:space="preserve">
-    <value>Aktualisieren</value>
-  </data>
   <data name="menu_toolsToolDebloaterToolStripMenuItem" xml:space="preserve">
     <value>Nach unnötigen Apps suchen...</value>
   </data>
-  <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
-    <value>Spezial</value>
+  <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
+    <value>Über xd-AntiSpy...</value>
   </data>
   <data name="menu_modeAccessibleToolStripMenuItem" xml:space="preserve">
     <value>Barrierefrei</value>
@@ -576,5 +555,26 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
   </data>
   <data name="menu_modeToolStripMenuItem" xml:space="preserve">
     <value>Modus</value>
+  </data>
+  <data name="formAbout_lblHeaderInfo" xml:space="preserve">
+    <value>Info über xd-AntiSpy</value>
+  </data>
+  <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="menu_moreToolStripMenuItem" xml:space="preserve">
+    <value>Mehr...</value>
+  </data>
+  <data name="ctl_comboPlugins" xml:space="preserve">
+    <value>Mehr tools</value>
+  </data>
+  <data name="formToolDebloater_installedToolStripMenuItem" xml:space="preserve">
+    <value>Alle installierten anzeigen</value>
+  </data>
+  <data name="formToolDebloater_customDatabaseToolStripMenuItem" xml:space="preserve">
+    <value>Benutzerdefinierte Datenbank laden...</value>
+  </data>
+  <data name="formToolDebloater_deselectAllToolStripMenuItem" xml:space="preserve">
+    <value>Alle abwählen</value>
   </data>
 </root>

@@ -122,9 +122,11 @@
   </data>
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
     <value>プロファイル</value>
+    <comment>プロファイルメニュー</comment>
   </data>
   <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
     <value>ツール</value>
+    <comment>ツールメニュー</comment>
   </data>
   <data name="ctl_btnApply" xml:space="preserve">
     <value>設定を適用</value>
@@ -568,5 +570,14 @@ xD-Antispy – プライバシー設定はあなたを笑顔にするはずで�
   </data>
   <data name="menu_modeToolStripMenuItem" xml:space="preserve">
     <value>モード</value>
+  </data>
+  <data name="menu_profileStatisticsToolStripMenuItem" xml:space="preserve">
+    <value>統計を表示する</value>
+  </data>
+  <data name="ctl_btnApps" xml:space="preserve">
+    <value>アプリ</value>
+  </data>
+  <data name="ctl_btnWindows" xml:space="preserve">
+    <value>Windows</value>
   </data>
 </root>

@@ -988,6 +988,15 @@ namespace LocalizationLibrary.Locales {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die English Version ähnelt.
+        /// </summary>
+        public static string CREDITS_translator {
+            get {
+                return ResourceManager.GetString("CREDITS_translator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Apply Settings ähnelt.
         /// </summary>
         public static string ctl_btnApply {
@@ -1141,6 +1150,15 @@ namespace LocalizationLibrary.Locales {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die  ähnelt.
+        /// </summary>
+        public static string formToolDebloater_selectAll {
+            get {
+                return ResourceManager.GetString("formToolDebloater_selectAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Select All ähnelt.
         /// </summary>
         public static string formToolDebloater_selectAllToolStripMenuItem {
@@ -1276,6 +1294,15 @@ namespace LocalizationLibrary.Locales {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die  ähnelt.
+        /// </summary>
+        public static string menu_profileCopyToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_profileCopyToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Export current ähnelt.
         /// </summary>
         public static string menu_profileExportToolStripMenuItem {
@@ -1290,6 +1317,15 @@ namespace LocalizationLibrary.Locales {
         public static string menu_profileImportToolStripMenuItem {
             get {
                 return ResourceManager.GetString("menu_profileImportToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die  ähnelt.
+        /// </summary>
+        public static string menu_profilesImportToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_profilesImportToolStripMenuItem", resourceCulture);
             }
         }
         
@@ -1321,11 +1357,20 @@ namespace LocalizationLibrary.Locales {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Search for crappy apps... ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die  ähnelt.
         /// </summary>
-        public static string menu_toolsToolDebloaterToolStripMenuItem {
+        public static string menu_toolsRefreshToolStripMenuItem {
             get {
-                return ResourceManager.GetString("menu_toolsToolDebloaterToolStripMenuItem", resourceCulture);
+                return ResourceManager.GetString("menu_toolsRefreshToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die  ähnelt.
+        /// </summary>
+        public static string menu_toolsToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("menu_toolsToolStripMenuItem", resourceCulture);
             }
         }
         

@@ -541,9 +541,6 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
     <value>Profile</value>
   </data>
-  <data name="menu_toolsToolDebloaterToolStripMenuItem" xml:space="preserve">
-    <value>Nach unnötigen Apps suchen...</value>
-  </data>
   <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
     <value>Über xd-AntiSpy...</value>
   </data>
@@ -566,7 +563,7 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
     <value>Mehr...</value>
   </data>
   <data name="ctl_comboPlugins" xml:space="preserve">
-    <value>Mehr tools</value>
+    <value>Spezial</value>
   </data>
   <data name="formToolDebloater_installedToolStripMenuItem" xml:space="preserve">
     <value>Alle installierten anzeigen</value>
@@ -576,5 +573,8 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
   </data>
   <data name="formToolDebloater_deselectAllToolStripMenuItem" xml:space="preserve">
     <value>Alle abwählen</value>
+  </data>
+  <data name="CREDITS_translator" xml:space="preserve">
+    <value>Übersetzt von uDEV2019 (https://github.com/uDEV2019)</value>
   </data>
 </root>

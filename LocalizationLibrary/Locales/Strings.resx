@@ -540,9 +540,6 @@ xD-Antispy – because privacy settings should make you smile!
   <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
     <value>Profiles</value>
   </data>
-  <data name="menu_toolsToolDebloaterToolStripMenuItem" xml:space="preserve">
-    <value>Search for crappy apps...</value>
-  </data>
   <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
     <value>About XDAntiSpy...</value>
   </data>
@@ -575,5 +572,23 @@ xD-Antispy – because privacy settings should make you smile!
   </data>
   <data name="formToolDebloater_deselectAllToolStripMenuItem" xml:space="preserve">
     <value>Unselect all</value>
+  </data>
+  <data name="menu_profileCopyToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_profilesImportToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_toolsRefreshToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="formToolDebloater_selectAll" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CREDITS_translator" xml:space="preserve">
+    <value>English Version</value>
   </data>
 </root>

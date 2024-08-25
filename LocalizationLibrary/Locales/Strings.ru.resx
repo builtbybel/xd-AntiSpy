@@ -609,4 +609,7 @@ xD-Antispy – потому что настройки конфиденциаль
   <data name="formToolDebloater_deselectAllToolStripMenuItem" xml:space="preserve">
     <value>Снять все</value>
   </data>
+  <data name="CREDITS_translator" xml:space="preserve">
+    <value>Переведено blurry16 &lt;3 (https://github.com/blurry16)</value>
+  </data>
 </root>

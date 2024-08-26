@@ -1,0 +1,377 @@
+[
+    {
+        "question": "Access account settings to manage your Microsoft Account.",
+        "response": "Add Microsoft Account",
+        "action": "ms-settings:privacy-accountinfo"
+    },
+    {
+        "question": "Configure a PIN in Sign-in options for quick access.",
+        "response": "Set up a PIN",
+        "action": "ms-settings:signinoptions"
+    },
+    {
+        "question": "Check and install updates via Windows Update settings.",
+        "response": "Check for Windows Updates",
+        "action": "ms-settings:windowsupdate"
+    },
+    {
+        "question": "Set up backup options in Backup settings, with Appcopier for advanced needs.",
+        "response": "Manage Backups",
+        "action": "ms-settings:backup"
+    },
+    {
+        "question": "Control app permissions in Privacy settings.",
+        "response": "Privacy Settings",
+        "action": "ms-settings:privacy"
+    },
+    {
+        "question": "Manage your notifications in Notification settings.",
+        "response": "Notification Settings",
+        "action": "ms-settings:notifications"
+    },
+    {
+        "question": "Adjust resolution, orientation, and multiple displays.",
+        "response": "Display Settings",
+        "action": "ms-settings:display"
+    },
+    {
+        "question": "Optimize power usage and screen timeout settings.",
+        "response": "Power & Sleep Settings",
+        "action": "ms-settings:powersleep"
+    },
+    {
+        "question": "Configure Wi-Fi and Ethernet settings.",
+        "response": "Network & Internet Settings",
+        "action": "ms-settings:network"
+    },
+    {
+        "question": "Pair and manage Bluetooth devices.",
+        "response": "Bluetooth Settings",
+        "action": "ms-settings:bluetooth"
+    },
+    {
+        "question": "Personalize the Start menu layout.",
+        "response": "Start Menu Customization",
+        "action": "ms-settings:personalization-start"
+    },
+    {
+        "question": "Manage user accounts and family settings.",
+        "response": "Account Settings",
+        "action": "ms-settings:accounts"
+    },
+    {
+        "question": "Adjust settings for accessibility.",
+        "response": "Ease of Access Settings",
+        "action": "ms-settings:easeofaccess"
+    },
+    {
+        "question": "Set your default apps.",
+        "response": "Default Apps Settings",
+        "action": "ms-settings:defaultapps"
+    },
+    {
+        "question": "Manage storage and configure Storage Sense.",
+        "response": "Storage Settings",
+        "action": "ms-settings:storage"
+    },
+    {
+        "question": "Configure multitasking and window management.",
+        "response": "Multitasking Settings",
+        "action": "ms-settings:multitasking"
+    },
+    {
+        "question": "Optimize performance and visual effects.",
+        "response": "Performance Settings",
+        "action": "ms-settings:performance"
+    },
+    {
+        "question": "Manage antivirus and firewall settings.",
+        "response": "Windows Security Settings",
+        "action": "ms-settings:windowsdefender"
+    },
+    {
+        "question": "Review battery usage and saving options.",
+        "response": "Battery Saver Usage Details",
+        "action": "ms-settings:batterysaver-usagedetails"
+    },
+    {
+        "question": "Manage connected devices and peripherals.",
+        "response": "Additional Devices",
+        "action": "ms-settings:privacy-customdevices"
+    },
+    {
+        "question": "Change your desktop wallpaper.",
+        "response": "Change Background",
+        "action": "ms-settings:personalization-background"
+    },
+    {
+        "question": "Set accent colors and toggle dark/light mode.",
+        "response": "Customize Colors",
+        "action": "ms-settings:personalization-colors"
+    },
+    {
+        "question": "Customize lock screen appearance.",
+        "response": "Lock Screen Settings",
+        "action": "ms-settings:personalization-lockscreen"
+    },
+    {
+        "question": "Select and modify Windows themes.",
+        "response": "Themes Settings",
+        "action": "ms-settings:personalization-themes"
+    },
+    {
+        "question": "Manage installed fonts and settings.",
+        "response": "Fonts Settings",
+        "action": "ms-settings:fonts"
+    },
+    {
+        "question": "Set up your screensaver preferences.",
+        "response": "Screensaver Settings",
+        "action": "ms-settings:personalization-screensaver"
+    },
+    {
+        "question": "Set regional formats for date and time.",
+        "response": "Regional Format Settings",
+        "action": "ms-settings:regionformat"
+    },
+    {
+        "question": "Adjust system date, time, and time zone.",
+        "response": "Date & Time Settings",
+        "action": "ms-settings:dateandtime"
+    },
+    {
+        "question": "View the current Windows version.",
+        "response": "Show Windows Version",
+        "action": "ms-settings:about"
+    },
+    {
+        "question": "List all running services via PowerShell.",
+        "response": "List All Services",
+        "action": "powershell:Get-Service"
+    },
+    {
+        "question": "Check available disk space via CMD.",
+        "response": "Check Disk Space",
+        "action": "cmd:wmic logicaldisk get size,freespace,caption"
+    },
+    {
+        "question": "View detailed system info via PowerShell.",
+        "response": "Show System Information",
+        "action": "powershell:systeminfo"
+    },
+    {
+        "question": "View network adapter settings via CMD.",
+        "response": "Network Configuration",
+        "action": "cmd:netsh interface ipv4 show config"
+    },
+    {
+        "question": "Display active processes via PowerShell.",
+        "response": "Show Running Processes",
+        "action": "powershell:Get-Process"
+    },
+    {
+        "question": "Get a list of installed programs.",
+        "response": "List Installed Programs",
+        "action": "powershell:Get-WmiObject -Class Win32_Product"
+    },
+    {
+        "question": "Retrieve Windows version details.",
+        "response": "Check Windows Version",
+        "action": "powershell:Get-ComputerInfo | Select-Object WindowsVersion, WindowsBuildLabEx"
+    },
+    {
+        "question": "Restart the system now.",
+        "response": "Restart Computer",
+        "action": "cmd:shutdown /r /t 0"
+    },
+    {
+        "question": "Manage tasks and processes.",
+        "response": "Open Task Manager",
+        "action": "cmd:taskmgr"
+    },
+    {
+        "question": "Show detailed system information.",
+        "response": "View System Information",
+        "action": "cmd:systeminfo"
+    },
+    {
+        "question": "Install 7-zip for high compression file archiving.",
+        "response": "Install 7-zip",
+        "action": "install:7Zip.7zip"
+    },
+    {
+        "question": "Install IrfanView, a fast image viewer.",
+        "response": "Install IrfanView",
+        "action": "install:IrfanSkiljan.IrfanView"
+    },
+    {
+        "question": "Install Google Chrome, a fast and secure browser.",
+        "response": "Install Google Chrome",
+        "action": "install:Google.Chrome"
+    },
+    {
+        "question": "Install Firefox, a free and open-source browser.",
+        "response": "Install Mozilla Firefox",
+        "action": "install:Mozilla.Firefox"
+    },
+    {
+        "question": "Install Opera, a browser with added features.",
+        "response": "Install Opera",
+        "action": "install:Opera.Opera"
+    },
+    {
+        "question": "Install Vivaldi, a customizable browser.",
+        "response": "Install Vivaldi",
+        "action": "install:Vivaldi.Vivaldi"
+    },
+    {
+        "question": "Install Arc, a new browser with customizable features.",
+        "response": "Install Arc",
+        "action": "install:TheBrowserCompany.Arc"
+    },
+    {
+        "question": "Install Notepad++, a versatile code editor.",
+        "response": "Install Notepad++",
+        "action": "install:Notepad++.Notepad++"
+    },
+    {
+        "question": "Access system recovery options.",
+        "response": "System Recovery Options",
+        "action": "ms-settings:recovery"
+    },
+    {
+        "question": "Set up and manage Family & other users.",
+        "response": "Family & Other Users",
+        "action": "ms-settings:otherusers"
+    },
+    {
+        "question": "Access Disk Cleanup to free up space.",
+        "response": "Disk Cleanup Utility",
+        "action": "cmd:cleanmgr"
+    },
+    {
+        "question": "Manage advanced display settings.",
+        "response": "Advanced Display Settings",
+        "action": "ms-settings:display-advanced"
+    },
+    {
+        "question": "Manage system protection settings.",
+        "response": "System Protection Settings",
+        "action": "cmd:sysdm.cpl,,4"
+    },
+    {
+        "question": "Manage system restore points.",
+        "response": "Create System Restore Point",
+        "action": "powershell:Checkpoint-Computer -Description \"xd-AntiSpy\" -RestorePointType \"MODIFY_SETTINGS\""
+    },
+    {
+        "question": "Scan the system for corrupted files (sfc).",
+        "response": "Run SFC Scan",
+        "action": "cmd:sfc /scannow"
+    },
+    {
+        "question": "Check disk health and repair issues.",
+        "response": "Run CHKDSK",
+        "action": "cmd:chkdsk /f /r"
+    },
+    {
+        "question": "Access Windows Update history.",
+        "response": "View Update History",
+        "action": "ms-settings:windowsupdate-history"
+    },
+    {
+        "question": "Change User Account Control (UAC) settings.",
+        "response": "UAC Settings",
+        "action": "cmd:useraccountcontrolsettings"
+    },
+    {
+        "question": "Enable or disable Windows features.",
+        "response": "Windows Features Settings",
+        "action": "cmd:optionalfeatures"
+    },
+    {
+        "question": "Access Task Scheduler to automate tasks.",
+        "response": "Open Task Scheduler",
+        "action": "cmd:taskschd.msc"
+    },
+    {
+        "question": "Manage your Windows Firewall settings.",
+        "response": "Windows Firewall Settings",
+        "action": "cmd:firewall.cpl"
+    },
+    {
+        "question": "Open Event Viewer to monitor system logs.",
+        "response": "Open Event Viewer",
+        "action": "cmd:eventvwr"
+    },
+    {
+        "question": "Access Performance Monitor to track system performance.",
+        "response": "Open Performance Monitor",
+        "action": "cmd:perfmon"
+    },
+    {
+        "question": "Access Device Manager to manage hardware devices.",
+        "response": "Open Device Manager",
+        "action": "cmd:devmgmt.msc"
+    },
+    {
+        "question": "Access Network Connections to manage network adapters.",
+        "response": "Open Network Connections",
+        "action": "cmd:ncpa.cpl"
+    },
+    {
+        "question": "Open Local Group Policy Editor to manage policies.",
+        "response": "Local Group Policy Editor",
+        "action": "cmd:gpedit.msc"
+    },
+    {
+        "question": "View and manage Windows Services.",
+        "response": "Open Services Manager",
+        "action": "cmd:services.msc"
+    },
+    {
+        "question": "Access Windows Registry Editor.",
+        "response": "Open Registry Editor",
+        "action": "cmd:regedit"
+    },
+    {
+        "question": "Check system boot time via PowerShell.",
+        "response": "Check System Boot Time",
+        "action": "powershell:(get-date) - (gcim Win32_OperatingSystem).LastBootUpTime"
+    },
+    {
+        "question": "Generate a detailed system health report.",
+        "response": "Generate System Health Report",
+        "action": "cmd:perfmon /report"
+    },
+    {
+        "question": "Flush DNS cache to resolve network issues.",
+        "response": "Flush DNS Cache",
+        "action": "cmd:ipconfig /flushdns"
+    },
+    {
+        "question": "Restart the Windows Explorer process.",
+        "response": "Restart Windows Explorer",
+        "action": "cmd:taskkill /f /im explorer.exe & start explorer.exe"
+    },
+    {
+        "question": "Monitor real-time network traffic.",
+        "response": "Monitor Network Traffic",
+        "action": "powershell:Get-NetAdapterStatistics"
+    },
+    {
+        "question": "Get system power settings via PowerShell.",
+        "response": "Get Power Settings",
+        "action": "powershell:powercfg /query"
+    },
+    {
+        "question": "Check for system file integrity via CMD.",
+        "response": "Check System Integrity",
+        "action": "cmd:DISM /Online /Cleanup-Image /CheckHealth"
+    },
+    {
+        "question": "Repair system files via CMD.",
+        "response": "Repair System Files",
+        "action": "cmd:DISM /Online /Cleanup-Image /RestoreHealth"
+    }
+]

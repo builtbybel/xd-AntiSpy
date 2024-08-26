@@ -1,0 +1,587 @@
+[
+   {
+      "name":"BingNews",
+      "description":"News app from Microsoft",
+      "removeCommand":"Get-AppxPackage *BingNews* | Remove-AppxPackage"
+   },
+   {
+      "name":"ZuneVideo",
+      "description":"Video app from Microsoft",
+      "removeCommand":"Get-AppxPackage *ZuneVideo* | Remove-AppxPackage"
+   },
+   {
+      "name":"MicrosoftOfficeHub",
+      "description":"This is preinstalled Microsoft crapware.",
+      "removeCommand":"Get-AppxPackage *MicrosoftOfficeHub* | Remove-AppxPackage"
+   },
+   {
+      "name":"GetHelp",
+      "description":"The Get Help app empowers customers to self-help with troubleshooters, instant answers, Microsoft support articles, and more, before contacting assisted support.",
+      "removeCommand":"Get-AppxPackage *GetHelp* | Remove-AppxPackage"
+   },
+   {
+      "name":"WhatsApp",
+      "description":"WhatsApp has a UWP app for Windows 11, and while it’s not a web wrapper, it doesn’t have as many features as its mobile counterpart. If you dont use it, remove it.",
+      "removeCommand":"Get-AppxPackage *WhatsApp* | Remove-AppxPackage"
+   },
+   {
+      "name":"OneDrive",
+      "description":"Official Microsoft crapware again.",
+      "removeCommand":"Get-AppxPackage *OneDriveSync* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft MixedReality.Portal",
+      "description":"Official Microsoft crapware.",
+      "removeCommand":"Get-AppxPackage *Microsoft.MixedReality* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft Print3D",
+      "description":"Official Microsoft crapware again.",
+      "removeCommand":"Get-AppxPackage *Microsoft.Print3D* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft People",
+      "description":"Official Microsoft crapware again.",
+      "removeCommand":"Get-AppxPackage *Microsoft.People* | Remove-AppxPackage"
+   },
+   {
+      "name":"BytedancePte.Ltd.TikTok",
+      "description":"The app is a PWA, which is available not only for Windows 11, but also for Windows 10.",
+      "removeCommand":"Get-AppxPackage *TikTok* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.SkypeApp",
+      "description":"The official Microsoft Skype app",
+      "removeCommand":"Get-AppxPackage *Skype* | Remove-AppxPackage"
+   },
+   {
+      "name":"9E2F88E3.TWITTER",
+      "description":"Nothing more than a frontend for the X website. You really don't need it.",
+      "removeCommand":"Get-AppxPackage *Twitter* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.News",
+      "description":"News app from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.News* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.ZuneVideo",
+      "description":"Video app from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.ZuneVideo* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.Music",
+      "description":"Music app from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.Music* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.Office",
+      "description":"Office suite from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.Office* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.Skype",
+      "description":"The official Microsoft Skype app",
+      "removeCommand":"Get-AppxPackage *Microsoft.Skype* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.OneNote",
+      "description":"Note-taking app from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.OneNote* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.PowerPoint",
+      "description":"Presentation software from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.PowerPoint* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.Excel",
+      "description":"Spreadsheet software from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.Excel* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.Word",
+      "description":"Word processing software from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.Word* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.Outlook",
+      "description":"Email and calendar app from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.Outlook* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.Teams",
+      "description":"Collaboration platform from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.Teams* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.Maps",
+      "description":"Maps app from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.Maps* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.Weather",
+      "description":"Weather app from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.Weather* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.Alarms",
+      "description":"Alarms & Clock app from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.Alarms* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.Feedback",
+      "description":"Feedback Hub app from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.Feedback* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.Messaging",
+      "description":"Messaging app from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.Messaging* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.Solitaire",
+      "description":"Solitaire Collection app from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.Solitaire* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.StickyNotes",
+      "description":"Sticky Notes app from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.StickyNotes* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.Wallet",
+      "description":"Wallet app from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.Wallet* | Remove-AppxPackage"
+   },
+   {
+      "name":"DevHome",
+      "description":"DevHome is a development environment for Windows developers.",
+      "removeCommand":"Get-AppxPackage *DevHome* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.YourPhone",
+      "description":"Your Phone app from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.YourPhone* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.3DViewer",
+      "description":"3D Viewer app from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.3DViewer* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.MixedReality",
+      "description":"Mixed Reality Portal app from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.MixedReality* | Remove-AppxPackage"
+   },
+   {
+      "name":"Microsoft.Paint3D",
+      "description":"Paint 3D app from Microsoft",
+      "removeCommand":"Get-AppxPackage *Microsoft.Paint3D* | Remove-AppxPackage"
+   },
+   {
+      "name":"Clipchamp.Clipchamp",
+      "description":"Clipchamp is a web-based application. It's also not entirely free!",
+      "removeCommand":"Get-AppxPackage *Clipchamp* | Remove-AppxPackage"
+   },
+   {
+      "name":"Netflix",
+      "description":"Netflix is a popular streaming service.",
+      "removeCommand":"Get-AppxPackage *Netflix* | Remove-AppxPackage"
+   },
+   {
+      "name":"Instagram",
+      "description":"Instagram is a social media platform.",
+      "removeCommand":"Get-AppxPackage *Instagram* | Remove-AppxPackage"
+   },
+   {
+      "name":"Spotify",
+      "description":"Spotify is a music streaming service.",
+      "removeCommand":"Get-AppxPackage *Spotify* | Remove-AppxPackage"
+   },
+   {
+      "name":"Twitter",
+      "description":"Twitter is a social media platform.",
+      "removeCommand":"Get-AppxPackage *Twitter* | Remove-AppxPackage"
+   },
+   {
+      "name":"WhatsApp",
+      "description":"WhatsApp is a messaging app.",
+      "removeCommand":"Get-AppxPackage *WhatsApp* | Remove-AppxPackage"
+   },
+   {
+      "name":"AD2F1837",
+      "description":"Unknown app with identifier AD2F1837.",
+      "removeCommand":"Get-AppxPackage *AD2F1837* | Remove-AppxPackage"
+   },
+   {
+      "name":"Adobe",
+      "description":"Adobe is a software company known for Photoshop and Acrobat.",
+      "removeCommand":"Get-AppxPackage *Adobe* | Remove-AppxPackage"
+   },
+   {
+      "name":"Asana",
+      "description":"Asana is a task management app.",
+      "removeCommand":"Get-AppxPackage *Asana* | Remove-AppxPackage"
+   },
+   {
+      "name":"Google",
+      "description":"Google is a search engine and technology company.",
+      "removeCommand":"Get-AppxPackage *Google* | Remove-AppxPackage"
+   },
+   {
+      "name":"Facebook",
+      "description":"Facebook is a social media platform.",
+      "removeCommand":"Get-AppxPackage *Facebook* | Remove-AppxPackage"
+   },
+   {
+      "name":"Candy",
+      "description":"Candy Crush Saga is a popular puzzle game.",
+      "removeCommand":"Get-AppxPackage *Candy* | Remove-AppxPackage"
+   },
+   {
+      "name":"Disney",
+      "description":"Disney is an entertainment company.",
+      "removeCommand":"Get-AppxPackage *Disney* | Remove-AppxPackage"
+   },
+   {
+      "name":"Dolby",
+      "description":"Dolby is a company known for audio technologies.",
+      "removeCommand":"Get-AppxPackage *Dolby* | Remove-AppxPackage"
+   },
+   {
+      "name":"Duolingo",
+      "description":"Duolingo is a language-learning platform.",
+      "removeCommand":"Get-AppxPackage *Duolingo* | Remove-AppxPackage"
+   },
+   {
+      "name":"Eclipse",
+      "description":"Eclipse is an integrated development environment (IDE).",
+      "removeCommand":"Get-AppxPackage *Eclipse* | Remove-AppxPackage"
+   },
+   {
+      "name":"Fitbit",
+      "description":"Fitbit is a fitness tracking device and app.",
+      "removeCommand":"Get-AppxPackage *Fitbit* | Remove-AppxPackage"
+   },
+   {
+      "name":"Flipboard",
+      "description":"Flipboard is a news aggregation app.",
+      "removeCommand":"Get-AppxPackage *Flipboard* | Remove-AppxPackage"
+   },
+   {
+      "name":"Fresh",
+      "description":"Fresh Paint is a painting app.",
+      "removeCommand":"Get-AppxPackage *Fresh* | Remove-AppxPackage"
+   },
+   {
+      "name":"Gameloft",
+      "description":"Gameloft is a game development company.",
+      "removeCommand":"Get-AppxPackage *Gameloft* | Remove-AppxPackage"
+   },
+   {
+      "name":"Gears",
+      "description":"Gears of War is a popular game franchise.",
+      "removeCommand":"Get-AppxPackage *Gears* | Remove-AppxPackage"
+   },
+   {
+      "name":"Hulu",
+      "description":"Hulu is a streaming service.",
+      "removeCommand":"Get-AppxPackage *Hulu* | Remove-AppxPackage"
+   },
+   {
+      "name":"Google",
+      "description":"Google is a search engine and technology company.",
+      "removeCommand":"Get-AppxPackage *Google* | Remove-AppxPackage"
+   },
+   {
+      "name":"iHeartRadio",
+      "description":"iHeartRadio is a music streaming service.",
+      "removeCommand":"Get-AppxPackage *iHeartRadio* | Remove-AppxPackage"
+   },
+   {
+      "name":"iTunes",
+      "description":"iTunes is a media player and library.",
+      "removeCommand":"Get-AppxPackage *iTunes* | Remove-AppxPackage"
+   },
+   {
+      "name":"Khan",
+      "description":"Khan Academy is an educational platform.",
+      "removeCommand":"Get-AppxPackage *Khan* | Remove-AppxPackage"
+   },
+   {
+      "name":"King",
+      "description":"King is a game developer known for Candy Crush.",
+      "removeCommand":"Get-AppxPackage *King* | Remove-AppxPackage"
+   },
+   {
+      "name":"Lenovo",
+      "description":"Lenovo is a computer manufacturer.",
+      "removeCommand":"Get-AppxPackage *Lenovo* | Remove-AppxPackage"
+   },
+   {
+      "name":"Minecraft",
+      "description":"Minecraft is a popular sandbox game.",
+      "removeCommand":"Get-AppxPackage *Minecraft* | Remove-AppxPackage"
+   },
+   {
+      "name":"NordVPN",
+      "description":"NordVPN is a virtual private network service.",
+      "removeCommand":"Get-AppxPackage *NordVPN* | Remove-AppxPackage"
+   },
+   {
+      "name":"Norton",
+      "description":"Norton is an antivirus software.",
+      "removeCommand":"Get-AppxPackage *Norton* | Remove-AppxPackage"
+   },
+   {
+      "name":"Opera",
+      "description":"Opera is a web browser.",
+      "removeCommand":"Get-AppxPackage *Opera* | Remove-AppxPackage"
+   },
+   {
+      "name":"Pandora",
+      "description":"Pandora is a music streaming service.",
+      "removeCommand":"Get-AppxPackage *Pandora* | Remove-AppxPackage"
+   },
+   {
+      "name":"PayPal",
+      "description":"PayPal is an online payment platform.",
+      "removeCommand":"Get-AppxPackage *PayPal* | Remove-AppxPackage"
+   },
+   {
+      "name":"Plex",
+      "description":"Plex is a media server and streaming app.",
+      "removeCommand":"Get-AppxPackage *Plex* | Remove-AppxPackage"
+   },
+   {
+      "name":"Pulse",
+      "description":"Pulse Secure is a VPN client.",
+      "removeCommand":"Get-AppxPackage *Pulse* | Remove-AppxPackage"
+   },
+   {
+      "name":"Razer",
+      "description":"Razer is a gaming hardware manufacturer.",
+      "removeCommand":"Get-AppxPackage *Razer* | Remove-AppxPackage"
+   },
+   {
+      "name":"Samsung",
+      "description":"Samsung is an electronics company.",
+      "removeCommand":"Get-AppxPackage *Samsung* | Remove-AppxPackage"
+   },
+   {
+      "name":"Shazam",
+      "description":"Shazam is a music identification app.",
+      "removeCommand":"Get-AppxPackage *Shazam* | Remove-AppxPackage"
+   },
+   {
+      "name":"Snapchat",
+      "description":"Snapchat is a multimedia messaging app.",
+      "removeCommand":"Get-AppxPackage *Snapchat* | Remove-AppxPackage"
+   },
+   {
+      "name":"Tidal",
+      "description":"Tidal is a music streaming service.",
+      "removeCommand":"Get-AppxPackage *Tidal* | Remove-AppxPackage"
+   },
+   {
+      "name":"Twitch",
+      "description":"Twitch is a live streaming platform.",
+      "removeCommand":"Get-AppxPackage *Twitch* | Remove-AppxPackage"
+   },
+   {
+      "name":"Uber",
+      "description":"Uber is a ride-sharing service.",
+      "removeCommand":"Get-AppxPackage *Uber* | Remove-AppxPackage"
+   },
+   {
+      "name":"Viber",
+      "description":"Viber is a messaging and VoIP app.",
+      "removeCommand":"Get-AppxPackage *Viber* | Remove-AppxPackage"
+   },
+   {
+      "name":"VLC",
+      "description":"VLC media player is a multimedia player.",
+      "removeCommand":"Get-AppxPackage *VLC* | Remove-AppxPackage"
+   },
+   {
+      "name":"Waze",
+      "description":"Waze is a navigation app.",
+      "removeCommand":"Get-AppxPackage *Waze* | Remove-AppxPackage"
+   },
+   {
+      "name":"Wikipedia",
+      "description":"Wikipedia is a free online encyclopedia.",
+      "removeCommand":"Get-AppxPackage *Wikipedia* | Remove-AppxPackage"
+   },
+   {
+      "name":"Wish",
+      "description":"Wish is an e-commerce platform.",
+      "removeCommand":"Get-AppxPackage *Wish* | Remove-AppxPackage"
+   },
+   {
+      "name":"Wix",
+      "description":"Wix is a website builder platform.",
+      "removeCommand":"Get-AppxPackage *Wix* | Remove-AppxPackage"
+   },
+   {
+      "name":"Wordpress",
+      "description":"WordPress is a content management system.",
+      "removeCommand":"Get-AppxPackage *Wordpress* | Remove-AppxPackage"
+   },
+   {
+      "name":"Yelp",
+      "description":"Yelp is a platform for crowd-sourced reviews.",
+      "removeCommand":"Get-AppxPackage *Yelp* | Remove-AppxPackage"
+   },
+   {
+      "name":"Zoom",
+      "description":"Zoom is a video conferencing app.",
+      "removeCommand":"Get-AppxPackage *Zoom* | Remove-AppxPackage"
+   },
+   {
+      "name":"Zynga",
+      "description":"Zynga is a game developer known for social games.",
+      "removeCommand":"Get-AppxPackage *Zynga* | Remove-AppxPackage"
+   },
+   {
+      "name":"Amazon",
+      "description":"Amazon is an e-commerce and cloud computing company.",
+      "removeCommand":"Get-AppxPackage *Amazon* | Remove-AppxPackage"
+   },
+   {
+      "name":"Apple",
+      "description":"Apple is a technology company known for its hardware and software products.",
+      "removeCommand":"Get-AppxPackage *Apple* | Remove-AppxPackage"
+   },
+   {
+      "name":"Corel",
+      "description":"Corel is a software company known for CorelDRAW and other graphics software.",
+      "removeCommand":"Get-AppxPackage *Corel* | Remove-AppxPackage"
+   },
+   {
+      "name":"Luminar",
+      "description":"Luminar is a photo editing software.",
+      "removeCommand":"Get-AppxPackage *Luminar* | Remove-AppxPackage"
+   },
+   {
+      "name":"Photoshop",
+      "description":"Photoshop is a popular photo editing software by Adobe.",
+      "removeCommand":"Get-AppxPackage *Photoshop* | Remove-AppxPackage"
+   },
+   {
+      "name":"Illustrator",
+      "description":"Illustrator is a vector graphics editor by Adobe.",
+      "removeCommand":"Get-AppxPackage *Illustrator* | Remove-AppxPackage"
+   },
+   {
+      "name":"Premiere",
+      "description":"Premiere Pro is a video editing software by Adobe.",
+      "removeCommand":"Get-AppxPackage *Premiere* | Remove-AppxPackage"
+   },
+   {
+      "name":"After",
+      "description":"After Effects is a motion graphics and visual effects software by Adobe.",
+      "removeCommand":"Get-AppxPackage *After* | Remove-AppxPackage"
+   },
+   {
+      "name":"Effects",
+      "description":"After Effects is a motion graphics and visual effects software by Adobe.",
+      "removeCommand":"Get-AppxPackage *Effects* | Remove-AppxPackage"
+   },
+   {
+      "name":"Lightroom",
+      "description":"Lightroom is a photo editing software by Adobe.",
+      "removeCommand":"Get-AppxPackage *Lightroom* | Remove-AppxPackage"
+   },
+   {
+      "name":"InDesign",
+      "description":"InDesign is a desktop publishing software by Adobe.",
+      "removeCommand":"Get-AppxPackage *InDesign* | Remove-AppxPackage"
+   },
+   {
+      "name":"Acrobat",
+      "description":"Acrobat is a software to create, manipulate, and view PDF files by Adobe.",
+      "removeCommand":"Get-AppxPackage *Acrobat* | Remove-AppxPackage"
+   },
+   {
+      "name":"Soda",
+      "description":"Soda PDF is a PDF software.",
+      "removeCommand":"Get-AppxPackage *Soda* | Remove-AppxPackage"
+   },
+   {
+      "name":"Friends",
+      "description":"Facebook is a social media platform.",
+      "removeCommand":"Get-AppxPackage *Friends* | Remove-AppxPackage"
+   },
+   {
+      "name":"Farm",
+      "description":"Farm Heroes Saga is a puzzle game by King.",
+      "removeCommand":"Get-AppxPackage *Farm* | Remove-AppxPackage"
+   },
+   {
+      "name":"Heroes",
+      "description":"Heroes of the Storm is a game by Blizzard Entertainment.",
+      "removeCommand":"Get-AppxPackage *Heroes* | Remove-AppxPackage"
+   },
+   {
+      "name":"Puzzle",
+      "description":"Puzzle & Dragons is a puzzle role-playing game.",
+      "removeCommand":"Get-AppxPackage *Puzzle* | Remove-AppxPackage"
+   },
+   {
+      "name":"Quest",
+      "description":"Quest is a quest is a video game console that Sega released as part of the Sega Master System line in 1986.",
+      "removeCommand":"Get-AppxPackage *Quest* | Remove-AppxPackage"
+   },
+   {
+      "name":"HPJumpStart",
+      "description":"HP JumpStart guides users through a multi-step welcome process at startup to help them get started with their new device.",
+      "removeCommand":"Get-AppxPackage *HPJumpStart* | Remove-AppxPackage"
+   },
+   {
+      "name":"HPSupportAssistant",
+      "description":"HP Support Assistant provides an integrated approach to maintaining your HP devices with updates, diagnostics, and troubleshooting tools.",
+      "removeCommand":"Get-AppxPackage *HPSupportAssistant* | Remove-AppxPackage"
+   },
+   {
+      "name":"DellSupportAssist",
+      "description":"Dell SupportAssist provides automated, proactive, and predictive support technology to maintain your Dell PC's health.",
+      "removeCommand":"Get-AppxPackage *DellSupportAssist* | Remove-AppxPackage"
+   },
+   {
+      "name":"DellDigitalDelivery",
+      "description":"Dell Digital Delivery provides a simple and easy way to download the software you purchased with your computer.",
+      "removeCommand":"Get-AppxPackage *DellDigitalDelivery* | Remove-AppxPackage"
+   },
+   {
+      "name":"LenovoVantage",
+      "description":"Lenovo Vantage allows you to manage various aspects of your Lenovo device, including system updates, hardware settings, and more.",
+      "removeCommand":"Get-AppxPackage *LenovoVantage* | Remove-AppxPackage"
+   },
+   {
+      "name":"AcerCollection",
+      "description":"Acer Collection is a software suite designed to manage and update your Acer device.",
+      "removeCommand":"Get-AppxPackage *AcerCollection* | Remove-AppxPackage"
+   },
+   {
+      "name":"ASUSGiftBox",
+      "description":"ASUS GiftBox offers various software recommendations for your ASUS device.",
+      "removeCommand":"Get-AppxPackage *ASUSGiftBox* | Remove-AppxPackage"
+   },
+   {
+      "name":"SamsungFlow",
+      "description":"Samsung Flow provides a seamless, secure, and connected experience between your Samsung devices.",
+      "removeCommand":"Get-AppxPackage *SamsungFlow* | Remove-AppxPackage"
+   },
+   {
+      "name":"ToshibaServiceStation",
+      "description":"Toshiba Service Station is a tool that provides software updates, technical support, and information on Toshiba products.",
+      "removeCommand":"Get-AppxPackage *ToshibaServiceStation* | Remove-AppxPackage"
+   },
+   {
+      "name":"VaioCare",
+      "description":"VAIO Care provides various support services and system maintenance utilities for VAIO devices.",
+      "removeCommand":"Get-AppxPackage *VaioCare* | Remove-AppxPackage"
+   }
+]

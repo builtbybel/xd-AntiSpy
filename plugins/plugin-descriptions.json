@@ -1,6 +1,6 @@
 {
     "Restart Explorer.ps1": "Restarts the Windows Explorer process to refresh the desktop and taskbar.",
-    "Create Restore Point.psy": "Creates a system restore point to save your current system state.",
+    "Create Restore Point.ps1": "Creates a system restore point to save your current system state.",
     "Uninstall OneDrive.ps1": "Completely removes OneDrive from your Windows system.",
     "PluginDebloater.dll": "A tool (similar to Bloatynosy) to remove unnecessary pre-installed software from the system.",
     "PluginDebloater.json": "Signature file for the Debloater tool. Update this file periodically.",

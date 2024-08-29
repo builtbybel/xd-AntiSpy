@@ -519,20 +519,11 @@ xD-Antispy – because privacy settings should make you smile!
   <data name="statusIsCurrently" xml:space="preserve">
     <value>is currently</value>
   </data>
-  <data name="formSymbolRef_checkInfoPlugins" xml:space="preserve">
-    <value>Furthermore, AI-generated and verified plugins have been automatically loaded into the app's plugins folder. These plugins can be seamlessly integrated into the list view or accessed through the tools menu. Explore these enhancements to tailor your experience and optimize functionality effortlessly.</value>
-  </data>
   <data name="formSymbolRef_lblActive" xml:space="preserve">
     <value>Active: When an option is checked and grayed out, it means the setting is active.</value>
   </data>
-  <data name="formSymbolRef_lblGreen" xml:space="preserve">
-    <value>Remember, keeping certain settings active can enhance your system's privacy and performance. Adjust these options according to your needs, and enjoy a more secure computing experience!</value>
-  </data>
   <data name="formSymbolRef_lblInactive" xml:space="preserve">
     <value>Inactive: If an option is unchecked and the text is in a normal color, the setting is inactive. You can enable it by simply checking the box and pressing the apply button.</value>
-  </data>
-  <data name="formSymbolRef_lblRed" xml:space="preserve">
-    <value>Additionally, for this app, there are cool and recommended profiles available on various online communities like Reddit and Deskmodder. As the app is new and growing, if you're unsure about which settings to configure, checking out these profiles can provide valuable insights. Explore and discover optimal configurations that suit your preferences, ensuring a personalized and enhanced user experience!</value>
   </data>
   <data name="formToolDebloater_checkBoxShowAllApps" xml:space="preserve">
     <value>Show all installed</value>
@@ -552,9 +543,6 @@ xD-Antispy – because privacy settings should make you smile!
   <data name="menu_modeToolStripMenuItem" xml:space="preserve">
     <value>Mode</value>
   </data>
-  <data name="formAbout_lblHeaderInfo" xml:space="preserve">
-    <value>Info about xd-AntiSpy</value>
-  </data>
   <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
     <value>Refresh</value>
   </data>
@@ -573,22 +561,10 @@ xD-Antispy – because privacy settings should make you smile!
   <data name="formToolDebloater_deselectAllToolStripMenuItem" xml:space="preserve">
     <value>Unselect all</value>
   </data>
-  <data name="menu_profileCopyToolStripMenuItem" xml:space="preserve">
-    <value />
-  </data>
-  <data name="menu_profilesImportToolStripMenuItem" xml:space="preserve">
-    <value />
-  </data>
-  <data name="menu_toolsRefreshToolStripMenuItem" xml:space="preserve">
-    <value />
-  </data>
-  <data name="formToolDebloater_selectAll" xml:space="preserve">
-    <value />
-  </data>
-  <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
-    <value />
-  </data>
   <data name="CREDITS_translator" xml:space="preserve">
-    <value>English Version</value>
+    <value>Support the dev and hit the donate button—every bit helps!</value>
+  </data>
+  <data name="formToolDebloater_DeselectAll" xml:space="preserve">
+    <value />
   </data>
 </root>

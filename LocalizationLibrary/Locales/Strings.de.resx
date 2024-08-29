@@ -520,20 +520,11 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
   <data name="statusIsCurrently" xml:space="preserve">
     <value>derzeit</value>
   </data>
-  <data name="formSymbolRef_checkInfoPlugins" xml:space="preserve">
-    <value>Darüber hinaus wurden von der KI generierte und verifizierte Plugins automatisch in den Plugins-Ordner der App geladen. Diese Plugins können nahtlos in die Listenansicht integriert oder über das Tools-Menü aufgerufen werden. Entdecken Sie diese Verbesserungen, um Ihr Erlebnis individuell anzupassen und die Funktionalität mühelos zu optimieren.</value>
-  </data>
   <data name="formSymbolRef_lblActive" xml:space="preserve">
     <value>Aktiv: Wenn eine Option aktiviert und ausgegraut ist, bedeutet dies, dass die Einstellung aktiv ist.</value>
   </data>
-  <data name="formSymbolRef_lblGreen" xml:space="preserve">
-    <value>Denken Sie daran, dass die Aktivierung bestimmter Einstellungen den Datenschutz und die Leistung Ihres Systems verbessern kann. Passen Sie diese Optionen an Ihre Bedürfnisse an und genießen Sie ein sichereres Computererlebnis!</value>
-  </data>
   <data name="formSymbolRef_lblInactive" xml:space="preserve">
     <value>Inaktiv: Wenn eine Option deaktiviert ist und der Text eine normale Farbe hat, ist die Einstellung inaktiv. Sie können die Einstellung aktivieren, indem Sie einfach das Kontrollkästchen aktivieren und auf die Schaltfläche „Einstellungen übernehmen“ klicken.</value>
-  </data>
-  <data name="formSymbolRef_lblRed" xml:space="preserve">
-    <value>Darüber hinaus gibt es für diese App coole und empfohlene Profile in verschiedenen Online-Communities wie Reddit und Deskmodder. Da die App neu ist und wächst, können Ihnen diese Profile wertvolle Erkenntnisse liefern, wenn Sie unsicher sind, welche Einstellungen Sie konfigurieren sollen. Entdecken Sie optimale Konfigurationen, die Ihren Vorlieben entsprechen und so ein personalisiertes und verbessertes Benutzererlebnis gewährleisten!</value>
   </data>
   <data name="formToolDebloater_checkBoxShowAllApps" xml:space="preserve">
     <value>Alle installierten anzeigen</value>
@@ -552,9 +543,6 @@ xD-Antispy – weil Datenschutzeinstellungen Sie zum Lächeln bringen sollen!
   </data>
   <data name="menu_modeToolStripMenuItem" xml:space="preserve">
     <value>Modus</value>
-  </data>
-  <data name="formAbout_lblHeaderInfo" xml:space="preserve">
-    <value>Info über xd-AntiSpy</value>
   </data>
   <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
     <value>Aktualisieren</value>

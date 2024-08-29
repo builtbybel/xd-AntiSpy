@@ -1,0 +1,5 @@
+{
+    "Restart Explorer.ps1": "Restarts the Windows Explorer process.",
+    "Uninstall OneDrive.ps1": "Uninstalls OneDrive from the system.",
+    "Debloater.dll": "DLL file for system debloating."
+}

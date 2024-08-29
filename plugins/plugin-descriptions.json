@@ -1,4 +1,5 @@
 {
+    "ChrisTitusApp.ps1": "Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates. Dev: https://github.com/ChrisTitusTech/winutil",
     "Restart Explorer.ps1": "Restarts the Windows Explorer process to refresh the desktop and taskbar.",
     "Create Restore Point.ps1": "Creates a system restore point to save your current system state.",
     "Uninstall OneDrive.ps1": "Completely removes OneDrive from your Windows system.",
@@ -8,5 +9,5 @@
     "PluginButler.json": "Signature file for the Butler tool. Update this file periodically.",
     "Resore all built-in apps.ps1": "This will restore all preinstalled inbox apps of Microsoft.",
     "Remove default apps.ps1": "This script will remove all preinstalled inbox apps using PowerShell. For a better alternative, consider using the PluginDebloater.dll",
-    "Super_God_Mode.ps1": "Script that provides access to all Control Panel settings and more. Dev: https://github.com/ThioJoe/Windows-Super-God-Mode/releases"
+    "Super_God_Mode.ps1": "Script that provides access to all Control Panel settings and more. Dev: https://github.com/ThioJoe/Windows-Super-God-Mode"
 }

@@ -1,5 +1,10 @@
 {
-    "Restart Explorer.ps1": "Restarts the Windows Explorer process.",
-    "Uninstall OneDrive.ps1": "Uninstalls OneDrive from the system.",
-    "Debloater.dll": "DLL file for system debloating."
+    "Restart Explorer.ps1": "Restarts the Windows Explorer process to refresh the desktop and taskbar.",
+    "Create Restore Point.psy": "Creates a system restore point to save your current system state.",
+    "Uninstall OneDrive.ps1": "Completely removes OneDrive from your Windows system.",
+    "PluginDebloater.dll": "A tool (similar to Bloatynosy) to remove unnecessary pre-installed software from the system.",
+    "PluginDebloater.json": "Signature file for the Debloater tool. Update this file periodically.",
+    "PluginButler.dll": "Your smart assistant for Windows, similar to Clippy.",
+    "PluginButler.json": "Signature file for the Butler tool. Update this file periodically.",
+    "Super_God_Mode.ps1": "Script that provides access to all Control Panel settings and more. Dev: https://github.com/ThioJoe/Windows-Super-God-Mode/releases"
 }

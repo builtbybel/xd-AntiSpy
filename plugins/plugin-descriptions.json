@@ -6,7 +6,7 @@
     "PluginDebloater.json": "Signature file for the Debloater tool. Update this file periodically.",
     "PluginButler.dll": "Your smart assistant for Windows, similar to Clippy.",
     "PluginButler.json": "Signature file for the Butler tool. Update this file periodically.",
-    "Resore all built-in apps.ps1: "This will restore all preinstalled inbox apps of Microsoft.",
-    "Remove default apps.ps1: "This script will remove all preinstalled inbox apps using PowerShell. For a better alternative, consider using the PluginDebloater.dll",
+    "Resore all built-in apps.ps1": "This will restore all preinstalled inbox apps of Microsoft.",
+    "Remove default apps.ps1": "This script will remove all preinstalled inbox apps using PowerShell. For a better alternative, consider using the PluginDebloater.dll",
     "Super_God_Mode.ps1": "Script that provides access to all Control Panel settings and more. Dev: https://github.com/ThioJoe/Windows-Super-God-Mode/releases"
 }

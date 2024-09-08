@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="menu_aboutToolStripMenuItem" xml:space="preserve">
-    <value>?</value>
+    <value>Yardım</value>
     <comment/>
   </data>
   <data name="menu_profileStatisticsToolStripMenuItem" xml:space="preserve">
@@ -133,7 +133,7 @@
     <value>GitHub sitesine git</value>
     <comment/>
   </data>
-  <data name="menu_profilesImportToolStripMenuItem" xml:space="preserve">
+  <data name="menu_profileImportToolStripMenuItem" xml:space="preserve">
     <value>İçeri aktar</value>
     <comment/>
   </data>
@@ -350,7 +350,7 @@
     <comment/>
   </data>
   <data name="_gamingGameDVR_desc" xml:space="preserve">
-    <value>This feature will disable GameDVR.</value>
+    <value>Bu özellik GameDVR'ı kapatır</value>
     <comment/>
   </data>
   <data name="_gamingPowerThrottling" xml:space="preserve">
